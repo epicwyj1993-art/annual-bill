@@ -3,57 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>2025 园区记忆 · 年度账单</title>
+    <title>2025 南方园区记忆 · 年度账单</title>
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <style>
-        :root { 
-            --warm-orange: #e67e22; 
-            --soft-white: #ffffff;
-            --text-main: #2c3e50;
-            --glass-white: rgba(255, 255, 255, 0.85);
-        }
+        :root { --warm: #e67e22; --text: #2c3e50; --glass: rgba(255, 255, 255, 0.92); }
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-        body, html { height: 100%; background: #fdfaf6; color: var(--text-main); font-family: "PingFang SC", "Microsoft YaHei", sans-serif; overflow: hidden; }
-
+        body, html { height: 100%; background: #fdfaf6; color: var(--text); font-family: "PingFang SC", sans-serif; overflow: hidden; }
         .swiper-container { width: 100%; height: 100vh; }
-        .swiper-slide { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 25px; }
-
-        /* 背景图层：支持渐变和照片融合 */
-        .bg-img {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background-size: cover; background-position: center;
-            z-index: -1; transform: scale(1.1); transition: transform 2s ease;
-        }
-        .swiper-slide-active .bg-img { transform: scale(1); }
-        
-        /* 遮罩层：让照片和色彩融合 */
-        .bg-mask {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(253,250,246,1));
-            z-index: -1;
-        }
-
-        /* 动画 */
-        .ani { opacity: 0; transform: translateY(30px); transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+        .swiper-slide { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 25px; text-align: center; }
+        .bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; z-index: -1; opacity: 0.6; }
+        .bg-mask { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(255,255,255,0.2), #fdfaf6); z-index: -1; }
+        .ani { opacity: 0; transform: translateY(20px); transition: all 1s ease; }
         .swiper-slide-active .ani { opacity: 1; transform: translateY(0); }
         .delay-1 { transition-delay: 0.3s; }
-        .delay-2 { transition-delay: 0.6s; }
-
-        /* 玻璃卡片 */
-        .card { 
-            width: 100%; background: var(--glass-white); padding: 35px 25px; border-radius: 30px; 
-            backdrop-filter: blur(15px); box-shadow: 0 15px 35px rgba(0,0,0,0.05); border: 1px solid rgba(255,255,255,0.5);
-        }
-
-        .big-num { font-size: 3.2rem; font-weight: bold; color: var(--warm-orange); margin: 10px 0; letter-spacing: -1px; }
-        .unit { font-size: 1.1rem; margin-left: 5px; color: #7f8c8d; }
-
-        input { width: 100%; padding: 18px; border-radius: 15px; border: 1px solid #ddd; background: #fff; font-size: 1.1rem; text-align: center; margin-bottom: 20px; outline: none; }
-        .btn { width: 100%; padding: 18px; border-radius: 15px; background: var(--warm-orange); color: #fff; font-weight: bold; border: none; font-size: 1.1rem; box-shadow: 0 8px 20px rgba(230, 126, 34, 0.3); }
-
-        /* 楼房插图样式 */
-        .city-box { position: absolute; bottom: 0; left: 0; width: 100%; height: 200px; z-index: -1; opacity: 0.6; pointer-events: none; }
+        .card { width: 100%; background: var(--glass); padding: 25px 15px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.05); }
+        .big-num { font-size: 2.8rem; font-weight: bold; color: var(--warm); margin: 10px 0; }
+        .item-list { text-align: left; width: 90%; margin: 10px auto; }
+        .item-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dashed #ddd; font-size: 0.9rem; }
+        input { width: 100%; padding: 16px; border-radius: 12px; border: 1px solid #ddd; margin-bottom: 20px; text-align: center; font-size: 1.1rem; }
+        .btn { width: 100%; padding: 16px; border-radius: 12px; background: var(--warm); color: #fff; border: none; font-weight: bold; }
+        .highlight { color: var(--warm); font-weight: bold; }
     </style>
 </head>
 <body>
@@ -61,97 +31,145 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000');"></div>
-            <div class="bg-mask"></div>
-            <h2 class="ani" style="letter-spacing: 5px; color: #8d6e63;">2025</h2>
-            <h1 class="ani delay-1" style="font-size: 2.2rem; margin: 10px 0 40px;">园区生活·年度账单</h1>
-            <div class="card ani delay-2">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800');"></div>
+            <h1 class="ani">2025 园区记忆</h1>
+            <p class="ani delay-1" style="margin: 20px 0 40px;">年度服务与消费账单</p>
+            <div class="card ani delay-1">
                 <input type="text" id="workId" placeholder="请输入您的工号">
                 <button class="btn" onclick="openBill()">开启暖心回顾</button>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000');"></div>
-            <div class="bg-mask" style="background: linear-gradient(rgba(255,255,255,0.5), #fdfaf6);"></div>
-            <p class="ani">时光荏苒，记忆有温度</p>
-            <div class="ani delay-1" style="font-size: 1.8rem; font-weight: bold; margin: 20px 0;">
-                <span id="dom-name">亲爱的伙伴</span>
-            </div>
-            <p class="ani delay-2" style="line-height: 1.8; color: #7f8c8d;">
-                过去的一年<br>您在园区的每一个瞬间<br>都被数字悄悄记录
-            </p>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1543083115-638c32cd3d58?q=80&w=1000');"></div>
-            <div class="bg-mask"></div>
-            <p class="ani">这一年，您在园区共消费了</p>
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1554224155-1696413565d3?w=800');"></div>
+            <p class="ani">2025年，亲爱的伙伴</p>
+            <div class="ani delay-1" id="dom-name" style="font-size: 1.5rem; font-weight: bold; margin: 10px 0;"></div>
+            <p class="ani delay-1">您在园区共计刷卡消费</p>
             <div class="big-num ani delay-1">¥ <span id="dom-total">0</span></div>
-            <div class="card ani delay-2" style="padding: 20px;">
-                <p style="font-size: 0.9rem; color: #8d6e63;">每一分投入，都是在为更好的生活加油</p>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1550966841-3ee3ad359051?w=800');"></div>
+            <h2 class="ani">消费明细</h2>
+            <div class="card ani delay-1" style="margin-top:20px;">
+                <div class="item-row"><span>自助餐厅</span><span id="dom-self">0</span></div>
+                <div class="item-row"><span>零点餐厅</span><span id="dom-zero">0</span></div>
+                <div class="item-row"><span>西餐厅</span><span id="dom-west">0</span></div>
+                <div class="item-row"><span>B6 餐厅</span><span id="dom-b6">0</span></div>
+                <div class="item-row"><span>超市消费</span><span id="dom-market">0</span></div>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000');"></div>
-            <div class="bg-mask"></div>
-            <h2 class="ani">人间烟火气</h2>
-            <p class="ani delay-1" style="margin-top: 10px;">自助餐厅记录了您的日常</p>
-            <div class="big-num ani delay-1" style="color: #27ae60;">¥ <span id="dom-self">0</span></div>
-            <p class="ani delay-2" style="font-size: 0.9rem;">三餐四季，胃暖了，心也就暖了</p>
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800');"></div>
+            <p class="ani">唯有美食不可辜负</p>
+            <p class="ani delay-1">这一年您在食堂共干饭</p>
+            <div class="big-num ani delay-1"><span id="dom-count">0</span><span style="font-size:1.2rem"> 次</span></div>
+            <p class="ani delay-1">每一餐都在为您充能</p>
         </div>
 
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1000');"></div>
-            <div class="bg-mask"></div>
-            <p class="ani">偶尔，也需要一点小精致</p>
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1509130298739-651801c76e96?w=800');"></div>
+            <h2 class="ani">奋斗的刻度</h2>
+            <div class="card ani delay-1" style="margin-top:20px;">
+                <p>最早一餐：<span class="highlight">07:12</span></p>
+                <p style="margin-top:20px;">最晚一餐：<span class="highlight">20:45</span></p>
+            </div>
+            <p class="ani delay-1" style="margin-top:20px; font-size:0.9rem;">披星戴月，也是一种浪漫</p>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800');"></div>
+            <p class="ani">您的舌尖偏向</p>
+            <h2 class="ani delay-1">最爱打卡的餐厅是</h2>
+            <div class="big-num ani delay-1" style="font-size: 2.2rem;">自助餐厅</div>
+            <p class="ani delay-1">那是您最熟悉的味道</p>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800');"></div>
+            <h2 class="ani">南方园区·大数据</h2>
+            <div class="card ani delay-1" style="margin-top:15px; font-size:0.85rem;">
+                <p>全年总就餐人数：<span class="highlight">12.5万+</span></p>
+                <div class="item-row"><span>自助餐厅人次</span><span>6.8万</span></div>
+                <div class="item-row"><span>B6餐厅人次</span><span>3.2万</span></div>
+                <div class="item-row"><span>西餐厅人次</span><span>2.5万</span></div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800');"></div>
+            <h2 class="ani">舌尖上的盛宴</h2>
             <div class="card ani delay-1">
-                <div style="display: flex; justify-content: space-around;">
-                    <div>
-                        <p style="font-size: 0.8rem; color: #95a5a6;">零点餐厅</p>
-                        <p style="font-size: 1.4rem; font-weight: bold;">¥ <span id="dom-zero">0</span></p>
-                    </div>
-                    <div style="width: 1px; background: #eee;"></div>
-                    <div>
-                        <p style="font-size: 0.8rem; color: #95a5a6;">B6 餐厅</p>
-                        <p style="font-size: 1.4rem; font-weight: bold;">¥ <span id="dom-b6">0</span></p>
-                    </div>
-                </div>
+                <p>美食节举办：<span class="highlight">6</span> 次</p>
+                <p>呈现菜品：<span class="highlight">128</span> 道</p>
+                <p>服务就餐：<span class="highlight">1.2万</span> 人次</p>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?q=80&w=1000');"></div>
-            <div class="bg-mask"></div>
-            <p class="ani">那些忙碌而充实的日子</p>
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800');"></div>
+            <h2 class="ani">特别的爱给特别的你</h2>
             <div class="card ani delay-1">
-                <p style="margin-bottom: 10px;">全年奋斗打卡</p>
-                <div style="font-size: 2.5rem; font-weight: bold; color: var(--warm-orange);"><span id="dom-count">0</span><span class="unit">次</span></div>
-                <p style="margin-top: 20px; font-size: 0.85rem; color: #7f8c8d;">超市消费记录：¥ <span id="dom-market">0</span></p>
+                <p>定制餐：<span class="highlight">42</span> 次</p>
+                <p style="margin-top:15px;">预定面点：<span class="highlight">3,500+</span> 个</p>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000'); opacity: 0.2;"></div>
-            <svg class="city-box" viewBox="0 0 500 150" preserveAspectRatio="none">
-                <path d="M0,150 L0,100 L50,100 L50,80 L100,80 L100,110 L150,110 L150,60 L200,60 L200,90 L250,90 L250,40 L300,40 L300,100 L350,100 L350,70 L400,70 L400,110 L450,110 L450,90 L500,90 L500,150 Z" fill="#e67e22" fill-opacity="0.1"/>
-            </svg>
-            <h2 class="ani">致敬每一位园区人</h2>
-            <p class="ani delay-1" style="margin: 25px 0; line-height: 2; font-size: 1rem; color: #5d4037;">
-                愿 2026 年的您<br>
-                一日三餐皆准时<br>
-                眼中有光，心中有梦
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800');"></div>
+            <h2 class="ani">风雨无阻的守护</h2>
+            <div class="big-num ani delay-1">2,840<span class="unit">次</span></div>
+            <p class="ani delay-1">园区班车穿梭在城市之间</p>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800');"></div>
+            <h2 class="ani" style="font-size:1.3rem">细致入微·后勤保障</h2>
+            <div class="card ani delay-1" style="font-size:0.8rem; text-align:left;">
+                <p>入室保洁 <span class="highlight">1005</span> 间 | 窗帘拆洗 <span class="highlight">664</span> 间</p>
+                <p>布草晾晒 <span class="highlight">2148</span> 件</p>
+                <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                <p>借推车/雨伞/拖把：<span class="highlight">1548</span> 次</p>
+                <p>贴膜/代收衣服：<span class="highlight">72</span> 次</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800');"></div>
+            <h2 class="ani">听见您的声音</h2>
+            <div class="card ani delay-1">
+                <p>收集员工诉求：<span class="highlight">197</span> 条</p>
+                <p style="margin-top:10px;">一部一专人收集：<span class="highlight">83</span> 条</p>
+                <p style="margin-top:15px; font-size:0.8rem; color:#666;">您的每一条意见我们都在认真对待</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800');"></div>
+            <h2 class="ani">看不见的守护</h2>
+            <div class="card ani delay-1">
+                <p>工程维修：<span class="highlight">9876</span> 次</p>
+                <p>环境消杀：<span class="highlight">224</span> 次</p>
+                <p>共享驿站接待：<span class="highlight">466</span> 人次</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="bg-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800'); opacity:0.1"></div>
+            <h2 class="ani" style="color:#3e2723">2025 账单展示结束</h2>
+            <p class="ani delay-1" style="margin: 30px 0; line-height: 2; color:#5d4037">
+                感谢有你，共筑园区<br>
+                愿 2026 年<br>
+                生活如诗，工作顺利！
             </p>
-            <button class="btn ani delay-2" style="width: 60%; background: #34495e;" onclick="location.reload()">回味 2025</button>
-            <p class="ani delay-2" style="margin-top: 30px; font-size: 0.75rem; color: #bdc3c7;">园区运营管理部 · 2025年度呈现</p>
+            <button class="btn ani delay-1" style="width: 60%; background: #3e2723;" onclick="location.reload()">重新开启</button>
         </div>
     </div>
 </div>
 
 <script>
     const swiper = new Swiper('.swiper-container', { direction: 'vertical', allowTouchMove: false });
-
     function openBill() {
         const id = document.getElementById('workId').value.trim();
         const u = allUsersData[id];
@@ -160,20 +178,14 @@
             document.getElementById('dom-total').innerText = u.total.toFixed(2);
             document.getElementById('dom-self').innerText = u.self.toFixed(2);
             document.getElementById('dom-zero').innerText = u.zero.toFixed(2);
+            document.getElementById('dom-west').innerText = (u.west || 0).toFixed(2); // 西餐厅，没有则显0
             document.getElementById('dom-b6').innerText = u.b6.toFixed(2);
             document.getElementById('dom-market').innerText = u.market.toFixed(2);
             document.getElementById('dom-count').innerText = u.count;
-            
-            swiper.allowTouchMove = true;
-            swiper.slideNext();
-        } else {
-            alert('未查询到该工号，请核对后再试。');
-        }
+            swiper.allowTouchMove = true; swiper.slideNext();
+        } else { alert('未查询到工号。'); }
     }
-
-    // ==========================================
-    // 在下方粘贴你 user_data.js 的完整数据
-    // ==========================================
+    // 注意：请确保数据脚本里包含 "west" (西餐厅) 字段，如果没有，页面会默认显示 0
    const allUsersData = {
     "009760": {
         "name": "刘政",

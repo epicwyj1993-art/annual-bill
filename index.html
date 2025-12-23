@@ -7,22 +7,65 @@
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <style>
-        :root { --gold: #ffd700; --bg: #0a111a; --glass: rgba(255, 255, 255, 0.08); }
+        :root { 
+            --warm-orange: #ff9d5c; 
+            --soft-yellow: #fff9f0;
+            --text-dark: #5d4037;
+            --glass: rgba(255, 255, 255, 0.9); 
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-        body, html { height: 100%; background: var(--bg); color: #fff; font-family: "PingFang SC", sans-serif; overflow: hidden; }
-        .swiper-container { width: 100%; height: 100vh; }
-        .swiper-slide { padding: 40px 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at center, #1a2a44 0%, #0a111a 100%); }
-        .ani { opacity: 0; transform: translateY(20px); transition: all 0.8s ease; }
+        body, html { height: 100%; background: var(--soft-yellow); color: var(--text-dark); font-family: "PingFang SC", "Microsoft YaHei", sans-serif; overflow: hidden; }
+
+        /* 全局背景：温馨餐厅氛围 */
+        .swiper-container { 
+            width: 100%; 
+            height: 100vh; 
+            background: linear-gradient(rgba(255,249,240,0.8), rgba(255,249,240,0.8)), 
+                        url('https://images.unsplash.com/photo-1550966841-3ee3ad359051?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .swiper-slide { padding: 40px 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+        
+        /* 动画效果 */
+        .ani { opacity: 0; transform: translateY(20px); transition: all 1s ease; }
         .swiper-slide-active .ani { opacity: 1; transform: translateY(0); }
-        .delay-1 { transition-delay: 0.3s; }
-        .delay-2 { transition-delay: 0.6s; }
-        .greet { font-size: 1.6rem; color: var(--gold); margin-bottom: 15px; font-weight: bold; }
-        .big-num { font-size: 3.2rem; font-weight: bold; color: var(--gold); margin: 15px 0; }
-        .card { width: 100%; background: var(--glass); padding: 25px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(10px); }
-        .list-item { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem; }
-        input { width: 100%; padding: 15px; border-radius: 12px; border: 1px solid var(--gold); background: transparent; color: #fff; font-size: 1.1rem; text-align: center; margin-bottom: 20px; outline: none; }
-        .btn { width: 100%; padding: 15px; border-radius: 12px; background: var(--gold); color: #000; font-weight: bold; border: none; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); }
-        .footer-tag { position: absolute; bottom: 30px; font-size: 0.8rem; color: rgba(255,255,255,0.2); }
+        .delay-1 { transition-delay: 0.4s; }
+
+        /* 卡片样式：温馨柔和 */
+        .card { 
+            width: 100%; 
+            background: var(--glass); 
+            padding: 30px 25px; 
+            border-radius: 24px; 
+            box-shadow: 0 10px 30px rgba(93, 64, 55, 0.1);
+            margin: 20px 0;
+        }
+
+        .big-num { font-size: 3.5rem; font-weight: bold; color: var(--warm-orange); margin: 10px 0; font-family: 'Georgia', serif; }
+        
+        input { 
+            width: 100%; padding: 15px; border-radius: 12px; border: 2px solid #eee; 
+            background: #fff; font-size: 1.1rem; text-align: center; margin-bottom: 20px; outline: none; 
+        }
+        input:focus { border-color: var(--warm-orange); }
+
+        .btn { 
+            width: 100%; padding: 16px; border-radius: 12px; background: var(--warm-orange); 
+            color: #fff; font-weight: bold; border: none; font-size: 1.1rem; cursor: pointer;
+            box-shadow: 0 4px 15px rgba(255, 157, 92, 0.3);
+        }
+
+        /* 楼房样式：最后一页 */
+        .building-scene {
+            position: absolute; bottom: 0; width: 100%; height: 150px;
+            background: url('https://www.svgrepo.com/show/305281/building.svg') repeat-x bottom;
+            background-size: contain; opacity: 0.1;
+        }
+
+        .list-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px dashed #ddd; }
+        .list-item span:last-child { font-weight: bold; color: var(--warm-orange); }
     </style>
 </head>
 <body>
@@ -30,90 +73,66 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <h1 class="ani">2025 园区生活账单</h1>
-            <p class="ani delay-1" style="margin: 20px 0 40px; color: rgba(255,255,255,0.5)">回溯这一年的温暖瞬间</p>
-            <div class="card ani delay-2">
-                <input type="text" id="workId" placeholder="请输入您的工号">
-                <button class="btn" onclick="openBill()">开启回顾</button>
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="greet ani" id="dom-name">亲爱的</div>
-            <p class="ani delay-1">2025年，您在园区共消费</p>
-            <div class="big-num ani delay-2" id="dom-total">¥ 0</div>
-            <p class="ani delay-2">每一分钱，都藏着奋斗的味道</p>
-        </div>
-
-        <div class="swiper-slide">
-            <p class="ani">味蕾的固定守候</p>
-            <p class="ani delay-1" style="margin-top:10px">您在 <span style="color:var(--gold)">2-5号自助餐厅</span> 消费</p>
-            <div class="big-num ani delay-2" id="dom-self">¥ 0</div>
-            <p class="ani delay-2">热气腾腾的饭菜，最抚凡人心</p>
-        </div>
-
-        <div class="swiper-slide">
-            <p class="ani">偶尔也想换个口味</p>
-            <p class="ani delay-1" style="margin-top:10px">您在 <span style="color:var(--gold)">零点餐厅(4号自选)</span> 消费</p>
-            <div class="big-num ani delay-2" id="dom-zero">¥ 0</div>
-            <p class="ani delay-2">生活需要一点精致的仪式感</p>
-        </div>
-
-        <div class="swiper-slide">
-            <p class="ani" style="margin-bottom:20px">更多的园区足迹</p>
+            <div style="font-size: 4rem; margin-bottom: 20px;">🍲</div>
+            <h1 class="ani">2025 · 园区食光</h1>
+            <p class="ani delay-1" style="margin-top: 15px; color: #8d6e63;">每一餐饭，都是对生活的认真告白</p>
             <div class="card ani delay-1">
-                <div class="list-item"><span>B6 餐厅消费</span><span id="dom-b6">¥ 0</span></div>
-                <div class="list-item"><span>超市购物消费</span><span id="dom-market">¥ 0</span></div>
-                <div class="list-item"><span>全年打卡次数</span><span id="dom-count">0 次</span></div>
+                <input type="text" id="workId" placeholder="输入工号，开启回忆">
+                <button class="btn" onclick="openBill()">查看我的年度账单</button>
             </div>
         </div>
 
-        <div class="swiper-slide"><p class="ani">这一年，全园区累计就餐</p><div class="big-num ani delay-1">852,431 <span style="font-size:1.2rem">次</span></div><p class="ani delay-2">谢谢每一个闪亮奋斗的你</p></div>
-        <div class="swiper-slide"><p class="ani">记得美食节的惊喜吗？</p><div class="big-num ani delay-1">6 <span style="font-size:1.2rem">场活动</span></div><p class="ani delay-2">累计供应定制餐点 1.2万份</p></div>
-        <div class="swiper-slide"><p class="ani">风雨无阻的班车</p><div class="big-num ani delay-1">10,800 <span style="font-size:1.2rem">班次</span></div><p class="ani delay-2">载着您的梦想，也载着您的归途</p></div>
-        <div class="swiper-slide"><p class="ani">保洁员的默默守护</p><div class="big-num ani delay-1">36,500 <span style="font-size:1.2rem">小时</span></div><p class="ani delay-2">干净整洁，只为您的舒心工作</p></div>
-        <div class="swiper-slide"><p class="ani">随叫随到的工程报修</p><div class="big-num ani delay-1">2,410 <span style="font-size:1.2rem">件</span></div><p class="ani delay-2">所有的报修请求，我们全力解决</p></div>
-        <div class="swiper-slide"><p class="ani">暖心服务 · 触手可及</p><div class="card ani delay-1"><div class="list-item"><span>手机贴膜服务</span><span>1200+ 人次</span></div><div class="list-item"><span>夏季凉茶供应</span><span>100% 闭环</span></div></div></div>
+        <div class="swiper-slide">
+            <p class="ani">这一年，在园区的食堂里</p>
+            <p class="ani delay-1"><span id="dom-name" style="font-weight:bold; color:var(--warm-orange)"></span> 留下了许多回忆</p>
+            <div class="big-num ani delay-1" id="dom-total">¥ 0</div>
+            <p class="ani delay-1">总消费金额，记录了奋斗的点滴</p>
+        </div>
 
         <div class="swiper-slide">
-            <h2 class="ani">再见 2025</h2>
-            <h2 class="ani delay-1" style="color:var(--gold); margin: 15px 0 30px">你好 2026</h2>
-            <p class="ani delay-2" style="line-height:1.8">祝愿您在新的一年里<br>眼里有光，胃里有肉<br>在园区遇见更多美好！</p>
-            <button class="btn ani delay-2" style="margin-top:40px; width:60%" onclick="location.reload()">重新开启</button>
+            <p class="ani">人间烟火气，最抚凡人心</p>
+            <div class="card ani delay-1">
+                <div class="list-item"><span>自助餐厅</span><span id="dom-self">¥ 0</span></div>
+                <div class="list-item"><span>B6 餐厅</span><span id="dom-b6">¥ 0</span></div>
+                <div class="list-item"><span>超市购物</span><span id="dom-market">¥ 0</span></div>
+                <div class="list-item"><span>打卡天数</span><span id="dom-count">0 次</span></div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="building-scene"></div>
+            <h2 class="ani">万家灯火，总有一盏为你</h2>
+            <p class="ani delay-1" style="margin-top:20px; line-height:1.8;">
+                2025，感谢你与园区一同成长<br>
+                2026，愿你一日三餐，皆有温暖。
+            </p>
+            <button class="btn ani delay-1" style="margin-top:40px; width:60%; background:#8d6e63;" onclick="location.reload()">回味记忆</button>
         </div>
     </div>
-    <div class="footer-tag">园区运营管理部 · 2025</div>
 </div>
 
 <script>
-    // 初始化 Swiper
     const swiper = new Swiper('.swiper-container', { direction: 'vertical', allowTouchMove: false });
 
-    // 登录查询逻辑
     function openBill() {
         const id = document.getElementById('workId').value.trim();
-        const u = allUsersData[id]; // 从下方的数据包中检索
-        
+        const u = allUsersData[id];
         if (u) {
-            document.getElementById('dom-name').innerText = '亲爱的 ' + u.name;
+            document.getElementById('dom-name').innerText = u.name + ' 同学';
             document.getElementById('dom-total').innerText = '¥ ' + u.total.toFixed(2);
             document.getElementById('dom-self').innerText = '¥ ' + u.self.toFixed(2);
-            document.getElementById('dom-zero').innerText = '¥ ' + u.zero.toFixed(2);
             document.getElementById('dom-b6').innerText = '¥ ' + u.b6.toFixed(2);
             document.getElementById('dom-market').innerText = '¥ ' + u.market.toFixed(2);
-            document.getElementById('dom-count').innerText = u.count + ' 次';
-            
+            document.getElementById('dom-count').innerText = u.count + ' 天';
             swiper.allowTouchMove = true;
             swiper.slideNext();
         } else {
-            alert('未查询到该工号的数据，请确认输入是否正确。');
+            alert('没找到这个工号哦，请检查一下~');
         }
     }
 
-    // ==========================================
-    // 【关键步骤】请将 user_data.js 里的全部内容粘贴在下面
-    // 替换掉这一行即可：
- const allUsersData = {
+    // 这里粘贴你的 user_data.js 完整数据
+   const allUsersData = {
     "009760": {
         "name": "刘政",
         "total": 849.0,
@@ -27393,8 +27412,7 @@
         "b6": 0.0,
         "market": 0.0
     }
- };
-    // ==========================================
+};
 </script>
 </body>
 </html>

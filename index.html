@@ -204,20 +204,16 @@
 <script>
     var mySwiper;
 
-    // 延时显示按钮
     function delayStartButton() {
         setTimeout(function() {
             var btn = document.getElementById('main-start-btn');
-            if(btn) {
-                btn.style.visibility = 'visible';
-                btn.style.opacity = '1';
-            }
+            if(btn) { btn.style.visibility = 'visible'; btn.style.opacity = '1'; }
         }, 5000);
     }
 
     function startApp() {
         if (typeof Swiper === 'undefined') {
-            alert("加载中，请稍候刷新重试。");
+            alert("Swiper 组件加载中，请稍候刷新重试。");
             return;
         }
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
@@ -237,13 +233,14 @@
 
     function login() {
         if (typeof allData === 'undefined') {
-            alert("数据文件 user_data.js 未加载，请检查。");
+            alert("数据文件 user_data.js 未加载。");
             return;
         }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
         if(!u) { alert("工号未找到：" + id); return; }
 
+        // 个人数据填充
         document.getElementById('d-total').innerText = u.total;
         document.getElementById('d-self').innerText = u.self;
         document.getElementById('d-zero').innerText = u.zero;
@@ -255,12 +252,21 @@
         document.getElementById('d-late').innerText = u.latest;
         document.getElementById('d-fav').innerText = u.favorite;
 
+        // 全局大数据填充与计算逻辑修正
         if(allData.global) {
-            document.getElementById('g-total').innerText = allData.global.total_p;
-            document.getElementById('g-self').innerText = allData.global.self_c;
-            document.getElementById('g-b6').innerText = allData.global.b6_c;
-            document.getElementById('g-west').innerText = allData.global.west_c;
+            const s = parseInt(allData.global.self_c) || 0;
+            const b = parseInt(allData.global.b6_c) || 0;
+            const w = parseInt(allData.global.west_c) || 0;
+            
+            // 自动计算总和：自助 + B6 + 西餐
+            const calculatedTotal = s + b + w;
+
+            document.getElementById('g-self').innerText = s;
+            document.getElementById('g-b6').innerText = b;
+            document.getElementById('g-west').innerText = w;
+            document.getElementById('g-total').innerText = calculatedTotal; // 显示计算后的总和
         }
+
         mySwiper.allowTouchMove = true;
         mySwiper.slideNext();
     }

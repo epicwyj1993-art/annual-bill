@@ -145,11 +145,11 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>园区大数据</h2>
-                <div class="row"><span>就餐总人数</span><span id="g-total">0</span></div>
+                <div class="row"><span>总就餐人次</span><span id="g-total">0</span></div>
                 <div class="row"><span>自助餐厅人次</span><span id="g-self">0</span></div>
                 <div class="row"><span>B6餐厅人次</span><span id="g-b6">0</span></div>
                 <div class="row"><span>西餐厅人次</span><span id="g-west">0</span></div>
-                <p class="sub-text">“你不是一个人在干饭，是与千万人并肩奋斗。”</p>
+                <p class="sub-text">“每一份烟火，都凝聚着园区的蓬勃活力。”</p>
             </div>
         </div>
 
@@ -204,17 +204,20 @@
 <script>
     var mySwiper;
 
+    // 延时显示按钮
     function delayStartButton() {
         setTimeout(function() {
             var btn = document.getElementById('main-start-btn');
-            btn.style.visibility = 'visible';
-            btn.style.opacity = '1';
+            if(btn) {
+                btn.style.visibility = 'visible';
+                btn.style.opacity = '1';
+            }
         }, 5000);
     }
 
     function startApp() {
         if (typeof Swiper === 'undefined') {
-            alert("Swiper 加载中，请稍候刷新重试。");
+            alert("加载中，请稍候刷新重试。");
             return;
         }
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
@@ -234,12 +237,12 @@
 
     function login() {
         if (typeof allData === 'undefined') {
-            alert("数据未加载成功，请刷新重试。");
+            alert("数据文件 user_data.js 未加载，请检查。");
             return;
         }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
-        if(!u) { alert("工号有误：" + id); return; }
+        if(!u) { alert("工号未找到：" + id); return; }
 
         document.getElementById('d-total').innerText = u.total;
         document.getElementById('d-self').innerText = u.self;

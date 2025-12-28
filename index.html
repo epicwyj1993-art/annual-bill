@@ -3,39 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>2025南方园区年度账单</title>
-    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <title>2025 南方园区记忆 · 年度账单</title>
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.4.7/swiper-bundle.min.css">
     <script src="user_data.js"></script>
     <style>
-        :root { --main: #e67e22; }
+        :root { --main-orange: #e67e22; --bg-cream: #fdfaf6; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body, html { height: 100%; width: 100%; overflow: hidden; background: #000; }
+        body, html { height: 100%; width: 100%; overflow: hidden; background: #000; font-family: "PingFang SC", sans-serif; }
 
-        /* 视频层 */
+        /* 视频片头 */
         #video-overlay { 
             position: fixed; inset: 0; z-index: 9999; background: #000; 
             display: flex; align-items: center; justify-content: center; 
-            transition: transform 0.8s ease-out; 
+            transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1); 
         }
         video { width: 100%; height: 100%; object-fit: cover; }
         .start-btn { 
-            position: absolute; bottom: 15%; padding: 12px 40px; border-radius: 30px; 
-            background: var(--main); color: #fff; border: 2px solid #fff; font-size: 1.1rem; z-index: 10000;
+            position: absolute; bottom: 15%; padding: 14px 45px; border-radius: 30px; 
+            background: var(--main-orange); color: #fff; border: 2px solid #fff; 
+            font-size: 1.1rem; font-weight: bold; z-index: 10000; cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
-        /* Swiper 容器：初始透明，初始化后再显示 */
-        .swiper-container { width: 100%; height: 100vh; background: #fff; visibility: hidden; }
-        .swiper-slide { 
-            width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; 
-            background: linear-gradient(180deg, #f7e9d7, #fff, #f7e9d7);
+        /* Swiper 容器 */
+        .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
+        .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+
+        /* 背景照片及渐变层 */
+        .slide-bg { 
+            position: absolute; inset: 0; background-size: cover; background-position: center;
+            transform: scale(1.1); filter: blur(2px); opacity: 0.35; z-index: 1;
         }
+        .mask-layer {
+            position: absolute; inset: 0; z-index: 2;
+            background: linear-gradient(to bottom, 
+                var(--bg-cream) 0%, 
+                transparent 25%, 
+                transparent 75%, 
+                var(--bg-cream) 100%);
+        }
+
+        /* 内容卡片 */
         .content-box { 
-            background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 25px; 
-            width: 85%; max-width: 340px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+            position: relative; z-index: 3; width: 85%; max-width: 350px; 
+            background: rgba(255, 255, 255, 0.9); padding: 35px 25px; border-radius: 30px; 
+            text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            border: 1px solid rgba(230, 126, 34, 0.1);
         }
-        .big-val { font-size: 2.5rem; color: var(--main); font-weight: bold; margin: 15px 0; }
-        input { width: 100%; padding: 15px; margin-bottom: 20px; border-radius: 12px; border: 1px solid #ddd; text-align: center; font-size: 1rem; }
-        button.login-btn { width: 100%; padding: 15px; border-radius: 12px; background: var(--main); color: #fff; border: none; font-weight: bold; }
+
+        h2 { color: var(--main-orange); margin-bottom: 20px; font-size: 1.5rem; letter-spacing: 2px; }
+        .big-val { font-size: 2.8rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
+        .sub-text { color: #666; font-size: 0.9rem; line-height: 1.6; margin-top: 10px; font-style: italic; }
+        .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #ddd; color: #444; }
+        .row span:last-child { font-weight: bold; color: var(--main-orange); }
+
+        input { width: 100%; padding: 16px; margin-bottom: 20px; border-radius: 15px; border: 1px solid #ddd; text-align: center; font-size: 1.1rem; }
+        button.login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; }
     </style>
 </head>
 <body>
@@ -50,57 +73,187 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800')"></div>
+            <div class="mask-layer"></div>
             <div class="content-box">
-                <h2 style="color:var(--main);margin-bottom:20px;">2025 年度账单</h2>
+                <h2>年度账单</h2>
+                <p style="color:#666; margin-bottom:20px">输入工号，回忆您的园区时光</p>
                 <input type="text" id="workId" placeholder="请输入工号">
-                <button class="login-btn" onclick="login()">查看我的记忆</button>
+                <button class="login-btn" onclick="login()">查看我的账单</button>
+                <p class="sub-text">“有些数字，藏着一整年的滚烫人生。”</p>
             </div>
         </div>
+
         <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1554224155-1696413565d3?w=800')"></div>
+            <div class="mask-layer"></div>
             <div class="content-box">
-                <p>2025年您在园区消费总额</p>
+                <p style="color:#666">2025年，您在园区共刷卡消费</p>
                 <div class="big-val">￥<span id="d-total">0</span></div>
-                <p>每一餐都是生活的温度</p>
+                <p class="sub-text">“每一分慷慨，都是对生活品质的最高敬意。”</p>
             </div>
         </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>消费足迹</h2>
+                <div class="row"><span>自助餐厅</span><span id="d-self">0</span></div>
+                <div class="row"><span>零点餐厅</span><span id="d-zero">0</span></div>
+                <div class="row"><span>西餐厅</span><span id="d-west">0</span></div>
+                <div class="row"><span>B6餐厅</span><span id="d-b6">0</span></div>
+                <div class="row"><span>超市消费</span><span id="d-market">0</span></div>
+                <p class="sub-text">“走遍园区，最爱的还是那一口熟悉的烟火气。”</p>
+            </div>
         </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1547523106-3f6ef0593ddc?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <p style="color:#666">这一年，您在园区共干饭</p>
+                <div class="big-val"><span id="d-count">0</span> 次</div>
+                <p class="sub-text">“没有什么问题，是一顿园区美食解决不了的。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1508962301584-53ca4234ad3b?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>作息时光机</h2>
+                <div class="row"><span>最早的一餐</span><span id="d-early">-</span></div>
+                <div class="row" style="margin-top:15px"><span>最晚的一餐</span><span id="d-late">-</span></div>
+                <p class="sub-text">“见过清晨的微光，也披过深夜的月亮。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <p style="color:#666">您最爱打卡的餐厅是</p>
+                <div class="big-val" id="d-fav" style="font-size:1.8rem">-</div>
+                <p class="sub-text">“味蕾最诚实，它总能带你回温馨的‘据点’。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1551288049-bbbda5366392?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>园区大数据</h2>
+                <div class="row"><span>就餐总人数</span><span id="g-total">0</span></div>
+                <div class="row"><span>自助餐厅人次</span><span id="g-self">0</span></div>
+                <div class="row"><span>B6餐厅人次</span><span id="g-b6">0</span></div>
+                <div class="row"><span>西餐厅人次</span><span id="g-west">0</span></div>
+                <p class="sub-text">“你不是一个人在干饭，是与千万人并肩奋斗。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>美食盛宴</h2>
+                <p style="color:#666">24次美食节，250道精品菜</p>
+                <p style="color:#666">3次教学菜互动，美味时刻相伴</p>
+                <p class="sub-text">“把世界的味道，搬到你的家门口。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>风雨陪伴</h2>
+                <div class="big-val">16454 <span style="font-size:1rem">趟次</span></div>
+                <p class="sub-text">“无论多晚，回家的路总有那一抹温暖的灯光。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <h2>幕后的守候</h2>
+                <div class="row"><span>工程维修</span><span>9876 次</span></div>
+                <div class="row"><span>环境消杀</span><span>224 次</span></div>
+                <div class="row"><span>驿站接待</span><span>466 人次</span></div>
+                <p class="sub-text">“那些看不见的守护，是为了让你更安心地发光。”</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=800')"></div>
+            <div class="mask-layer"></div>
+            <div class="content-box">
+                <div class="big-val" style="font-size:1.8rem">2026 再启新程</div>
+                <p style="color:#666">南方园区 · 始终如一</p>
+                <button class="login-btn" style="margin-top:20px" onclick="location.reload()">重新观看</button>
+                <p class="sub-text">“2025的记忆已收藏，2026的精彩正待续写。”</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script src="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.4.7/swiper-bundle.min.js"></script>
 <script>
-    let mySwiper;
+    var mySwiper;
 
-    // 核心修复：点击按钮后执行
     function startApp() {
-        // 1. 滑走视频
+        if (typeof Swiper === 'undefined') {
+            alert("加载失败，请刷新页面重试");
+            return;
+        }
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
-        
-        // 2. 显示容器
         const container = document.querySelector('.swiper-container');
-        container.style.visibility = 'visible';
-        
-        // 3. 立即初始化并强制更新尺寸 (解决挤压问题的关键)
+        container.style.display = 'block';
+
         mySwiper = new Swiper('.swiper-container', {
             direction: 'vertical',
-            allowTouchMove: false, // 登录前不让划
-            observer: true,       // 启动监测
+            allowTouchMove: false,
+            observer: true,
             observeParents: true
         });
-        
-        // 4. 停止视频节省资源
-        setTimeout(() => { document.getElementById('intro-video').pause(); }, 800);
+
+        const v = document.getElementById('intro-video');
+        setTimeout(() => { if(v) v.pause(); }, 800);
     }
 
     function login() {
-        const id = document.getElementById('workId').value.trim();
-        if(!window.allData) return alert("数据未加载，请刷新");
-        const u = allData.users[id];
-        if(!u) return alert("工号错误");
+        if (typeof allData === 'undefined') {
+            alert("数据文件 user_data.js 未能加载，请检查文件名。");
+            return;
+        }
 
-        // 填充数据
-        document.getElementById('d-total').innerText = u.total;
+        const id = document.getElementById('workId').value.trim();
+        const u = allData.users[id];
         
-        // 允许翻页并滚动到下一页
+        if(!u) {
+            alert("未查找到工号：" + id);
+            return;
+        }
+
+        document.getElementById('d-total').innerText = u.total;
+        document.getElementById('d-self').innerText = u.self;
+        document.getElementById('d-zero').innerText = u.zero;
+        document.getElementById('d-west').innerText = u.west;
+        document.getElementById('d-b6').innerText = u.b6;
+        document.getElementById('d-market').innerText = u.market;
+        document.getElementById('d-count').innerText = u.count;
+        document.getElementById('d-early').innerText = u.earliest;
+        document.getElementById('d-late').innerText = u.latest;
+        document.getElementById('d-fav').innerText = u.favorite;
+
+        if(allData.global) {
+            document.getElementById('g-total').innerText = allData.global.total_p;
+            document.getElementById('g-self').innerText = allData.global.self_c;
+            document.getElementById('g-b6').innerText = allData.global.b6_c;
+            document.getElementById('g-west').innerText = allData.global.west_c;
+        }
+
         mySwiper.allowTouchMove = true;
         mySwiper.slideNext();
     }

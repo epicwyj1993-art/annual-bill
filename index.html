@@ -19,22 +19,19 @@
         }
         video { width: 100%; height: 100%; object-fit: cover; }
         
-        /* 开启按钮初始隐藏，带淡入效果 */
         .start-btn { 
             position: absolute; bottom: 15%; padding: 14px 45px; border-radius: 30px; 
             background: var(--main-orange); color: #fff; border: 2px solid #fff; 
             font-size: 1.1rem; font-weight: bold; z-index: 10000; cursor: pointer;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            opacity: 0; /* 初始透明 */
-            visibility: hidden;
-            transition: opacity 1s ease; /* 1秒淡入时间 */
+            opacity: 0; visibility: hidden;
+            transition: opacity 1s ease;
         }
 
         /* Swiper 容器 */
         .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
         .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
 
-        /* 背景照片及渐变层 */
         .slide-bg { 
             position: absolute; inset: 0; background-size: cover; background-position: center;
             transform: scale(1.1); filter: blur(2px); opacity: 0.35; z-index: 1;
@@ -48,7 +45,6 @@
                 var(--bg-cream) 100%);
         }
 
-        /* 内容卡片 */
         .content-box { 
             position: relative; z-index: 3; width: 85%; max-width: 350px; 
             background: rgba(255, 255, 255, 0.95); padding: 35px 25px; border-radius: 30px; 
@@ -57,7 +53,7 @@
         }
 
         h2 { color: var(--main-orange); margin-bottom: 20px; font-size: 1.5rem; letter-spacing: 2px; }
-        .big-val { font-size: 2.8rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
+        .big-val { font-size: 2.5rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
         .sub-text { color: #666; font-size: 0.9rem; line-height: 1.6; margin-top: 10px; font-style: italic; }
         .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #ddd; color: #444; }
         .row span:last-child { font-weight: bold; color: var(--main-orange); }
@@ -173,8 +169,8 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>风雨陪伴</h2>
-                <div class="big-val">16454 <span style="font-size:1rem">趟次</span></div>
-                <p style="color:#666; font-weight: bold; margin-bottom: 10px;">班车运行 16454 趟次</p>
+                <p style="color:#666; font-size: 1rem;">班车运行</p>
+                <div class="big-val">16454 <span style="font-size:1.2rem">趟次</span></div>
                 <p class="sub-text">“无论多晚，回家的路总有那一抹温暖的灯光。”</p>
             </div>
         </div>
@@ -208,18 +204,17 @@
 <script>
     var mySwiper;
 
-    // 延时显示按钮的函数
     function delayStartButton() {
         setTimeout(function() {
             var btn = document.getElementById('main-start-btn');
             btn.style.visibility = 'visible';
             btn.style.opacity = '1';
-        }, 5000); // 5000毫秒 = 5秒
+        }, 5000);
     }
 
     function startApp() {
         if (typeof Swiper === 'undefined') {
-            alert("Swiper 组件加载失败，请检查网络或刷新重试。");
+            alert("Swiper 加载中，请稍候刷新重试。");
             return;
         }
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
@@ -239,19 +234,13 @@
 
     function login() {
         if (typeof allData === 'undefined') {
-            alert("数据文件加载中或 user_data.js 缺失，请检查。");
+            alert("数据未加载成功，请刷新重试。");
             return;
         }
-
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
-        
-        if(!u) {
-            alert("工号有误：" + id);
-            return;
-        }
+        if(!u) { alert("工号有误：" + id); return; }
 
-        // 填充用户数据
         document.getElementById('d-total').innerText = u.total;
         document.getElementById('d-self').innerText = u.self;
         document.getElementById('d-zero').innerText = u.zero;
@@ -263,14 +252,12 @@
         document.getElementById('d-late').innerText = u.latest;
         document.getElementById('d-fav').innerText = u.favorite;
 
-        // 填充全局数据
         if(allData.global) {
             document.getElementById('g-total').innerText = allData.global.total_p;
             document.getElementById('g-self').innerText = allData.global.self_c;
             document.getElementById('g-b6').innerText = allData.global.b6_c;
             document.getElementById('g-west').innerText = allData.global.west_c;
         }
-
         mySwiper.allowTouchMove = true;
         mySwiper.slideNext();
     }

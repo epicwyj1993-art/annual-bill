@@ -1,13 +1,109 @@
 <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>2025南方园区年度账单</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <script src="user_data.js"></script>
+    <style>
+        :root { --main: #e67e22; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { height: 100%; width: 100%; overflow: hidden; background: #000; }
 
-<html lang="zh-CN"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"> <title>2025南方园区年度账单</title> <link rel="stylesheet" href=""> <script src="user_data.js"></script> <style> :root { --main: #e67e22; --glass: rgba(255, 255, 255, 0.95); } * { margin: 0; padding: 0; box-sizing: border-box; } body, html { height: 100%; font-family: "PingFang SC", sans-serif; background: #000; overflow: hidden; } #video-overlay { position: fixed; inset: 0; z-index: 100; background: #000; display: flex; align-items: center; justify-content: center; transition: 0.8s; } #intro-video { width: 100%; height: 100%; object-fit: cover; } .swiper-container { width: 100%; height: 100vh; display: none; } .swiper-slide { position: relative; display: flex; align-items: center; justify-content: center; padding: 20px; background: linear-gradient(180deg, #f7e9d7, #fff, #f7e9d7); } .page-bg { position: absolute; inset: 10% 5%; border-radius: 40px; background-size: cover; background-position: center; opacity: 0.15; z-index: 1; } .content-box { position: relative; z-index: 2; width: 100%; max-width: 340px; background: var(--glass); padding: 30px; border-radius: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; } h2 { color: var(--main); margin-bottom: 15px; font-size: 1.4rem; } .big-val { font-size: 2.4rem; color: var(--main); font-weight: bold; margin: 10px 0; } .row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; font-size: 0.9rem; } input { width: 100%; padding: 15px; border-radius: 12px; border: 1px solid #ddd; margin-bottom: 20px; text-align: center; } button.btn { width: 100%; padding: 15px; border-radius: 12px; background: var(--main); color: #fff; border: none; font-weight: bold; } </style> </head> <body>
+        /* 视频层 */
+        #video-overlay { 
+            position: fixed; inset: 0; z-index: 9999; background: #000; 
+            display: flex; align-items: center; justify-content: center; 
+            transition: transform 0.8s ease-out; 
+        }
+        video { width: 100%; height: 100%; object-fit: cover; }
+        .start-btn { 
+            position: absolute; bottom: 15%; padding: 12px 40px; border-radius: 30px; 
+            background: var(--main); color: #fff; border: 2px solid #fff; font-size: 1.1rem; z-index: 10000;
+        }
 
-<div id="video-overlay"> <video id="intro-video" muted playsinline loop><source src="intro.mp4" type="video/mp4"></video> <button onclick="start()" style="position:absolute; bottom:15%; padding:15px 40px; border-radius:30px; background:var(--main); color:#fff; border:2px solid #fff;">开启 2025 记忆</button> </div>
+        /* Swiper 容器：初始透明，初始化后再显示 */
+        .swiper-container { width: 100%; height: 100vh; background: #fff; visibility: hidden; }
+        .swiper-slide { 
+            width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; 
+            background: linear-gradient(180deg, #f7e9d7, #fff, #f7e9d7);
+        }
+        .content-box { 
+            background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 25px; 
+            width: 85%; max-width: 340px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+        }
+        .big-val { font-size: 2.5rem; color: var(--main); font-weight: bold; margin: 15px 0; }
+        input { width: 100%; padding: 15px; margin-bottom: 20px; border-radius: 12px; border: 1px solid #ddd; text-align: center; font-size: 1rem; }
+        button.login-btn { width: 100%; padding: 15px; border-radius: 12px; background: var(--main); color: #fff; border: none; font-weight: bold; }
+    </style>
+</head>
+<body>
 
-<div class="swiper-container"> <div class="swiper-wrapper"> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <h2>2025 年度账单</h2> <input type="text" id="workId" placeholder="请输入工号"> <button class="btn" onclick="login()">查 看</button> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <p>2025年，您在园区共消费</p> <div class="big-val">￥<span id="d-total">0</span></div> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <h2>消费明细</h2> <div class="row"><span>自助餐厅</span><span id="d-self">0</span></div> <div class="row"><span>零点餐厅</span><span id="d-zero">0</span></div> <div class="row"><span>西餐厅</span><span id="d-west">0</span></div> <div class="row"><span>B6餐厅</span><span id="d-b6">0</span></div> <div class="row"><span>超市</span><span id="d-market">0</span></div> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <p>您在食堂共干饭</p> <div class="big-val"><span id="d-count">0</span> 次</div> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <h2>作息时光机</h2> <p>最早：<span id="d-early">-</span></p> <p style="margin-top:10px;">最晚：<span id="d-late">-</span></p> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <p>最爱打卡的餐厅</p> <div class="big-val" id="d-fav">-</div> </div> </div> <div class="swiper-slide"> <div class="page-bg" style="background-image:url('')"></div> <div class="content-box"> <h2>园区大数据</h2> <div class="row"><span>总人数</span><span id="g-total">0</span></div> <div class="row"><span>自助人次</span><span id="g-self">0</span></div> <div class="row"><span>B6人次</span><span id="g-b6">0</span></div> <div class="row"><span>西餐人次</span><span id="g-west">0</span></div> </div> </div> <div class="swiper-slide"> <div class="content-box"><h2>美食节</h2><p>24次美食节，250道菜品</p></div> </div> <div class="swiper-slide"> <div class="content-box"><h2>定制关怀</h2><p>定制餐498，面点35737</p></div> </div> <div class="swiper-slide"> <div class="content-box"><h2>班车守护</h2><p>全年行驶16454趟次</p></div> </div> <div class="swiper-slide"> <div class="content-box"> <h2>贴心服务</h2> <p style="font-size:0.8rem">雨伞544/推车523/贴膜29/衣服43</p> </div> </div> <div class="swiper-slide"> <div class="content-box"><h2>诉求响应</h2><p>员工诉求197条</p></div> </div> <div class="swiper-slide"> <div class="content-box"><h2>幕后守护</h2><p>维修9876次，消杀224次</p></div> </div> <div class="swiper-slide"> <div class="content-box"><h2>2026 再见</h2><p>账单展示结束</p></div> </div> </div> </div>
+<div id="video-overlay">
+    <video id="intro-video" autoplay muted playsinline loop>
+        <source src="intro.mp4" type="video/mp4">
+    </video>
+    <button class="start-btn" onclick="startApp()">开启 2025 记忆</button>
+</div>
 
-<script src=""></script>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="content-box">
+                <h2 style="color:var(--main);margin-bottom:20px;">2025 年度账单</h2>
+                <input type="text" id="workId" placeholder="请输入工号">
+                <button class="login-btn" onclick="login()">查看我的记忆</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="content-box">
+                <p>2025年您在园区消费总额</p>
+                <div class="big-val">￥<span id="d-total">0</span></div>
+                <p>每一餐都是生活的温度</p>
+            </div>
+        </div>
+        </div>
+</div>
 
-<script> const swiper = new Swiper('.swiper-container', { direction: 'vertical', allowTouchMove: false }); function start() { document.getElementById('video-overlay').style.transform = 'translateY(-100%)'; document.querySelector('.swiper-container').style.display = 'block'; } function login() { const id = document.getElementById('workId').value.trim(); if(!allData.users[id]) return alert("工号错误"); const u = allData.users[id]; document.getElementById('d-total').innerText = u.total; document.getElementById('d-self').innerText = u.self; document.getElementById('d-zero').innerText = u.zero; document.getElementById('d-west').innerText = u.west; document.getElementById('d-b6').innerText = u.b6; document.getElementById('d-market').innerText = u.market; document.getElementById('d-count').innerText = u.count; document.getElementById('d-early').innerText = u.earliest; document.getElementById('d-late').innerText = u.latest; document.getElementById('d-fav').innerText = u.favorite; document.getElementById('g-total').innerText = allData.global.total_p; document.getElementById('g-self').innerText = allData.global.self_c; document.getElementById('g-b6').innerText = allData.global.b6_c; document.getElementById('g-west').innerText = allData.global.west_c; swiper.allowTouchMove = true; swiper.slideNext(); } </script>
+<script src="https://cdn.bootcdn.net/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+<script>
+    let mySwiper;
 
-</body> </html>
+    // 核心修复：点击按钮后执行
+    function startApp() {
+        // 1. 滑走视频
+        document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
+        
+        // 2. 显示容器
+        const container = document.querySelector('.swiper-container');
+        container.style.visibility = 'visible';
+        
+        // 3. 立即初始化并强制更新尺寸 (解决挤压问题的关键)
+        mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            allowTouchMove: false, // 登录前不让划
+            observer: true,       // 启动监测
+            observeParents: true
+        });
+        
+        // 4. 停止视频节省资源
+        setTimeout(() => { document.getElementById('intro-video').pause(); }, 800);
+    }
+
+    function login() {
+        const id = document.getElementById('workId').value.trim();
+        if(!window.allData) return alert("数据未加载，请刷新");
+        const u = allData.users[id];
+        if(!u) return alert("工号错误");
+
+        // 填充数据
+        document.getElementById('d-total').innerText = u.total;
+        
+        // 允许翻页并滚动到下一页
+        mySwiper.allowTouchMove = true;
+        mySwiper.slideNext();
+    }
+</script>
+</body>
+</html>

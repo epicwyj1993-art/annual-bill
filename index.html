@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>2025 南方园区记忆 · 年度账单</title>
-    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <script src="user_data.js"></script>
     <style>
         :root { --main-orange: #e67e22; --bg-cream: #fdfaf6; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body, html { height: 100%; width: 100%; overflow: hidden; background: #000; font-family: "PingFang SC", sans-serif; }
+        body, html { height: 100%; width: 100%; overflow: hidden; background: #000; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
 
         /* 视频片头 */
         #video-overlay { 
@@ -46,7 +46,7 @@
         /* 内容卡片 */
         .content-box { 
             position: relative; z-index: 3; width: 85%; max-width: 350px; 
-            background: rgba(255, 255, 255, 0.9); padding: 35px 25px; border-radius: 30px; 
+            background: rgba(255, 255, 255, 0.95); padding: 35px 25px; border-radius: 30px; 
             text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.05);
             border: 1px solid rgba(230, 126, 34, 0.1);
         }
@@ -58,7 +58,7 @@
         .row span:last-child { font-weight: bold; color: var(--main-orange); }
 
         input { width: 100%; padding: 16px; margin-bottom: 20px; border-radius: 15px; border: 1px solid #ddd; text-align: center; font-size: 1.1rem; }
-        button.login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; }
+        button.login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -198,13 +198,13 @@
     </div>
 </div>
 
-<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.4.7/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
 <script>
     var mySwiper;
 
     function startApp() {
         if (typeof Swiper === 'undefined') {
-            alert("加载失败，请刷新页面重试");
+            alert("Swiper 组件加载失败，请检查网络或刷新重试。");
             return;
         }
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
@@ -224,7 +224,7 @@
 
     function login() {
         if (typeof allData === 'undefined') {
-            alert("数据文件 user_data.js 未能加载，请检查文件名。");
+            alert("数据文件 user_data.js 加载失败。请确保文件开头有 const allData = 且存放在 index.html 同级目录下。");
             return;
         }
 
@@ -232,10 +232,11 @@
         const u = allData.users[id];
         
         if(!u) {
-            alert("未查找到工号：" + id);
+            alert("工号有误：" + id);
             return;
         }
 
+        // 填充用户数据
         document.getElementById('d-total').innerText = u.total;
         document.getElementById('d-self').innerText = u.self;
         document.getElementById('d-zero').innerText = u.zero;
@@ -247,6 +248,7 @@
         document.getElementById('d-late').innerText = u.latest;
         document.getElementById('d-fav').innerText = u.favorite;
 
+        // 填充全局数据
         if(allData.global) {
             document.getElementById('g-total').innerText = allData.global.total_p;
             document.getElementById('g-self').innerText = allData.global.self_c;

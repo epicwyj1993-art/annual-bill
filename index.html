@@ -63,7 +63,7 @@
         
         h2 { color: var(--main-orange); margin-bottom: 20px; font-size: 1.5rem; letter-spacing: 2px; }
         .big-val { font-size: 2.5rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
-        .sub-text { color: #666; font-size: 0.85rem; line-height: 1.6; margin-top: 10px; font-style: italic; }
+        .sub-text { color: #666; font-size: 0.85rem; line-height: 1.6; margin-top: 15px; font-style: italic; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 10px; }
         .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #ddd; color: #444; font-size: 0.95rem; }
         .row span:last-child { font-weight: bold; color: var(--main-orange); }
 
@@ -127,6 +127,7 @@
                 <div class="row"><span>西餐厅</span><span id="d-west">0</span></div>
                 <div class="row"><span>B6餐厅</span><span id="d-b6">0</span></div>
                 <div class="row"><span>超市消费</span><span id="d-market">0</span></div>
+                <p class="sub-text">“走遍园区，最爱的还是那一口熟悉的烟火气。”</p>
             </div>
         </div>
 
@@ -147,6 +148,7 @@
                 <h2>作息时光机</h2>
                 <div class="row"><span>最早的一餐</span><span id="d-early">-</span></div>
                 <div class="row" style="margin-top:15px"><span>最晚的一餐</span><span id="d-late">-</span></div>
+                <p class="sub-text">“见过清晨的微光，也披过深夜的月亮。”</p>
             </div>
         </div>
 
@@ -156,6 +158,7 @@
             <div class="content-box">
                 <p style="color:#666">您最爱打卡的餐厅是</p>
                 <div class="big-val" id="d-fav" style="font-size:1.8rem">-</div>
+                <p class="sub-text">“味蕾最诚实，它总能带你回温馨的‘据点’。”</p>
             </div>
         </div>
 
@@ -179,6 +182,7 @@
                 <h2>美食盛宴</h2>
                 <p style="color:#666">24次美食节，250道精品菜</p>
                 <p style="color:#666; margin-top:5px">3次教学菜互动，美味时刻相伴</p>
+                <p class="sub-text">“把世界的味道，搬到你的家门口。”</p>
             </div>
         </div>
 
@@ -189,6 +193,7 @@
                 <h2>风雨陪伴</h2>
                 <p style="color:#666; font-size: 1rem;">班车运行</p>
                 <div class="big-val">16454 <span style="font-size:1.2rem">趟次</span></div>
+                <p class="sub-text">“无论多晚，回家的路总有那一抹温暖的灯光。”</p>
             </div>
         </div>
 
@@ -200,6 +205,7 @@
                 <div class="row"><span>工程维修</span><span>9876 次</span></div>
                 <div class="row"><span>环境消杀</span><span>224 次</span></div>
                 <div class="row"><span>驿站接待</span><span>466 人次</span></div>
+                <p class="sub-text">“那些看不见的守护，是为了让你更安心地发光。”</p>
             </div>
         </div>
 
@@ -210,6 +216,7 @@
                 <div class="big-val" style="font-size:1.8rem">2026 再启新程</div>
                 <p style="color:#666">南园陪伴 · 始终如一</p>
                 <button class="login-btn" style="margin-top:20px" onclick="location.reload()">重新观看</button>
+                <p class="sub-text">“2025的记忆已收藏，2026的精彩正待续写。”</p>
             </div>
         </div>
     </div>
@@ -221,6 +228,7 @@
     const audio = document.getElementById('bg-audio');
     const musicIcon = document.getElementById('music-icon');
 
+    // 1. 开启回忆
     function unlockExperience() {
         document.getElementById('cover-page').style.opacity = '0';
         setTimeout(() => { document.getElementById('cover-page').style.display = 'none'; }, 1000);
@@ -238,6 +246,7 @@
         }, 5000);
     }
 
+    // 2. 见证时光
     function enterBilling() {
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
         document.querySelector('.swiper-container').style.display = 'block';
@@ -254,6 +263,7 @@
     }
 
     function login() {
+        if (typeof allData === 'undefined') { alert("数据加载中..."); return; }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
         if(!u) { alert("人员编号未找到：" + id); return; }

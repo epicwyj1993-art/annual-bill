@@ -28,6 +28,19 @@
             transition: opacity 1s ease;
         }
 
+        /* 音乐开关按钮 */
+        #music-control {
+            position: fixed; top: 20px; right: 20px; z-index: 10001;
+            width: 36px; height: 36px; cursor: pointer; display: none; /* 初始隐藏，进入账单后显示 */
+        }
+        .music-icon {
+            width: 100%; height: 100%;
+            background: url('https://cdn-icons-png.flaticon.com/512/3293/3293810.png') no-repeat center;
+            background-size: contain; filter: invert(1);
+        }
+        .rotating { animation: rotate 3s linear infinite; }
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
         /* Swiper 容器 */
         .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
         .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
@@ -38,11 +51,7 @@
         }
         .mask-layer {
             position: absolute; inset: 0; z-index: 2;
-            background: linear-gradient(to bottom, 
-                var(--bg-cream) 0%, 
-                transparent 25%, 
-                transparent 75%, 
-                var(--bg-cream) 100%);
+            background: linear-gradient(to bottom, var(--bg-cream) 0%, transparent 25%, transparent 75%, var(--bg-cream) 100%);
         }
 
         .content-box { 
@@ -64,6 +73,12 @@
 </head>
 <body onload="delayStartButton()">
 
+<audio id="bg-audio" src="bgm.mp3" loop></audio>
+
+<div id="music-control" onclick="toggleMusic()">
+    <div id="music-icon" class="music-icon rotating"></div>
+</div>
+
 <div id="video-overlay">
     <video id="intro-video" autoplay muted playsinline loop>
         <source src="intro.mp4" type="video/mp4">
@@ -78,8 +93,8 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>年度账单</h2>
-                <p style="color:#666; margin-bottom:20px">输入工号，回忆您的园区时光</p>
-                <input type="text" id="workId" placeholder="请输入工号">
+                <p style="color:#666; margin-bottom:20px">输入人员编号，回忆您的园区时光</p>
+                <input type="text" id="workId" placeholder="请输入人员编号">
                 <button class="login-btn" onclick="login()">查看我的账单</button>
                 <p class="sub-text">“有些数字，藏着一整年的滚烫人生。”</p>
             </div>
@@ -105,7 +120,6 @@
                 <div class="row"><span>西餐厅</span><span id="d-west">0</span></div>
                 <div class="row"><span>B6餐厅</span><span id="d-b6">0</span></div>
                 <div class="row"><span>超市消费</span><span id="d-market">0</span></div>
-                <p class="sub-text">“走遍园区，最爱的还是那一口熟悉的烟火气。”</p>
             </div>
         </div>
 
@@ -126,7 +140,6 @@
                 <h2>作息时光机</h2>
                 <div class="row"><span>最早的一餐</span><span id="d-early">-</span></div>
                 <div class="row" style="margin-top:15px"><span>最晚的一餐</span><span id="d-late">-</span></div>
-                <p class="sub-text">“见过清晨的微光，也披过深夜的月亮。”</p>
             </div>
         </div>
 
@@ -136,7 +149,6 @@
             <div class="content-box">
                 <p style="color:#666">您最爱打卡的餐厅是</p>
                 <div class="big-val" id="d-fav" style="font-size:1.8rem">-</div>
-                <p class="sub-text">“味蕾最诚实，它总能带你回温馨的‘据点’。”</p>
             </div>
         </div>
 
@@ -159,8 +171,6 @@
             <div class="content-box">
                 <h2>美食盛宴</h2>
                 <p style="color:#666">24次美食节，250道精品菜</p>
-                <p style="color:#666">3次教学菜互动，美味时刻相伴</p>
-                <p class="sub-text">“把世界的味道，搬到你的家门口。”</p>
             </div>
         </div>
 
@@ -171,7 +181,6 @@
                 <h2>风雨陪伴</h2>
                 <p style="color:#666; font-size: 1rem;">班车运行</p>
                 <div class="big-val">16454 <span style="font-size:1.2rem">趟次</span></div>
-                <p class="sub-text">“无论多晚，回家的路总有那一抹温暖的灯光。”</p>
             </div>
         </div>
 
@@ -183,7 +192,6 @@
                 <div class="row"><span>工程维修</span><span>9876 次</span></div>
                 <div class="row"><span>环境消杀</span><span>224 次</span></div>
                 <div class="row"><span>驿站接待</span><span>466 人次</span></div>
-                <p class="sub-text">“那些看不见的守护，是为了让你更安心地发光。”</p>
             </div>
         </div>
 
@@ -192,9 +200,7 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <div class="big-val" style="font-size:1.8rem">2026 再启新程</div>
-                <p style="color:#666">南方园区 · 始终如一</p>
-                <button class="login-btn" style="margin-top:20px" onclick="location.reload()">重新观看</button>
-                <p class="sub-text">“2025的记忆已收藏，2026的精彩正待续写。”</p>
+                <button class="login-btn" onclick="location.reload()">重新观看</button>
             </div>
         </div>
     </div>
@@ -203,6 +209,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
 <script>
     var mySwiper;
+    const audio = document.getElementById('bg-audio');
+    const musicIcon = document.getElementById('music-icon');
+    const musicBtn = document.getElementById('music-control');
 
     function delayStartButton() {
         setTimeout(function() {
@@ -211,20 +220,32 @@
         }, 5000);
     }
 
+    // 音乐开关控制
+    function toggleMusic() {
+        if (audio.paused) {
+            audio.play();
+            musicIcon.classList.add('rotating');
+        } else {
+            audio.pause();
+            musicIcon.classList.remove('rotating');
+        }
+    }
+
     function startApp() {
         if (typeof Swiper === 'undefined') {
-            alert("Swiper 组件加载中，请稍候刷新重试。");
+            alert("加载中，请稍候。");
             return;
         }
+        // 播放音乐（由于是用户点击触发，浏览器会允许播放）
+        audio.play().catch(e => console.log("Audio play failed"));
+        musicBtn.style.display = 'block';
+
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
         const container = document.querySelector('.swiper-container');
         container.style.display = 'block';
 
         mySwiper = new Swiper('.swiper-container', {
-            direction: 'vertical',
-            allowTouchMove: false,
-            observer: true,
-            observeParents: true
+            direction: 'vertical', allowTouchMove: false, observer: true, observeParents: true
         });
 
         const v = document.getElementById('intro-video');
@@ -232,15 +253,11 @@
     }
 
     function login() {
-        if (typeof allData === 'undefined') {
-            alert("数据文件 user_data.js 未加载。");
-            return;
-        }
+        if (typeof allData === 'undefined') { alert("数据加载失败"); return; }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
-        if(!u) { alert("工号未找到：" + id); return; }
+        if(!u) { alert("人员编号未找到：" + id); return; }
 
-        // 个人数据填充
         document.getElementById('d-total').innerText = u.total;
         document.getElementById('d-self').innerText = u.self;
         document.getElementById('d-zero').innerText = u.zero;
@@ -252,19 +269,14 @@
         document.getElementById('d-late').innerText = u.latest;
         document.getElementById('d-fav').innerText = u.favorite;
 
-        // 全局大数据填充与计算逻辑修正
         if(allData.global) {
             const s = parseInt(allData.global.self_c) || 0;
             const b = parseInt(allData.global.b6_c) || 0;
             const w = parseInt(allData.global.west_c) || 0;
-            
-            // 自动计算总和：自助 + B6 + 西餐
-            const calculatedTotal = s + b + w;
-
             document.getElementById('g-self').innerText = s;
             document.getElementById('g-b6').innerText = b;
             document.getElementById('g-west').innerText = w;
-            document.getElementById('g-total').innerText = calculatedTotal; // 显示计算后的总和
+            document.getElementById('g-total').innerText = s + b + w;
         }
 
         mySwiper.allowTouchMove = true;

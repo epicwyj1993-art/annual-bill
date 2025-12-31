@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>2025 南园记忆 · 年度账单</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1493246507139-91e8bef99c02?q=80&w=2070">
+    
     <script src="user_data.js"></script>
     <style>
         :root { --main-orange: #e67e22; --bg-cream: #fdfaf6; }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         body, html { height: 100%; width: 100%; overflow: hidden; background: #000; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
 
-        /* 1. 初始封面 */
+        /* 封面优化：增加硬件加速 */
         #cover-page {
             position: fixed; inset: 0; z-index: 10005;
             background: #000 url('https://images.unsplash.com/photo-1493246507139-91e8bef99c02?q=80&w=2070') no-repeat center;
             background-size: cover; display: flex; align-items: center; justify-content: center;
-            transition: opacity 1s ease;
+            transition: opacity 0.8s ease-out;
+            will-change: opacity;
         }
-        #cover-page::after { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.5); z-index: 1; }
+        #cover-page::after { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.4); z-index: 1; }
+        
+        /* 按钮与文字 */
         .cover-content { position: relative; z-index: 2; text-align: center; color: #fff; }
         .cover-title { font-size: 2.2rem; letter-spacing: 8px; margin-bottom: 50px; font-weight: 300; text-shadow: 0 2px 20px rgba(0,0,0,0.8); }
 
@@ -29,49 +35,42 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.3); transition: all 0.3s;
             letter-spacing: 2px;
         }
-        .action-btn:active { transform: scale(0.95); }
 
-        /* 2. 视频过渡层 */
+        /* 视频层优化 */
         #video-overlay { 
             position: fixed; inset: 0; z-index: 9999; background: #000; 
             display: flex; align-items: center; justify-content: center; 
-            visibility: hidden; opacity: 0; transition: opacity 0.8s, transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+            visibility: hidden; opacity: 0; transition: opacity 0.6s ease;
         }
         video { width: 100%; height: 100%; object-fit: cover; }
-        .witness-btn { 
-            position: absolute; bottom: 15%; z-index: 10000;
-            opacity: 0; visibility: hidden; transition: opacity 1s ease;
-        }
 
-        /* 3. 音乐控制 */
-        #music-control {
-            position: fixed; top: 20px; right: 20px; z-index: 10001;
-            width: 36px; height: 36px; cursor: pointer; display: none;
-        }
+        /* Swiper 样式 */
+        .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
+        .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+        .slide-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transform: scale(1.05); filter: blur(3px); opacity: 0.3; z-index: 1; transition: transform 2s ease-out; }
+        .swiper-slide-active .slide-bg { transform: scale(1.15); } /* 增加微动动画 */
+        
+        .mask-layer { position: absolute; inset: 0; z-index: 2; background: linear-gradient(to bottom, var(--bg-cream) 0%, transparent 20%, transparent 80%, var(--bg-cream) 100%); }
+        .content-box { position: relative; z-index: 3; width: 85%; max-width: 350px; background: rgba(255, 255, 255, 0.96); padding: 35px 25px; border-radius: 30px; text-align: center; box-shadow: 0 15px 40px rgba(0,0,0,0.08); }
+        
+        h2 { color: var(--main-orange); margin-bottom: 20px; font-size: 1.4rem; letter-spacing: 1px; }
+        .big-val { font-size: 2.5rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
+        .sub-text { color: #777; font-size: 0.8rem; line-height: 1.6; margin-top: 15px; font-style: italic; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 10px; }
+        .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #eee; color: #444; font-size: 0.9rem; }
+        
+        input { width: 100%; padding: 16px; margin-bottom: 20px; border-radius: 15px; border: 1px solid #ddd; text-align: center; font-size: 1.1rem; outline: none; }
+        .login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; }
+
+        /* 音乐控制 */
+        #music-control { position: fixed; top: 20px; right: 20px; z-index: 10001; width: 34px; height: 34px; cursor: pointer; display: none; }
         .music-icon { width: 100%; height: 100%; background: url('https://cdn-icons-png.flaticon.com/512/3293/3293810.png') no-repeat center; background-size: contain; filter: invert(1); }
         .rotating { animation: rotate 3s linear infinite; }
         @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-
-        /* 4. Swiper 内容区域 */
-        .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
-        .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
-        .slide-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transform: scale(1.1); filter: blur(2px); opacity: 0.35; z-index: 1; }
-        .mask-layer { position: absolute; inset: 0; z-index: 2; background: linear-gradient(to bottom, var(--bg-cream) 0%, transparent 25%, transparent 75%, var(--bg-cream) 100%); }
-        .content-box { position: relative; z-index: 3; width: 85%; max-width: 350px; background: rgba(255, 255, 255, 0.95); padding: 35px 25px; border-radius: 30px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.05); }
-        
-        h2 { color: var(--main-orange); margin-bottom: 20px; font-size: 1.5rem; letter-spacing: 2px; }
-        .big-val { font-size: 2.5rem; color: var(--main-orange); font-weight: bold; margin: 15px 0; }
-        .sub-text { color: #666; font-size: 0.85rem; line-height: 1.6; margin-top: 15px; font-style: italic; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 10px; }
-        .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #ddd; color: #444; font-size: 0.95rem; }
-        .row span:last-child { font-weight: bold; color: var(--main-orange); }
-
-        input { width: 100%; padding: 16px; margin-bottom: 20px; border-radius: 15px; border: 1px solid #ddd; text-align: center; font-size: 1.1rem; }
-        .login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; cursor: pointer; }
     </style>
 </head>
 <body>
 
-<audio id="bg-audio" src="bgm.mp3" loop></audio>
+<audio id="bg-audio" src="bgm.mp3" loop preload="auto"></audio>
 
 <div id="music-control" onclick="toggleMusic()">
     <div id="music-icon" class="music-icon rotating"></div>
@@ -85,10 +84,10 @@
 </div>
 
 <div id="video-overlay">
-    <video id="intro-video" playsinline loop muted="false">
+    <video id="intro-video" playsinline webkit-playsinline loop muted="false">
         <source src="intro.mp4" type="video/mp4">
     </video>
-    <button id="witness-btn" class="action-btn witness-btn" onclick="enterBilling()">见证时光</button>
+    <button id="witness-btn" class="action-btn" style="position:absolute; bottom:15%; opacity:0; visibility:hidden; transition:1s" onclick="enterBilling()">见证时光</button>
 </div>
 
 <div class="swiper-container">
@@ -98,7 +97,6 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>年度账单</h2>
-                <p style="color:#666; margin-bottom:20px">输入人员编号，回忆您的园区时光</p>
                 <input type="text" id="workId" placeholder="请输入人员编号">
                 <button class="login-btn" onclick="login()">查看我的账单</button>
                 <p class="sub-text">“有些数字，藏着一整年的滚烫人生。”</p>
@@ -109,7 +107,7 @@
             <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1554224155-1696413565d3?w=800')"></div>
             <div class="mask-layer"></div>
             <div class="content-box">
-                <p style="color:#666">2025年，您在园区共刷卡消费</p>
+                <p style="color:#666">这一年，您在园区共消费</p>
                 <div class="big-val">￥<span id="d-total">0.00</span></div>
                 <p class="sub-text">“每一分慷慨，都是对生活品质的最高敬意。”</p>
             </div>
@@ -120,39 +118,37 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>消费足迹</h2>
-                <div class="row"><span>自助餐厅</span><span id="d-self">0.00</span></div>
-                <div class="row"><span>零点餐厅</span><span id="d-zero">0.00</span></div>
-                <div class="row"><span>西餐厅</span><span id="d-west">0.00</span></div>
-                <div class="row"><span>B6餐厅</span><span id="d-b6">0.00</span></div>
-                <div class="row"><span>超市消费</span><span id="d-market">0.00</span></div>
-                <p class="sub-text">“走遍园区，最爱的还是那一口熟悉的烟火气。”</p>
+                <div class="row"><span>自助餐厅</span><span id="d-self">0</span></div>
+                <div class="row"><span>零点餐厅</span><span id="d-zero">0</span></div>
+                <div class="row"><span>西餐厅</span><span id="d-west">0</span></div>
+                <div class="row"><span>B6餐厅</span><span id="d-b6">0</span></div>
+                <div class="row"><span>超市消费</span><span id="d-market">0</span></div>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1547523106-3f6ef0593ddc?w=800')"></div>
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800')"></div>
             <div class="mask-layer"></div>
             <div class="content-box">
                 <p style="color:#666">这一年，您在园区共干饭</p>
                 <div class="big-val"><span id="d-count">0</span> 次</div>
-                <p class="sub-text">“没有什么问题，是一顿园区美食解决不了的。”</p>
+                <p class="sub-text">“没有什么问题，是一顿美食解决不了的。”</p>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1508962301584-53ca4234ad3b?w=800')"></div>
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800')"></div>
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>作息时光机</h2>
-                <div class="row" style="flex-direction:column; align-items:center; border:none;">
-                    <span style="font-size:0.8rem; color:#888;">最早的一餐</span>
-                    <span id="d-early" style="font-size:1.1rem; margin:5px 0 15px 0;">-</span>
+                <div class="row" style="flex-direction:column; border:none">
+                    <span style="font-size:0.8rem;color:#999">最早的一餐</span>
+                    <span id="d-early" style="font-weight:bold;margin:5px 0 15px 0">-</span>
                 </div>
-                <div class="row" style="flex-direction:column; align-items:center; border:none;">
-                    <span style="font-size:0.8rem; color:#888;">最晚的一餐</span>
-                    <span id="d-late" style="font-size:1.1rem; margin-top:5px;">-</span>
+                <div class="row" style="flex-direction:column; border:none">
+                    <span style="font-size:0.8rem;color:#999">最晚的一餐</span>
+                    <span id="d-late" style="font-weight:bold;margin-top:5px">-</span>
                 </div>
-                <p class="sub-text">“见过清晨的微光，也披过深夜的月亮。”</p>
             </div>
         </div>
 
@@ -162,20 +158,18 @@
             <div class="content-box">
                 <p style="color:#666">您最爱打卡的餐厅是</p>
                 <div class="big-val" id="d-fav" style="font-size:1.8rem">-</div>
-                <p class="sub-text">“味蕾最诚实，它总能带你回温馨的‘据点’。”</p>
             </div>
         </div>
 
         <div class="swiper-slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1551288049-bbbda5366392?w=800')"></div>
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800')"></div>
             <div class="mask-layer"></div>
             <div class="content-box">
                 <h2>园区大数据</h2>
                 <div class="row"><span>总就餐人次</span><span id="g-total">0</span></div>
-                <div class="row"><span>自助餐厅人次</span><span id="g-self">0</span></div>
-                <div class="row"><span>B6餐厅人次</span><span id="g-b6">0</span></div>
-                <div class="row"><span>西餐厅人次</span><span id="g-west">0</span></div>
-                <p class="sub-text">“每一份烟火，都凝聚着园区的蓬勃活力。”</p>
+                <div class="row"><span>自助餐厅</span><span id="g-self">0</span></div>
+                <div class="row"><span>B6餐厅</span><span id="g-b6">0</span></div>
+                <div class="row"><span>西餐厅</span><span id="g-west">0</span></div>
             </div>
         </div>
 
@@ -185,31 +179,7 @@
             <div class="content-box">
                 <h2>美食盛宴</h2>
                 <p style="color:#666">24次美食节，250道精品菜</p>
-                <p style="color:#666; margin-top:5px">3次教学菜互动，美味时刻相伴</p>
                 <p class="sub-text">“把世界的味道，搬到你的家门口。”</p>
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800')"></div>
-            <div class="mask-layer"></div>
-            <div class="content-box">
-                <h2>风雨陪伴</h2>
-                <p style="color:#666; font-size: 1rem;">班车运行</p>
-                <div class="big-val">16454 <span style="font-size:1.2rem">趟次</span></div>
-                <p class="sub-text">“无论多晚，回家的路总有那一抹温暖的灯光。”</p>
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800')"></div>
-            <div class="mask-layer"></div>
-            <div class="content-box">
-                <h2>幕后的守候</h2>
-                <div class="row"><span>工程维修</span><span>9876 次</span></div>
-                <div class="row"><span>环境消杀</span><span>224 次</span></div>
-                <div class="row"><span>驿站接待</span><span>466 人次</span></div>
-                <p class="sub-text">“那些看不见的守护，是为了让你更安心地发光。”</p>
             </div>
         </div>
 
@@ -218,9 +188,7 @@
             <div class="mask-layer"></div>
             <div class="content-box">
                 <div class="big-val" style="font-size:1.8rem">2026 再启新程</div>
-                <p style="color:#666">南园陪伴 · 始终如一</p>
-                <button class="login-btn" style="margin-top:20px" onclick="location.reload()">重新观看</button>
-                <p class="sub-text">“2025的记忆已收藏，2026的精彩正待续写。”</p>
+                <button class="login-btn" onclick="location.reload()">重新观看</button>
             </div>
         </div>
     </div>
@@ -230,70 +198,66 @@
 <script>
     var mySwiper;
     const audio = document.getElementById('bg-audio');
-    const musicIcon = document.getElementById('music-icon');
+    const introVideo = document.getElementById('intro-video');
 
     function unlockExperience() {
-        document.getElementById('cover-page').style.opacity = '0';
-        setTimeout(() => { document.getElementById('cover-page').style.display = 'none'; }, 1000);
+        // 瞬间隐藏封面，减少视觉卡顿感
+        const cover = document.getElementById('cover-page');
+        cover.style.opacity = '0';
+        setTimeout(() => { cover.style.display = 'none'; }, 800);
+
         const videoOverlay = document.getElementById('video-overlay');
         videoOverlay.style.visibility = 'visible';
         videoOverlay.style.opacity = '1';
-        const v = document.getElementById('intro-video');
-        v.play();
+        
+        introVideo.play();
         audio.play();
         document.getElementById('music-control').style.display = 'block';
+
+        // 按钮出现
         setTimeout(() => {
             const btn = document.getElementById('witness-btn');
             btn.style.visibility = 'visible';
             btn.style.opacity = '1';
-        }, 5000);
+        }, 4000);
     }
 
     function enterBilling() {
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
         document.querySelector('.swiper-container').style.display = 'block';
+        
         mySwiper = new Swiper('.swiper-container', {
-            direction: 'vertical', allowTouchMove: false, observer: true, observeParents: true
+            direction: 'vertical',
+            allowTouchMove: false,
+            speed: 800
         });
-        const v = document.getElementById('intro-video');
-        setTimeout(() => { v.pause(); }, 800);
+        setTimeout(() => { introVideo.pause(); }, 800);
     }
 
-    function toggleMusic() {
-        if (audio.paused) { audio.play(); musicIcon.classList.add('rotating'); }
-        else { audio.pause(); musicIcon.classList.remove('rotating'); }
-    }
-
-    // 登录并计算逻辑
     function login() {
         if (typeof allData === 'undefined') { alert("数据加载中..."); return; }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
-        if(!u) { alert("人员编号未找到：" + id); return; }
+        if(!u) { alert("人员编号未找到"); return; }
         
-        // --- 核心修改：重新计算总金额，确保它只包含那5项的和 ---
+        // 自动计算总额
         const calcTotal = (
-            parseFloat(u.self || 0) + 
-            parseFloat(u.zero || 0) + 
-            parseFloat(u.west || 0) + 
-            parseFloat(u.b6 || 0) + 
+            parseFloat(u.self || 0) + parseFloat(u.zero || 0) + 
+            parseFloat(u.west || 0) + parseFloat(u.b6 || 0) + 
             parseFloat(u.market || 0)
         ).toFixed(2);
 
-        // 填充页面数据
-        document.getElementById('d-total').innerText = calcTotal; 
+        document.getElementById('d-total').innerText = calcTotal;
         document.getElementById('d-self').innerText = u.self;
         document.getElementById('d-zero').innerText = u.zero;
         document.getElementById('d-west').innerText = u.west;
         document.getElementById('d-b6').innerText = u.b6;
         document.getElementById('d-market').innerText = u.market;
-        
         document.getElementById('d-count').innerText = u.count;
         document.getElementById('d-early').innerText = u.earliest;
         document.getElementById('d-late').innerText = u.latest;
         document.getElementById('d-fav').innerText = u.favorite;
 
-        // 全局大数据填充
         if(allData.global) {
             const s = parseInt(allData.global.self_c) || 0;
             const b = parseInt(allData.global.b6_c) || 0;
@@ -303,9 +267,15 @@
             document.getElementById('g-west').innerText = w;
             document.getElementById('g-total').innerText = s + b + w; 
         }
-        
+
         mySwiper.allowTouchMove = true;
         mySwiper.slideNext();
+    }
+
+    function toggleMusic() {
+        const icon = document.getElementById('music-icon');
+        if (audio.paused) { audio.play(); icon.classList.add('rotating'); }
+        else { audio.pause(); icon.classList.remove('rotating'); }
     }
 </script>
 </body>

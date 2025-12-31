@@ -12,20 +12,18 @@
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         body, html { height: 100%; width: 100%; overflow: hidden; background: #000; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
         
-        /* 封面层 */
-        #cover-page { position: fixed; inset: 0; z-index: 10005; background: #000 url('https://images.unsplash.com/photo-1493246507139-91e8bef99c02?q=80&w=2070') no-repeat center; background-size: cover; display: flex; align-items: center; justify-content: center; transition: opacity 0.8s; will-change: opacity; }
+        /* 1. 封面 */
+        #cover-page { position: fixed; inset: 0; z-index: 10005; background: #000 url('https://images.unsplash.com/photo-1493246507139-91e8bef99c02?q=80&w=2070') no-repeat center; background-size: cover; display: flex; align-items: center; justify-content: center; transition: opacity 0.8s; }
         #cover-page::after { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.4); z-index: 1; }
         .cover-content { position: relative; z-index: 2; text-align: center; color: #fff; }
-        .cover-title { font-size: 2.2rem; letter-spacing: 8px; margin-bottom: 50px; font-weight: 300; text-shadow: 0 2px 20px rgba(0,0,0,0.8); }
+        .cover-title { font-size: 2.2rem; letter-spacing: 8px; margin-bottom: 50px; text-shadow: 0 2px 20px rgba(0,0,0,0.8); }
+        .action-btn { padding: 14px 45px; border-radius: 35px; background: var(--main-orange); color: #fff; border: 2px solid rgba(255,255,255,0.6); font-size: 1.1rem; font-weight: bold; cursor: pointer; transition: 0.3s; }
         
-        /* 按钮样式 */
-        .action-btn { padding: 14px 45px; border-radius: 35px; background: var(--main-orange); color: #fff; border: 2px solid rgba(255,255,255,0.6); font-size: 1.1rem; font-weight: bold; cursor: pointer; transition: 0.3s; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
-        
-        /* 视频层 */
+        /* 2. 视频层 */
         #video-overlay { position: fixed; inset: 0; z-index: 9999; background: #000; display: flex; align-items: center; justify-content: center; visibility: hidden; opacity: 0; transition: opacity 0.6s; }
         video { width: 100%; height: 100%; object-fit: cover; }
         
-        /* 内容层 */
+        /* 3. 内容容器 */
         .swiper-container { width: 100%; height: 100vh; background: var(--bg-cream); display: none; }
         .swiper-slide { position: relative; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; }
         .slide-bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.3; filter: blur(3px); z-index: 1; }
@@ -38,9 +36,9 @@
         .row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed #eee; color: #444; font-size: 0.9rem; }
         
         input { width: 100%; padding: 16px; margin-bottom: 20px; border-radius: 15px; border: 1px solid #ddd; text-align: center; font-size: 1.1rem; outline: none; }
-        .login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; }
+        .login-btn { width: 100%; padding: 16px; border-radius: 15px; background: var(--main-orange); color: #fff; border: none; font-weight: bold; font-size: 1.1rem; cursor: pointer; }
         
-        /* 音乐图标 */
+        /* 音乐开关 */
         #music-control { position: fixed; top: 20px; right: 20px; z-index: 10001; width: 34px; height: 34px; cursor: pointer; display: none; }
         .music-icon { width: 100%; height: 100%; background: url('https://cdn-icons-png.flaticon.com/512/3293/3293810.png') no-repeat center; background-size: contain; filter: invert(1); }
         .rotating { animation: rotate 3s linear infinite; }
@@ -66,6 +64,7 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
+        
         <div class="swiper-slide">
             <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800')"></div>
             <div class="mask-layer"></div>
@@ -189,6 +188,7 @@
                 <p class="sub-text">“2025的记忆已收藏，2026的精彩正待续写。”</p>
             </div>
         </div>
+
     </div>
 </div>
 
@@ -198,15 +198,24 @@
     const audio = document.getElementById('bg-audio');
     const introVideo = document.getElementById('intro-video');
 
+    // 关键：无感音频恢复函数
+    function forcePlayMusic() {
+        if (audio.paused) {
+            // 原地继续播放，不重置时间，不造成听觉突兀
+            audio.play().catch(e => console.log("等待交互唤醒"));
+        }
+    }
+
     function unlockExperience() {
-        // 1. 尝试播放音乐 (用户第一次点击)
-        audio.play().catch(e => console.log("首次唤醒失败"));
+        // 第一次明确触发
+        audio.play().catch(e => console.log("音频预唤醒"));
         
         document.getElementById('cover-page').style.opacity = '0';
         setTimeout(() => { document.getElementById('cover-page').style.display = 'none'; }, 800);
         
         const overlay = document.getElementById('video-overlay');
-        overlay.style.visibility = 'visible'; overlay.style.opacity = '1';
+        overlay.style.visibility = 'visible'; 
+        overlay.style.opacity = '1';
         
         introVideo.play();
         document.getElementById('music-control').style.display = 'block';
@@ -218,26 +227,26 @@
     }
 
     function enterBilling() {
-        // 2. 再次尝试播放音乐 (视频结束点击)
-        audio.play().catch(e => console.log("视频后恢复失败"));
-        
+        forcePlayMusic(); // 视频切换点无感检查
         document.getElementById('video-overlay').style.transform = 'translateY(-100%)';
         document.querySelector('.swiper-container').style.display = 'block';
-        mySwiper = new Swiper('.swiper-container', { direction: 'vertical', allowTouchMove: false, speed: 800 });
+        mySwiper = new Swiper('.swiper-container', { 
+            direction: 'vertical', 
+            allowTouchMove: false, 
+            speed: 800 
+        });
         setTimeout(() => { introVideo.pause(); }, 800);
     }
 
     function login() {
-        // 3. 核心修正：在登录点击时第三次强制唤醒/检查音乐
-        if (audio.paused) {
-            audio.play().catch(e => console.log("登录页唤醒失败"));
-        }
-
+        forcePlayMusic(); // 登录点击点无感检查
+        
         if (typeof allData === 'undefined') { alert("数据加载中..."); return; }
         const id = document.getElementById('workId').value.trim();
         const u = allData.users[id];
         if(!u) { alert("编号未找到"); return; }
         
+        // 数据渲染
         const total = (parseFloat(u.self||0)+parseFloat(u.zero||0)+parseFloat(u.west||0)+parseFloat(u.b6||0)+parseFloat(u.market||0)).toFixed(2);
         document.getElementById('d-total').innerText = total;
         document.getElementById('d-self').innerText = u.self;
@@ -259,7 +268,9 @@
             document.getElementById('g-west').innerText = w;
             document.getElementById('g-total').innerText = s+b+w;
         }
-        mySwiper.allowTouchMove = true; mySwiper.slideNext();
+
+        mySwiper.allowTouchMove = true; 
+        mySwiper.slideNext();
     }
 
     function toggleMusic() {
@@ -267,8 +278,8 @@
         if (audio.paused) { audio.play(); icon.classList.add('rotating'); }
         else { audio.pause(); icon.classList.remove('rotating'); }
     }
-    
-    // 微信专用静默唤醒
+
+    // 针对微信环境的特殊唤醒
     document.addEventListener("WeixinJSBridgeReady", function () {
         audio.play();
     }, false);

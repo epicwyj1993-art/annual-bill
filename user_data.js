@@ -133,7 +133,7 @@ const allData = {
         "k1805010014": {
             "name": "刘茹",
             "total": 2580.5,
-            "count": 196,
+            "count": 197,
             "self": 1927.0,
             "zero": 45.5,
             "west": 398.0,
@@ -263,7 +263,7 @@ const allData = {
         "k2405007007": {
             "name": "李美娜",
             "total": 2817.5,
-            "count": 322,
+            "count": 323,
             "self": 2281.0,
             "zero": 144.5,
             "west": 392.0,
@@ -575,7 +575,7 @@ const allData = {
         "k1306007042": {
             "name": "高洁2420",
             "total": 2497.76,
-            "count": 231,
+            "count": 232,
             "self": 2141.0,
             "zero": 65.0,
             "west": 68.0,
@@ -1095,7 +1095,7 @@ const allData = {
         "k1402001024": {
             "name": "刘峰",
             "total": 2004.4,
-            "count": 215,
+            "count": 216,
             "self": 1181.0,
             "zero": 0.0,
             "west": 121.8,
@@ -1355,7 +1355,7 @@ const allData = {
         "20160105015": {
             "name": "徐成",
             "total": 447.0,
-            "count": 68,
+            "count": 70,
             "self": 367.0,
             "zero": 51.0,
             "west": 15.0,
@@ -1446,7 +1446,7 @@ const allData = {
         "12894112": {
             "name": "宋翔飞",
             "total": 6721.93,
-            "count": 574,
+            "count": 585,
             "self": 1400.0,
             "zero": 418.5,
             "west": 20.0,
@@ -1537,7 +1537,7 @@ const allData = {
         "k1211000050": {
             "name": "陶种宁",
             "total": 3435.29,
-            "count": 274,
+            "count": 275,
             "self": 2731.0,
             "zero": 180.0,
             "west": 178.0,
@@ -1927,7 +1927,7 @@ const allData = {
         "x1905009078": {
             "name": "陈涛",
             "total": 3283.0,
-            "count": 274,
+            "count": 275,
             "self": 3175.0,
             "zero": 0.0,
             "west": 82.0,
@@ -2031,7 +2031,7 @@ const allData = {
         "k1409020058": {
             "name": "苏莹莹1026",
             "total": 2967.5,
-            "count": 232,
+            "count": 233,
             "self": 1725.0,
             "zero": 19.5,
             "west": 901.0,
@@ -2291,7 +2291,7 @@ const allData = {
         "h211122056": {
             "name": "王秋玟",
             "total": 2120.85,
-            "count": 155,
+            "count": 156,
             "self": 1810.0,
             "zero": 30.5,
             "west": 211.0,
@@ -2460,7 +2460,7 @@ const allData = {
         "x1806013009": {
             "name": "路瑜",
             "total": 4106.5,
-            "count": 349,
+            "count": 350,
             "self": 3209.0,
             "zero": 171.5,
             "west": 60.0,
@@ -2473,7 +2473,7 @@ const allData = {
         "12894109": {
             "name": "夏阳",
             "total": 10173.63,
-            "count": 505,
+            "count": 508,
             "self": 950.0,
             "zero": 186.0,
             "west": 1463.6,
@@ -2486,7 +2486,7 @@ const allData = {
         "12892851": {
             "name": "于莹",
             "total": 5537.61,
-            "count": 253,
+            "count": 272,
             "self": 159.0,
             "zero": 45.0,
             "west": 4329.0,
@@ -2551,7 +2551,7 @@ const allData = {
         "k1407019016": {
             "name": "尤婷婷",
             "total": 1028.0,
-            "count": 87,
+            "count": 88,
             "self": 696.0,
             "zero": 43.0,
             "west": 116.0,
@@ -2811,7 +2811,7 @@ const allData = {
         "20200925001": {
             "name": "董磊",
             "total": 2155.9,
-            "count": 181,
+            "count": 183,
             "self": 1627.0,
             "zero": 0.0,
             "west": 146.6,
@@ -3123,7 +3123,7 @@ const allData = {
         "k1311014023": {
             "name": "施亚玲",
             "total": 3635.0,
-            "count": 276,
+            "count": 279,
             "self": 3408.0,
             "zero": 63.0,
             "west": 59.0,
@@ -3253,7 +3253,7 @@ const allData = {
         "x1609012005": {
             "name": "丁晨",
             "total": 1366.0,
-            "count": 98,
+            "count": 100,
             "self": 896.0,
             "zero": 0.0,
             "west": 470.0,
@@ -3656,7 +3656,7 @@ const allData = {
         "k1403004013": {
             "name": "葛飞宇",
             "total": 2052.5,
-            "count": 241,
+            "count": 243,
             "self": 1184.0,
             "zero": 10.5,
             "west": 157.0,
@@ -3955,7 +3955,7 @@ const allData = {
         "x1601001002": {
             "name": "季洁",
             "total": 2902.5,
-            "count": 263,
+            "count": 264,
             "self": 2435.0,
             "zero": 100.5,
             "west": 77.0,
@@ -3981,7 +3981,7 @@ const allData = {
         "k1504003062": {
             "name": "於文",
             "total": 2305.0,
-            "count": 204,
+            "count": 206,
             "self": 2228.0,
             "zero": 77.0,
             "west": 0.0,
@@ -4085,7 +4085,7 @@ const allData = {
         "x1807014003": {
             "name": "吴信奎",
             "total": 4437.5,
-            "count": 376,
+            "count": 377,
             "self": 2588.0,
             "zero": 224.0,
             "west": 252.5,
@@ -4098,7 +4098,7 @@ const allData = {
         "x1406013005": {
             "name": "沈广韩",
             "total": 2504.0,
-            "count": 203,
+            "count": 206,
             "self": 1885.0,
             "zero": 0.0,
             "west": 325.0,
@@ -4124,7 +4124,7 @@ const allData = {
         "x1706012093": {
             "name": "陈晓庆",
             "total": 3419.0,
-            "count": 287,
+            "count": 288,
             "self": 3119.0,
             "zero": 35.0,
             "west": 126.0,
@@ -4332,7 +4332,7 @@ const allData = {
         "k1103000024": {
             "name": "陈定乐",
             "total": 1661.0,
-            "count": 159,
+            "count": 160,
             "self": 814.0,
             "zero": 0.0,
             "west": 346.0,
@@ -4358,7 +4358,7 @@ const allData = {
         "k1702002024": {
             "name": "上官富健",
             "total": 1783.0,
-            "count": 140,
+            "count": 141,
             "self": 1783.0,
             "zero": 0.0,
             "west": 0.0,
@@ -4540,7 +4540,7 @@ const allData = {
         "k2411013037": {
             "name": "蒋琳",
             "total": 3173.3,
-            "count": 266,
+            "count": 267,
             "self": 2729.0,
             "zero": 10.5,
             "west": 292.8,
@@ -4553,7 +4553,7 @@ const allData = {
         "k2411013049": {
             "name": "张红红",
             "total": 3792.5,
-            "count": 340,
+            "count": 341,
             "self": 2775.0,
             "zero": 111.5,
             "west": 337.0,
@@ -5086,7 +5086,7 @@ const allData = {
         "20200422001": {
             "name": "蒋静波",
             "total": 2100.5,
-            "count": 251,
+            "count": 254,
             "self": 550.0,
             "zero": 152.5,
             "west": 301.0,
@@ -5190,7 +5190,7 @@ const allData = {
         "k1103000004": {
             "name": "谈磊",
             "total": 2515.2,
-            "count": 269,
+            "count": 270,
             "self": 2436.0,
             "zero": 0.0,
             "west": 48.0,
@@ -5242,7 +5242,7 @@ const allData = {
         "k1512007030": {
             "name": "秦赟",
             "total": 2417.0,
-            "count": 235,
+            "count": 236,
             "self": 1429.0,
             "zero": 162.0,
             "west": 242.0,
@@ -5268,7 +5268,7 @@ const allData = {
         "x1704006130": {
             "name": "李超3318",
             "total": 1821.1,
-            "count": 254,
+            "count": 255,
             "self": 1576.0,
             "zero": 10.5,
             "west": 195.6,
@@ -5593,7 +5593,7 @@ const allData = {
         "k2106001009": {
             "name": "高洁",
             "total": 3356.5,
-            "count": 226,
+            "count": 227,
             "self": 1719.0,
             "zero": 292.5,
             "west": 856.0,
@@ -5619,7 +5619,7 @@ const allData = {
         "x1608010126": {
             "name": "耿宏强",
             "total": 4300.0,
-            "count": 336,
+            "count": 338,
             "self": 2868.0,
             "zero": 66.0,
             "west": 306.0,
@@ -5645,7 +5645,7 @@ const allData = {
         "k1011000029": {
             "name": "张乐3429",
             "total": 2419.5,
-            "count": 172,
+            "count": 173,
             "self": 538.0,
             "zero": 86.5,
             "west": 524.0,
@@ -5658,7 +5658,7 @@ const allData = {
         "20200602001": {
             "name": "张邵玲",
             "total": 636.0,
-            "count": 69,
+            "count": 71,
             "self": 308.0,
             "zero": 174.0,
             "west": 103.0,
@@ -5788,7 +5788,7 @@ const allData = {
         "k2411013042": {
             "name": "彭发兰",
             "total": 5876.0,
-            "count": 558,
+            "count": 559,
             "self": 5216.0,
             "zero": 322.0,
             "west": 0.0,
@@ -5944,7 +5944,7 @@ const allData = {
         "20171227001": {
             "name": "谢瑞楠",
             "total": 2560.5,
-            "count": 351,
+            "count": 353,
             "self": 1308.0,
             "zero": 360.5,
             "west": 47.0,
@@ -5996,7 +5996,7 @@ const allData = {
         "x1608010134": {
             "name": "褚格格",
             "total": 2854.9,
-            "count": 208,
+            "count": 209,
             "self": 1448.0,
             "zero": 134.5,
             "west": 773.4,
@@ -6113,7 +6113,7 @@ const allData = {
         "k1801002002": {
             "name": "朱自成",
             "total": 3459.5,
-            "count": 288,
+            "count": 289,
             "self": 3133.0,
             "zero": 42.5,
             "west": 247.0,
@@ -6165,7 +6165,7 @@ const allData = {
         "x1801004024": {
             "name": "曹小嫚",
             "total": 957.3,
-            "count": 86,
+            "count": 87,
             "self": 362.0,
             "zero": 61.5,
             "west": 206.4,
@@ -6282,7 +6282,7 @@ const allData = {
         "k1106000010": {
             "name": "刘芸",
             "total": 3050.23,
-            "count": 265,
+            "count": 266,
             "self": 2181.0,
             "zero": 110.0,
             "west": 394.1,
@@ -6711,7 +6711,7 @@ const allData = {
         "20250116001": {
             "name": "杨念红",
             "total": 1659.0,
-            "count": 218,
+            "count": 224,
             "self": 1649.0,
             "zero": 0.0,
             "west": 0.0,
@@ -6724,7 +6724,7 @@ const allData = {
         "k1208000010": {
             "name": "张欣辰",
             "total": 2551.89,
-            "count": 284,
+            "count": 285,
             "self": 1495.0,
             "zero": 15.0,
             "west": 130.0,
@@ -6737,7 +6737,7 @@ const allData = {
         "k1708017013": {
             "name": "杨芳",
             "total": 2543.73,
-            "count": 240,
+            "count": 242,
             "self": 1250.0,
             "zero": 0.0,
             "west": 104.0,
@@ -7556,7 +7556,7 @@ const allData = {
         "12892831": {
             "name": "吴雷",
             "total": 5070.21,
-            "count": 317,
+            "count": 332,
             "self": 1686.0,
             "zero": 28.0,
             "west": 1287.0,
@@ -7608,7 +7608,7 @@ const allData = {
         "12892838": {
             "name": "韩潇潇",
             "total": 10546.87,
-            "count": 539,
+            "count": 550,
             "self": 747.0,
             "zero": 345.0,
             "west": 2572.8,
@@ -7621,7 +7621,7 @@ const allData = {
         "12894106": {
             "name": "陈雪嵩",
             "total": 11699.15,
-            "count": 165,
+            "count": 175,
             "self": 500.0,
             "zero": 0.0,
             "west": 529.0,
@@ -7816,7 +7816,7 @@ const allData = {
         "k1706013008": {
             "name": "李亚腾",
             "total": 2537.0,
-            "count": 198,
+            "count": 199,
             "self": 2304.0,
             "zero": 44.0,
             "west": 137.0,
@@ -7907,7 +7907,7 @@ const allData = {
         "k2411013017": {
             "name": "王迪",
             "total": 1608.5,
-            "count": 177,
+            "count": 178,
             "self": 973.0,
             "zero": 75.5,
             "west": 52.0,
@@ -8063,7 +8063,7 @@ const allData = {
         "x1705009031": {
             "name": "李柄含",
             "total": 1890.0,
-            "count": 155,
+            "count": 156,
             "self": 1683.0,
             "zero": 0.0,
             "west": 52.0,
@@ -8154,7 +8154,7 @@ const allData = {
         "k1203000016": {
             "name": "高丰",
             "total": 450.0,
-            "count": 33,
+            "count": 34,
             "self": 88.0,
             "zero": 0.0,
             "west": 81.0,
@@ -8167,7 +8167,7 @@ const allData = {
         "k1307010021": {
             "name": "林琳",
             "total": 1231.0,
-            "count": 128,
+            "count": 129,
             "self": 522.0,
             "zero": 0.0,
             "west": 190.0,
@@ -8193,7 +8193,7 @@ const allData = {
         "x1705009061": {
             "name": "湛佩雯",
             "total": 2044.0,
-            "count": 172,
+            "count": 173,
             "self": 1879.0,
             "zero": 0.0,
             "west": 0.0,
@@ -8245,7 +8245,7 @@ const allData = {
         "k1810016019": {
             "name": "王越",
             "total": 3347.19,
-            "count": 279,
+            "count": 280,
             "self": 1531.0,
             "zero": 213.0,
             "west": 657.0,
@@ -8375,7 +8375,7 @@ const allData = {
         "wangdianfang": {
             "name": "王殿芳",
             "total": 753.0,
-            "count": 126,
+            "count": 128,
             "self": 577.0,
             "zero": 0.0,
             "west": 103.0,
@@ -8570,7 +8570,7 @@ const allData = {
         "k1304005025": {
             "name": "薛慧媛",
             "total": 2887.0,
-            "count": 209,
+            "count": 213,
             "self": 749.0,
             "zero": 43.0,
             "west": 1741.0,
@@ -8921,7 +8921,7 @@ const allData = {
         "k1406012041": {
             "name": "王梅",
             "total": 3815.5,
-            "count": 383,
+            "count": 384,
             "self": 3632.0,
             "zero": 163.5,
             "west": 0.0,
@@ -8973,7 +8973,7 @@ const allData = {
         "x1406014038": {
             "name": "甄婉琦",
             "total": 1440.04,
-            "count": 137,
+            "count": 139,
             "self": 1162.0,
             "zero": 0.0,
             "west": 144.0,
@@ -9025,7 +9025,7 @@ const allData = {
         "k1712021010": {
             "name": "王佳伟",
             "total": 3026.5,
-            "count": 237,
+            "count": 239,
             "self": 2501.0,
             "zero": 43.5,
             "west": 15.0,
@@ -9220,7 +9220,7 @@ const allData = {
         "x1403003002": {
             "name": "戴雨佩",
             "total": 874.5,
-            "count": 106,
+            "count": 107,
             "self": 615.0,
             "zero": 44.5,
             "west": 90.0,
@@ -9285,7 +9285,7 @@ const allData = {
         "x1512006001": {
             "name": "顾雪",
             "total": 1679.6,
-            "count": 147,
+            "count": 149,
             "self": 1081.0,
             "zero": 0.0,
             "west": 498.6,
@@ -9467,7 +9467,7 @@ const allData = {
         "k1211000016": {
             "name": "祁婧雅",
             "total": 2123.8,
-            "count": 140,
+            "count": 141,
             "self": 1048.0,
             "zero": 65.0,
             "west": 590.8,
@@ -9519,7 +9519,7 @@ const allData = {
         "K1504003039": {
             "name": "赵蓉",
             "total": 908.0,
-            "count": 77,
+            "count": 78,
             "self": 852.0,
             "zero": 0.0,
             "west": 56.0,
@@ -9857,7 +9857,7 @@ const allData = {
         "x1405011035": {
             "name": "董珊珊",
             "total": 2166.98,
-            "count": 162,
+            "count": 163,
             "self": 1267.0,
             "zero": 80.5,
             "west": 316.0,
@@ -9987,7 +9987,7 @@ const allData = {
         "k1406012028": {
             "name": "刘韵鸣",
             "total": 2211.5,
-            "count": 186,
+            "count": 187,
             "self": 1653.0,
             "zero": 9.5,
             "west": 96.0,
@@ -10026,7 +10026,7 @@ const allData = {
         "luoguixia": {
             "name": "徐燕迁",
             "total": 1420.0,
-            "count": 170,
+            "count": 171,
             "self": 1222.0,
             "zero": 17.0,
             "west": 40.0,
@@ -10052,7 +10052,7 @@ const allData = {
         "k1912001018": {
             "name": "马玲",
             "total": 3327.0,
-            "count": 253,
+            "count": 254,
             "self": 2328.0,
             "zero": 474.0,
             "west": 176.0,
@@ -10156,7 +10156,7 @@ const allData = {
         "k1203000012": {
             "name": "李艺",
             "total": 2249.4,
-            "count": 116,
+            "count": 117,
             "self": 510.0,
             "zero": 37.5,
             "west": 842.0,
@@ -10247,7 +10247,7 @@ const allData = {
         "k1010000045": {
             "name": "严妍2020",
             "total": 2159.5,
-            "count": 167,
+            "count": 168,
             "self": 1113.0,
             "zero": 150.5,
             "west": 723.0,
@@ -10312,7 +10312,7 @@ const allData = {
         "k1010000052": {
             "name": "李雪",
             "total": 2038.2,
-            "count": 217,
+            "count": 218,
             "self": 1358.0,
             "zero": 25.5,
             "west": 481.7,
@@ -10351,7 +10351,7 @@ const allData = {
         "x1405009024": {
             "name": "邵圆圆",
             "total": 2715.5,
-            "count": 218,
+            "count": 219,
             "self": 1710.0,
             "zero": 90.5,
             "west": 63.0,
@@ -10364,7 +10364,7 @@ const allData = {
         "k1809015028": {
             "name": "阮玲玲",
             "total": 1809.2,
-            "count": 97,
+            "count": 98,
             "self": 638.0,
             "zero": 0.0,
             "west": 437.0,
@@ -10442,7 +10442,7 @@ const allData = {
         "k1010000020": {
             "name": "严星",
             "total": 4227.11,
-            "count": 384,
+            "count": 385,
             "self": 1701.0,
             "zero": 173.5,
             "west": 536.3,
@@ -10455,7 +10455,7 @@ const allData = {
         "k1402002060": {
             "name": "潘静",
             "total": 4162.96,
-            "count": 329,
+            "count": 330,
             "self": 1072.0,
             "zero": 293.5,
             "west": 785.5,
@@ -10507,7 +10507,7 @@ const allData = {
         "k1212000008": {
             "name": "朱海燕",
             "total": 2783.0,
-            "count": 311,
+            "count": 314,
             "self": 1349.0,
             "zero": 226.0,
             "west": 263.0,
@@ -10533,7 +10533,7 @@ const allData = {
         "k1010000009": {
             "name": "唐俊敏",
             "total": 2086.7,
-            "count": 208,
+            "count": 210,
             "self": 388.0,
             "zero": 314.0,
             "west": 194.0,
@@ -10572,7 +10572,7 @@ const allData = {
         "k1103000025": {
             "name": "吉耀芹",
             "total": 1259.5,
-            "count": 209,
+            "count": 211,
             "self": 955.0,
             "zero": 296.5,
             "west": 8.0,
@@ -10598,7 +10598,7 @@ const allData = {
         "k1011000031": {
             "name": "伏婷",
             "total": 1389.5,
-            "count": 196,
+            "count": 198,
             "self": 151.0,
             "zero": 178.0,
             "west": 43.0,
@@ -10611,7 +10611,7 @@ const allData = {
         "k1509005061": {
             "name": "李欢3329",
             "total": 1638.17,
-            "count": 226,
+            "count": 227,
             "self": 1125.0,
             "zero": 13.5,
             "west": 288.8,
@@ -10624,7 +10624,7 @@ const allData = {
         "k1407019052": {
             "name": "芮开红",
             "total": 4243.79,
-            "count": 354,
+            "count": 356,
             "self": 1010.0,
             "zero": 357.5,
             "west": 796.5,
@@ -10754,7 +10754,7 @@ const allData = {
         "k1106000008": {
             "name": "陈茜3725",
             "total": 670.5,
-            "count": 139,
+            "count": 143,
             "self": 468.0,
             "zero": 0.0,
             "west": 151.5,
@@ -10858,7 +10858,7 @@ const allData = {
         "K1312015041": {
             "name": "李楚",
             "total": 250.0,
-            "count": 48,
+            "count": 50,
             "self": 235.0,
             "zero": 0.0,
             "west": 0.0,
@@ -10910,7 +10910,7 @@ const allData = {
         "12892862": {
             "name": "吴璟",
             "total": 9027.15,
-            "count": 369,
+            "count": 380,
             "self": 225.0,
             "zero": 501.5,
             "west": 88.8,
@@ -10923,7 +10923,7 @@ const allData = {
         "k1406013028": {
             "name": "徐静2124",
             "total": 1636.5,
-            "count": 225,
+            "count": 226,
             "self": 533.0,
             "zero": 208.5,
             "west": 51.0,
@@ -10949,7 +10949,7 @@ const allData = {
         "k1611014002": {
             "name": "李梦瑶",
             "total": 2401.04,
-            "count": 213,
+            "count": 217,
             "self": 690.0,
             "zero": 8.5,
             "west": 626.3,
@@ -10962,7 +10962,7 @@ const allData = {
         "x1403004018": {
             "name": "杨楠",
             "total": 3629.4,
-            "count": 247,
+            "count": 250,
             "self": 3311.0,
             "zero": 237.5,
             "west": 35.5,
@@ -10975,7 +10975,7 @@ const allData = {
         "x1402002095": {
             "name": "盛加婷",
             "total": 1318.59,
-            "count": 98,
+            "count": 99,
             "self": 200.0,
             "zero": 128.0,
             "west": 259.0,
@@ -10988,7 +10988,7 @@ const allData = {
         "k1211000062": {
             "name": "杨小慧",
             "total": 1984.96,
-            "count": 223,
+            "count": 228,
             "self": 63.0,
             "zero": 231.0,
             "west": 316.3,
@@ -11001,7 +11001,7 @@ const allData = {
         "k1702002044": {
             "name": "甘左龙",
             "total": 2790.6,
-            "count": 231,
+            "count": 232,
             "self": 1807.0,
             "zero": 136.0,
             "west": 577.6,
@@ -11014,7 +11014,7 @@ const allData = {
         "k1801001001": {
             "name": "黄虹",
             "total": 4023.9,
-            "count": 447,
+            "count": 450,
             "self": 3049.0,
             "zero": 138.0,
             "west": 508.9,
@@ -11027,7 +11027,7 @@ const allData = {
         "x1606003009": {
             "name": "缪阿慧",
             "total": 3712.5,
-            "count": 361,
+            "count": 364,
             "self": 2670.0,
             "zero": 224.5,
             "west": 204.0,
@@ -11053,7 +11053,7 @@ const allData = {
         "x1407018004": {
             "name": "王雪苗",
             "total": 4366.86,
-            "count": 420,
+            "count": 421,
             "self": 2176.0,
             "zero": 286.0,
             "west": 1442.6,
@@ -11092,7 +11092,7 @@ const allData = {
         "k1211000006": {
             "name": "吕彬",
             "total": 1168.0,
-            "count": 154,
+            "count": 155,
             "self": 1100.0,
             "zero": 0.0,
             "west": 68.0,
@@ -11222,7 +11222,7 @@ const allData = {
         "k1011000022": {
             "name": "余丽娜",
             "total": 266.5,
-            "count": 23,
+            "count": 25,
             "self": 35.0,
             "zero": 138.5,
             "west": 25.0,
@@ -11313,7 +11313,7 @@ const allData = {
         "k1011000028": {
             "name": "金晶0022",
             "total": 2178.3,
-            "count": 200,
+            "count": 203,
             "self": 700.0,
             "zero": 225.0,
             "west": 455.0,
@@ -11339,7 +11339,7 @@ const allData = {
         "12892837": {
             "name": "陈敏耀",
             "total": 10883.63,
-            "count": 323,
+            "count": 332,
             "self": 1345.0,
             "zero": 17.0,
             "west": 1336.6,
@@ -11352,7 +11352,7 @@ const allData = {
         "k1010000027": {
             "name": "王婧雅",
             "total": 2470.5,
-            "count": 187,
+            "count": 188,
             "self": 720.0,
             "zero": 250.5,
             "west": 1081.0,
@@ -11378,7 +11378,7 @@ const allData = {
         "k1203000002": {
             "name": "聂文超",
             "total": 3654.8,
-            "count": 226,
+            "count": 227,
             "self": 758.0,
             "zero": 340.0,
             "west": 1718.8,
@@ -11430,7 +11430,7 @@ const allData = {
         "k1306008034": {
             "name": "夏燕",
             "total": 103.0,
-            "count": 10,
+            "count": 11,
             "self": 20.0,
             "zero": 0.0,
             "west": 20.0,
@@ -11456,7 +11456,7 @@ const allData = {
         "k1011000034": {
             "name": "卢瑩",
             "total": 1516.69,
-            "count": 115,
+            "count": 119,
             "self": 233.0,
             "zero": 49.0,
             "west": 1097.0,
@@ -11482,7 +11482,7 @@ const allData = {
         "k1402002081": {
             "name": "聂婉婉",
             "total": 2659.66,
-            "count": 295,
+            "count": 296,
             "self": 1662.0,
             "zero": 26.0,
             "west": 707.8,
@@ -11508,7 +11508,7 @@ const allData = {
         "x1406014027": {
             "name": "史惠芳",
             "total": 3578.5,
-            "count": 440,
+            "count": 442,
             "self": 1668.0,
             "zero": 357.5,
             "west": 455.0,
@@ -11547,7 +11547,7 @@ const allData = {
         "k1301000004": {
             "name": "崔卿姿",
             "total": 1655.8,
-            "count": 201,
+            "count": 205,
             "self": 390.0,
             "zero": 259.5,
             "west": 174.3,
@@ -11573,7 +11573,7 @@ const allData = {
         "k1402002159": {
             "name": "周冰清",
             "total": 2376.6,
-            "count": 188,
+            "count": 192,
             "self": 1238.0,
             "zero": 138.5,
             "west": 886.1,
@@ -11638,7 +11638,7 @@ const allData = {
         "x1704006027": {
             "name": "张文文",
             "total": 3112.5,
-            "count": 229,
+            "count": 230,
             "self": 2651.0,
             "zero": 93.5,
             "west": 56.0,
@@ -11703,7 +11703,7 @@ const allData = {
         "k1403003030": {
             "name": "桂芳",
             "total": 145.0,
-            "count": 11,
+            "count": 13,
             "self": 21.0,
             "zero": 0.0,
             "west": 124.0,
@@ -11742,7 +11742,7 @@ const allData = {
         "k1504002094": {
             "name": "丁晓风",
             "total": 3474.66,
-            "count": 317,
+            "count": 320,
             "self": 1825.0,
             "zero": 240.0,
             "west": 804.0,
@@ -11937,7 +11937,7 @@ const allData = {
         "k2109004006": {
             "name": "谢玉",
             "total": 2375.54,
-            "count": 247,
+            "count": 249,
             "self": 1982.0,
             "zero": 63.0,
             "west": 181.0,
@@ -11950,7 +11950,7 @@ const allData = {
         "12892860": {
             "name": "王艳",
             "total": 6270.78,
-            "count": 446,
+            "count": 464,
             "self": 1228.0,
             "zero": 248.0,
             "west": 86.0,
@@ -11963,7 +11963,7 @@ const allData = {
         "x1705009009": {
             "name": "顾媛媛",
             "total": 1353.0,
-            "count": 110,
+            "count": 111,
             "self": 1286.0,
             "zero": 0.0,
             "west": 61.0,
@@ -11989,7 +11989,7 @@ const allData = {
         "x1402002119": {
             "name": "朱蓉芳",
             "total": 2700.8,
-            "count": 203,
+            "count": 204,
             "self": 1783.0,
             "zero": 45.0,
             "west": 292.0,
@@ -12067,7 +12067,7 @@ const allData = {
         "k1211000015": {
             "name": "徐婧",
             "total": 3552.6,
-            "count": 425,
+            "count": 426,
             "self": 1650.0,
             "zero": 292.0,
             "west": 894.6,
@@ -12145,7 +12145,7 @@ const allData = {
         "k1407015017": {
             "name": "尹静玉",
             "total": 25.0,
-            "count": 4,
+            "count": 5,
             "self": 5.0,
             "zero": 0.0,
             "west": 20.0,
@@ -12158,7 +12158,7 @@ const allData = {
         "k1406012005": {
             "name": "蔡艳梅",
             "total": 1689.5,
-            "count": 132,
+            "count": 133,
             "self": 1472.0,
             "zero": 0.0,
             "west": 86.5,
@@ -12470,7 +12470,7 @@ const allData = {
         "20230901001": {
             "name": "杨成",
             "total": 1926.1,
-            "count": 307,
+            "count": 310,
             "self": 1605.0,
             "zero": 9.5,
             "west": 189.6,
@@ -12535,7 +12535,7 @@ const allData = {
         "k1405008040": {
             "name": "徐伟子",
             "total": 3163.4,
-            "count": 292,
+            "count": 295,
             "self": 705.0,
             "zero": 324.5,
             "west": 1022.9,
@@ -12548,7 +12548,7 @@ const allData = {
         "k1311014011": {
             "name": "魏仙",
             "total": 2917.0,
-            "count": 208,
+            "count": 209,
             "self": 1973.0,
             "zero": 30.0,
             "west": 397.0,
@@ -12561,7 +12561,7 @@ const allData = {
         "K1307012013": {
             "name": "夏娟",
             "total": 2870.3,
-            "count": 290,
+            "count": 292,
             "self": 1304.0,
             "zero": 186.0,
             "west": 225.0,
@@ -12587,7 +12587,7 @@ const allData = {
         "K1211000028": {
             "name": "陈春晓",
             "total": 1693.5,
-            "count": 127,
+            "count": 128,
             "self": 449.0,
             "zero": 271.5,
             "west": 194.0,
@@ -12626,7 +12626,7 @@ const allData = {
         "12892865": {
             "name": "陈高月",
             "total": 6279.69,
-            "count": 333,
+            "count": 346,
             "self": 160.0,
             "zero": 850.0,
             "west": 1077.3,
@@ -12639,7 +12639,7 @@ const allData = {
         "12894153": {
             "name": "李小芳",
             "total": 5253.96,
-            "count": 367,
+            "count": 382,
             "self": 1129.0,
             "zero": 367.0,
             "west": 1158.0,
@@ -12652,7 +12652,7 @@ const allData = {
         "k1504002122": {
             "name": "章韵",
             "total": 1628.0,
-            "count": 112,
+            "count": 115,
             "self": 444.0,
             "zero": 0.0,
             "west": 724.0,
@@ -12912,7 +12912,7 @@ const allData = {
         "k1801002001": {
             "name": "王露",
             "total": 2991.18,
-            "count": 309,
+            "count": 312,
             "self": 954.0,
             "zero": 167.0,
             "west": 500.3,
@@ -13016,7 +13016,7 @@ const allData = {
         "k1512007040": {
             "name": "钟雨薇",
             "total": 3572.3,
-            "count": 267,
+            "count": 269,
             "self": 2338.0,
             "zero": 387.0,
             "west": 765.3,
@@ -13198,7 +13198,7 @@ const allData = {
         "x1801004005": {
             "name": "尹子堃",
             "total": 3030.3,
-            "count": 241,
+            "count": 242,
             "self": 2104.0,
             "zero": 404.5,
             "west": 426.8,
@@ -13289,7 +13289,7 @@ const allData = {
         "k1811018007": {
             "name": "夏梦雨",
             "total": 1389.0,
-            "count": 129,
+            "count": 130,
             "self": 1344.0,
             "zero": 24.0,
             "west": 21.0,
@@ -13562,7 +13562,7 @@ const allData = {
         "k2404005004": {
             "name": "周之正",
             "total": 3346.0,
-            "count": 239,
+            "count": 240,
             "self": 2126.0,
             "zero": 306.5,
             "west": 248.5,
@@ -13835,7 +13835,7 @@ const allData = {
         "12892852": {
             "name": "王宝卿",
             "total": 9977.64,
-            "count": 547,
+            "count": 550,
             "self": 2168.0,
             "zero": 737.5,
             "west": 1179.5,
@@ -13848,13 +13848,13 @@ const allData = {
         "12892849": {
             "name": "严文昊",
             "total": 2055.21,
-            "count": 22,
+            "count": 26,
             "self": 15.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 2040.21,
-            "earliest": "2025-08-05 11:53:55",
+            "earliest": "2025-06-12 10:19:49",
             "latest": "2025-06-27 19:45:09",
             "favorite": "超市"
         },
@@ -13913,7 +13913,7 @@ const allData = {
         "x1402002085": {
             "name": "高倩0023",
             "total": 1251.0,
-            "count": 173,
+            "count": 178,
             "self": 871.0,
             "zero": 0.0,
             "west": 25.0,
@@ -14147,7 +14147,7 @@ const allData = {
         "k1905008016": {
             "name": "井庆帅",
             "total": 1936.0,
-            "count": 207,
+            "count": 208,
             "self": 1219.0,
             "zero": 71.5,
             "west": 216.5,
@@ -14173,7 +14173,7 @@ const allData = {
         "20211115001": {
             "name": "朱平",
             "total": 462.2,
-            "count": 47,
+            "count": 52,
             "self": 150.0,
             "zero": 0.0,
             "west": 200.0,
@@ -14420,14 +14420,14 @@ const allData = {
         "k1402002168": {
             "name": "孙伟剑",
             "total": 4067.5,
-            "count": 410,
+            "count": 412,
             "self": 3865.0,
             "zero": 62.5,
             "west": 140.0,
             "b6": 0.0,
             "market": 0.0,
             "earliest": "2025-06-05 07:16:55",
-            "latest": "2025-03-07 12:23:43",
+            "latest": "2025-06-03 13:58:50",
             "favorite": "4号餐厅"
         },
         "x1805010013": {
@@ -14446,7 +14446,7 @@ const allData = {
         "k1404006077": {
             "name": "王开庄",
             "total": 1314.0,
-            "count": 114,
+            "count": 116,
             "self": 1022.0,
             "zero": 32.0,
             "west": 85.0,
@@ -14459,7 +14459,7 @@ const allData = {
         "k1404006027": {
             "name": "赵辰钰",
             "total": 4016.0,
-            "count": 375,
+            "count": 377,
             "self": 3455.0,
             "zero": 467.0,
             "west": 94.0,
@@ -14485,7 +14485,7 @@ const allData = {
         "k1307012053": {
             "name": "郝翎言",
             "total": 2890.68,
-            "count": 227,
+            "count": 229,
             "self": 818.0,
             "zero": 183.5,
             "west": 1020.0,
@@ -14511,7 +14511,7 @@ const allData = {
         "12894173": {
             "name": "高乐",
             "total": 7913.41,
-            "count": 337,
+            "count": 345,
             "self": 234.0,
             "zero": 420.0,
             "west": 794.0,
@@ -14537,7 +14537,7 @@ const allData = {
         "k1010000062": {
             "name": "黄燕3221",
             "total": 4358.2,
-            "count": 422,
+            "count": 424,
             "self": 4055.0,
             "zero": 198.0,
             "west": 53.2,
@@ -14563,7 +14563,7 @@ const allData = {
         "k1509005130": {
             "name": "殷丽新",
             "total": 4028.33,
-            "count": 496,
+            "count": 497,
             "self": 1950.0,
             "zero": 294.5,
             "west": 312.0,
@@ -14602,7 +14602,7 @@ const allData = {
         "k1307010039": {
             "name": "郑欣",
             "total": 1856.77,
-            "count": 174,
+            "count": 175,
             "self": 1259.0,
             "zero": 19.0,
             "west": 301.0,
@@ -14615,7 +14615,7 @@ const allData = {
         "k1405008027": {
             "name": "焦琴",
             "total": 2870.05,
-            "count": 232,
+            "count": 234,
             "self": 825.0,
             "zero": 30.5,
             "west": 850.3,
@@ -14641,7 +14641,7 @@ const allData = {
         "k1011000027": {
             "name": "陈洁倩",
             "total": 3004.1,
-            "count": 199,
+            "count": 200,
             "self": 1646.0,
             "zero": 57.0,
             "west": 796.8,
@@ -14654,7 +14654,7 @@ const allData = {
         "k1608008046": {
             "name": "施秀文",
             "total": 3673.54,
-            "count": 315,
+            "count": 317,
             "self": 1555.0,
             "zero": 91.5,
             "west": 270.8,
@@ -14680,7 +14680,7 @@ const allData = {
         "x1609012014": {
             "name": "陈妍妍",
             "total": 1856.0,
-            "count": 227,
+            "count": 228,
             "self": 1431.0,
             "zero": 212.0,
             "west": 52.0,
@@ -14706,7 +14706,7 @@ const allData = {
         "k1407017072": {
             "name": "薛列亮",
             "total": 3308.0,
-            "count": 290,
+            "count": 292,
             "self": 2695.0,
             "zero": 0.0,
             "west": 202.0,
@@ -14758,7 +14758,7 @@ const allData = {
         "k1703003024": {
             "name": "郭佳佳",
             "total": 390.0,
-            "count": 50,
+            "count": 51,
             "self": 355.0,
             "zero": 0.0,
             "west": 35.0,
@@ -14784,7 +14784,7 @@ const allData = {
         "k1907001037": {
             "name": "陈善琪",
             "total": 2437.0,
-            "count": 183,
+            "count": 186,
             "self": 1319.0,
             "zero": 133.5,
             "west": 828.5,
@@ -14810,7 +14810,7 @@ const allData = {
         "k2207002002": {
             "name": "王颖",
             "total": 3455.5,
-            "count": 236,
+            "count": 237,
             "self": 2446.0,
             "zero": 236.5,
             "west": 324.0,
@@ -14823,7 +14823,7 @@ const allData = {
         "k1405009050": {
             "name": "童雅娟",
             "total": 3378.1,
-            "count": 391,
+            "count": 392,
             "self": 2316.0,
             "zero": 84.5,
             "west": 808.6,
@@ -14875,20 +14875,20 @@ const allData = {
         "k1504002002": {
             "name": "乐虹",
             "total": 17.0,
-            "count": 4,
+            "count": 5,
             "self": 5.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 12.0,
             "market": 0.0,
             "earliest": "2025-01-28 07:46:13",
-            "latest": "2025-04-03 11:35:16",
+            "latest": "2025-03-06 13:37:16",
             "favorite": "5号餐厅"
         },
         "k2207002005": {
             "name": "李咏",
             "total": 2546.8,
-            "count": 189,
+            "count": 190,
             "self": 1955.0,
             "zero": 35.5,
             "west": 370.0,
@@ -15018,7 +15018,7 @@ const allData = {
         "k1305006003": {
             "name": "傅娟娟",
             "total": 2971.0,
-            "count": 358,
+            "count": 359,
             "self": 710.0,
             "zero": 294.0,
             "west": 265.0,
@@ -15044,7 +15044,7 @@ const allData = {
         "k1608009029": {
             "name": "杨刚",
             "total": 2692.6,
-            "count": 234,
+            "count": 235,
             "self": 2549.0,
             "zero": 38.0,
             "west": 36.6,
@@ -15109,14 +15109,14 @@ const allData = {
         "k1211000005": {
             "name": "周莹莹",
             "total": 0.0,
-            "count": 1,
+            "count": 2,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 0.0,
             "earliest": "2025-01-28 11:10:06",
-            "latest": "2025-01-28 11:10:06",
+            "latest": "2025-07-15 12:35:20",
             "favorite": "4号餐厅"
         },
         "k1910002008": {
@@ -15135,7 +15135,7 @@ const allData = {
         "k1504003032": {
             "name": "杨庆荣",
             "total": 2905.4,
-            "count": 237,
+            "count": 238,
             "self": 2256.0,
             "zero": 31.5,
             "west": 534.0,
@@ -15278,7 +15278,7 @@ const allData = {
         "k1407016053": {
             "name": "芮吉祥",
             "total": 2909.0,
-            "count": 240,
+            "count": 243,
             "self": 2843.0,
             "zero": 0.0,
             "west": 55.0,
@@ -15590,7 +15590,7 @@ const allData = {
         "x1402002088": {
             "name": "侯露露",
             "total": 1663.0,
-            "count": 206,
+            "count": 207,
             "self": 1233.0,
             "zero": 0.0,
             "west": 290.0,
@@ -15811,7 +15811,7 @@ const allData = {
         "k1310013023": {
             "name": "李智恩",
             "total": 10453.3,
-            "count": 1102,
+            "count": 1105,
             "self": 8046.0,
             "zero": 124.0,
             "west": 1877.0,
@@ -15824,7 +15824,7 @@ const allData = {
         "12894121": {
             "name": "王一夔",
             "total": 6993.38,
-            "count": 270,
+            "count": 282,
             "self": 90.0,
             "zero": 0.0,
             "west": 463.0,
@@ -15876,7 +15876,7 @@ const allData = {
         "12894087": {
             "name": "周琰",
             "total": 6389.0,
-            "count": 107,
+            "count": 119,
             "self": 312.0,
             "zero": 180.5,
             "west": 328.8,
@@ -15889,7 +15889,7 @@ const allData = {
         "12894111": {
             "name": "陈华平",
             "total": 10636.4,
-            "count": 404,
+            "count": 408,
             "self": 921.0,
             "zero": 868.0,
             "west": 1204.0,
@@ -15915,7 +15915,7 @@ const allData = {
         "102001": {
             "name": "寇建涛",
             "total": 7441.44,
-            "count": 454,
+            "count": 469,
             "self": 796.0,
             "zero": 15.5,
             "west": 5425.0,
@@ -15928,7 +15928,7 @@ const allData = {
         "30054221": {
             "name": "李栅栅",
             "total": 10859.64,
-            "count": 369,
+            "count": 376,
             "self": 833.0,
             "zero": 462.5,
             "west": 776.0,
@@ -15941,7 +15941,7 @@ const allData = {
         "12894122": {
             "name": "郎嘉忆",
             "total": 961.58,
-            "count": 29,
+            "count": 50,
             "self": 330.0,
             "zero": 0.0,
             "west": 0.0,
@@ -15949,7 +15949,7 @@ const allData = {
             "market": 614.58,
             "earliest": "2025-02-17 11:32:48",
             "latest": "2025-05-30 20:02:33",
-            "favorite": "4号餐厅"
+            "favorite": "云服务APP"
         },
         "k1307011026": {
             "name": "叶伊",
@@ -15967,7 +15967,7 @@ const allData = {
         "12894113": {
             "name": "刘娟",
             "total": 11380.56,
-            "count": 271,
+            "count": 288,
             "self": 15.0,
             "zero": 15.5,
             "west": 4615.0,
@@ -16084,7 +16084,7 @@ const allData = {
         "12892826": {
             "name": "彭荣",
             "total": 15806.15,
-            "count": 525,
+            "count": 528,
             "self": 2279.0,
             "zero": 274.5,
             "west": 149.0,
@@ -16097,7 +16097,7 @@ const allData = {
         "30096457": {
             "name": "宋灿",
             "total": 10496.09,
-            "count": 303,
+            "count": 311,
             "self": 502.0,
             "zero": 494.5,
             "west": 239.5,
@@ -16110,7 +16110,7 @@ const allData = {
         "x1406014022": {
             "name": "邵春雨",
             "total": 3138.0,
-            "count": 274,
+            "count": 275,
             "self": 965.0,
             "zero": 124.0,
             "west": 1776.0,
@@ -16149,7 +16149,7 @@ const allData = {
         "12894105": {
             "name": "杨曦",
             "total": 7593.3,
-            "count": 260,
+            "count": 269,
             "self": 1626.0,
             "zero": 241.5,
             "west": 835.0,
@@ -16162,7 +16162,7 @@ const allData = {
         "x1311014002": {
             "name": "凡利昭",
             "total": 4372.5,
-            "count": 393,
+            "count": 397,
             "self": 3289.0,
             "zero": 387.5,
             "west": 218.0,
@@ -16175,7 +16175,7 @@ const allData = {
         "12894124": {
             "name": "陈玲玲",
             "total": 6229.54,
-            "count": 232,
+            "count": 244,
             "self": 1380.0,
             "zero": 835.5,
             "west": 1473.0,
@@ -16188,7 +16188,7 @@ const allData = {
         "12894116": {
             "name": "张德凯",
             "total": 6690.78,
-            "count": 304,
+            "count": 312,
             "self": 688.0,
             "zero": 401.5,
             "west": 1040.5,
@@ -16227,7 +16227,7 @@ const allData = {
         "k1211000057": {
             "name": "金巧娟",
             "total": 4517.6,
-            "count": 466,
+            "count": 468,
             "self": 2140.0,
             "zero": 325.0,
             "west": 1492.6,
@@ -16279,7 +16279,7 @@ const allData = {
         "12894123": {
             "name": "李艳艳",
             "total": 9875.68,
-            "count": 327,
+            "count": 336,
             "self": 1058.0,
             "zero": 480.5,
             "west": 1407.0,
@@ -16292,7 +16292,7 @@ const allData = {
         "12894119": {
             "name": "冯柳鑫",
             "total": 6898.14,
-            "count": 273,
+            "count": 284,
             "self": 260.0,
             "zero": 331.0,
             "west": 572.0,
@@ -16305,7 +16305,7 @@ const allData = {
         "12892829": {
             "name": "刘旭",
             "total": 10412.39,
-            "count": 313,
+            "count": 320,
             "self": 2112.0,
             "zero": 515.5,
             "west": 164.0,
@@ -16318,7 +16318,7 @@ const allData = {
         "30054277": {
             "name": "严佳梅",
             "total": 11050.34,
-            "count": 504,
+            "count": 509,
             "self": 1436.0,
             "zero": 316.0,
             "west": 1641.6,
@@ -16331,7 +16331,7 @@ const allData = {
         "x1307009053": {
             "name": "冯雅芝",
             "total": 1250.5,
-            "count": 126,
+            "count": 127,
             "self": 474.0,
             "zero": 353.5,
             "west": 122.0,
@@ -16344,7 +16344,7 @@ const allData = {
         "x1806013014": {
             "name": "王珺璇",
             "total": 2182.5,
-            "count": 168,
+            "count": 170,
             "self": 1070.0,
             "zero": 25.5,
             "west": 1074.0,
@@ -16396,7 +16396,7 @@ const allData = {
         "k1407019084": {
             "name": "杭萍",
             "total": 3198.4,
-            "count": 302,
+            "count": 304,
             "self": 1250.0,
             "zero": 421.5,
             "west": 629.7,
@@ -16422,7 +16422,7 @@ const allData = {
         "k1608008024": {
             "name": "吴诗雪",
             "total": 1476.64,
-            "count": 105,
+            "count": 106,
             "self": 776.0,
             "zero": 13.5,
             "west": 401.0,
@@ -16448,7 +16448,7 @@ const allData = {
         "x1402002092": {
             "name": "刘梦",
             "total": 3936.52,
-            "count": 384,
+            "count": 386,
             "self": 2178.0,
             "zero": 573.0,
             "west": 133.0,
@@ -16461,20 +16461,20 @@ const allData = {
         "k1512007017": {
             "name": "李倩",
             "total": 1225.0,
-            "count": 127,
+            "count": 128,
             "self": 760.0,
             "zero": 0.0,
             "west": 50.0,
             "b6": 415.0,
             "market": 0.0,
             "earliest": "2025-01-27 08:14:12",
-            "latest": "2025-11-28 12:49:33",
+            "latest": "2025-12-02 13:30:56",
             "favorite": "5号餐厅"
         },
         "12892846": {
             "name": "沈国君",
             "total": 9507.97,
-            "count": 321,
+            "count": 328,
             "self": 3155.0,
             "zero": 372.0,
             "west": 612.5,
@@ -16500,7 +16500,7 @@ const allData = {
         "12892835": {
             "name": "杜小瑾",
             "total": 3228.77,
-            "count": 221,
+            "count": 236,
             "self": 2925.0,
             "zero": 56.0,
             "west": 109.0,
@@ -16565,7 +16565,7 @@ const allData = {
         "12892871": {
             "name": "李晓群",
             "total": 10952.84,
-            "count": 404,
+            "count": 410,
             "self": 611.0,
             "zero": 486.0,
             "west": 1306.0,
@@ -16578,7 +16578,7 @@ const allData = {
         "panyuchen": {
             "name": "潘雨晨",
             "total": 12520.28,
-            "count": 291,
+            "count": 295,
             "self": 1316.0,
             "zero": 668.0,
             "west": 434.0,
@@ -16591,7 +16591,7 @@ const allData = {
         "wuchuanzhen": {
             "name": "吴传真",
             "total": 7764.52,
-            "count": 543,
+            "count": 554,
             "self": 5331.0,
             "zero": 45.0,
             "west": 63.0,
@@ -16643,7 +16643,7 @@ const allData = {
         "k1402001030": {
             "name": "沈有鑫",
             "total": 3051.5,
-            "count": 219,
+            "count": 220,
             "self": 1945.0,
             "zero": 14.5,
             "west": 376.0,
@@ -16669,7 +16669,7 @@ const allData = {
         "k1504002023": {
             "name": "石建瑞",
             "total": 3015.0,
-            "count": 263,
+            "count": 266,
             "self": 1052.0,
             "zero": 293.0,
             "west": 634.0,
@@ -16708,7 +16708,7 @@ const allData = {
         "k1403005022": {
             "name": "李骏",
             "total": 2971.5,
-            "count": 228,
+            "count": 229,
             "self": 482.0,
             "zero": 489.5,
             "west": 168.0,
@@ -16851,7 +16851,7 @@ const allData = {
         "k1203000019": {
             "name": "王焱斐",
             "total": 2514.1,
-            "count": 198,
+            "count": 199,
             "self": 451.0,
             "zero": 161.5,
             "west": 800.6,
@@ -16916,7 +16916,7 @@ const allData = {
         "K1011000024": {
             "name": "叶菲",
             "total": 2734.5,
-            "count": 201,
+            "count": 204,
             "self": 303.0,
             "zero": 266.5,
             "west": 494.0,
@@ -16929,7 +16929,7 @@ const allData = {
         "x1704004008": {
             "name": "叶涵",
             "total": 4423.5,
-            "count": 351,
+            "count": 352,
             "self": 2889.0,
             "zero": 239.5,
             "west": 221.0,
@@ -16994,7 +16994,7 @@ const allData = {
         "k1307012046": {
             "name": "高珊",
             "total": 4154.02,
-            "count": 365,
+            "count": 367,
             "self": 1048.0,
             "zero": 259.5,
             "west": 122.0,
@@ -17020,7 +17020,7 @@ const allData = {
         "12892836": {
             "name": "赵芳",
             "total": 4348.32,
-            "count": 270,
+            "count": 285,
             "self": 889.0,
             "zero": 103.5,
             "west": 248.0,
@@ -17033,7 +17033,7 @@ const allData = {
         "20220614002": {
             "name": "陈雨龙",
             "total": 1525.5,
-            "count": 158,
+            "count": 159,
             "self": 876.0,
             "zero": 56.5,
             "west": 0.0,
@@ -17059,7 +17059,7 @@ const allData = {
         "20200728001": {
             "name": "戴俊",
             "total": 1214.5,
-            "count": 164,
+            "count": 168,
             "self": 65.0,
             "zero": 31.5,
             "west": 91.0,
@@ -17111,7 +17111,7 @@ const allData = {
         "20230703002": {
             "name": "安帅",
             "total": 3357.0,
-            "count": 319,
+            "count": 320,
             "self": 3166.0,
             "zero": 15.0,
             "west": 0.0,
@@ -17150,7 +17150,7 @@ const allData = {
         "029290": {
             "name": "范程宇",
             "total": 15492.88,
-            "count": 402,
+            "count": 409,
             "self": 2150.0,
             "zero": 427.5,
             "west": 1565.0,
@@ -17215,14 +17215,14 @@ const allData = {
         "k1106000003": {
             "name": "房华",
             "total": 1102.0,
-            "count": 217,
+            "count": 218,
             "self": 1075.0,
             "zero": 0.0,
             "west": 10.0,
             "b6": 17.0,
             "market": 0.0,
             "earliest": "2025-01-22 08:07:19",
-            "latest": "2025-05-21 11:41:46",
+            "latest": "2025-11-13 12:09:51",
             "favorite": "5号餐厅"
         },
         "x1801004032": {
@@ -17267,7 +17267,7 @@ const allData = {
         "x1404006014": {
             "name": "王颜",
             "total": 3604.3,
-            "count": 298,
+            "count": 299,
             "self": 945.0,
             "zero": 396.5,
             "west": 1870.8,
@@ -17280,7 +17280,7 @@ const allData = {
         "20200107001": {
             "name": "周紧跟",
             "total": 2383.1,
-            "count": 349,
+            "count": 355,
             "self": 1255.0,
             "zero": 88.5,
             "west": 142.6,
@@ -17332,20 +17332,20 @@ const allData = {
         "k1010000059": {
             "name": "徐勇",
             "total": 1073.5,
-            "count": 202,
+            "count": 207,
             "self": 1038.0,
             "zero": 11.5,
             "west": 18.0,
             "b6": 6.0,
             "market": 0.0,
             "earliest": "2025-01-22 08:04:58",
-            "latest": "2025-08-20 12:23:58",
+            "latest": "2025-05-15 15:26:52",
             "favorite": "4号餐厅"
         },
         "k1010000060": {
             "name": "冯程程",
             "total": 4000.0,
-            "count": 467,
+            "count": 468,
             "self": 1773.0,
             "zero": 229.5,
             "west": 458.0,
@@ -17371,7 +17371,7 @@ const allData = {
         "k1608009039": {
             "name": "隋丽微",
             "total": 2796.3,
-            "count": 353,
+            "count": 355,
             "self": 1315.0,
             "zero": 268.0,
             "west": 624.3,
@@ -17397,7 +17397,7 @@ const allData = {
         "K1211000168": {
             "name": "张茜",
             "total": 914.5,
-            "count": 102,
+            "count": 104,
             "self": 394.0,
             "zero": 159.0,
             "west": 333.5,
@@ -17410,7 +17410,7 @@ const allData = {
         "k1407019013": {
             "name": "王锦菊",
             "total": 1913.5,
-            "count": 270,
+            "count": 271,
             "self": 1046.0,
             "zero": 294.5,
             "west": 90.0,
@@ -17423,7 +17423,7 @@ const allData = {
         "20240117001": {
             "name": "王维跃",
             "total": 3153.32,
-            "count": 343,
+            "count": 345,
             "self": 658.0,
             "zero": 482.5,
             "west": 135.5,
@@ -17462,7 +17462,7 @@ const allData = {
         "20160105016": {
             "name": "张宏",
             "total": 2074.5,
-            "count": 318,
+            "count": 321,
             "self": 853.0,
             "zero": 186.5,
             "west": 263.0,
@@ -17475,7 +17475,7 @@ const allData = {
         "12892833": {
             "name": "万祺兰",
             "total": 4661.65,
-            "count": 325,
+            "count": 338,
             "self": 2591.0,
             "zero": 153.5,
             "west": 377.0,
@@ -17488,7 +17488,7 @@ const allData = {
         "12892856": {
             "name": "陈军",
             "total": 3883.11,
-            "count": 137,
+            "count": 152,
             "self": 704.0,
             "zero": 157.0,
             "west": 1752.0,
@@ -17592,7 +17592,7 @@ const allData = {
         "k1010000012": {
             "name": "孙洁",
             "total": 433.0,
-            "count": 53,
+            "count": 54,
             "self": 243.0,
             "zero": 0.0,
             "west": 190.0,
@@ -17605,7 +17605,7 @@ const allData = {
         "sunwenhai": {
             "name": "王永锋",
             "total": 3206.9,
-            "count": 468,
+            "count": 470,
             "self": 2996.0,
             "zero": 84.0,
             "west": 0.0,
@@ -17618,7 +17618,7 @@ const allData = {
         "12894091": {
             "name": "常鹏华",
             "total": 11783.72,
-            "count": 627,
+            "count": 633,
             "self": 3617.0,
             "zero": 236.0,
             "west": 1093.0,
@@ -17722,7 +17722,7 @@ const allData = {
         "12892830": {
             "name": "赵湘铎",
             "total": 14991.56,
-            "count": 514,
+            "count": 515,
             "self": 2298.0,
             "zero": 295.5,
             "west": 1358.0,
@@ -17761,7 +17761,7 @@ const allData = {
         "30054278": {
             "name": "王沁枫",
             "total": 7462.58,
-            "count": 196,
+            "count": 210,
             "self": 715.0,
             "zero": 335.0,
             "west": 885.0,
@@ -17774,7 +17774,7 @@ const allData = {
         "12894174": {
             "name": "郭俊杰",
             "total": 6206.63,
-            "count": 234,
+            "count": 245,
             "self": 1060.0,
             "zero": 430.5,
             "west": 772.0,
@@ -17800,7 +17800,7 @@ const allData = {
         "12894201": {
             "name": "吕静贤",
             "total": 8458.57,
-            "count": 164,
+            "count": 166,
             "self": 348.0,
             "zero": 416.5,
             "west": 236.0,
@@ -17839,7 +17839,7 @@ const allData = {
         "12894115": {
             "name": "钱奕",
             "total": 9844.79,
-            "count": 285,
+            "count": 295,
             "self": 150.0,
             "zero": 35.0,
             "west": 2429.6,
@@ -17852,7 +17852,7 @@ const allData = {
         "12894175": {
             "name": "许荣荣",
             "total": 3510.68,
-            "count": 155,
+            "count": 170,
             "self": 1148.0,
             "zero": 392.5,
             "west": 375.0,
@@ -17865,7 +17865,7 @@ const allData = {
         "12894177": {
             "name": "安斌",
             "total": 6531.49,
-            "count": 296,
+            "count": 306,
             "self": 2181.0,
             "zero": 595.0,
             "west": 881.0,
@@ -17878,7 +17878,7 @@ const allData = {
         "k1106000009": {
             "name": "钮文",
             "total": 2803.5,
-            "count": 251,
+            "count": 254,
             "self": 955.0,
             "zero": 143.5,
             "west": 835.0,
@@ -17904,7 +17904,7 @@ const allData = {
         "12894190": {
             "name": "龚健",
             "total": 8123.64,
-            "count": 242,
+            "count": 253,
             "self": 2471.0,
             "zero": 123.0,
             "west": 294.0,
@@ -17943,7 +17943,7 @@ const allData = {
         "12892864": {
             "name": "柳薇",
             "total": 9244.09,
-            "count": 318,
+            "count": 327,
             "self": 2475.0,
             "zero": 358.0,
             "west": 592.0,
@@ -17956,7 +17956,7 @@ const allData = {
         "12894110": {
             "name": "梁明源",
             "total": 4472.77,
-            "count": 337,
+            "count": 350,
             "self": 2778.0,
             "zero": 309.0,
             "west": 83.0,
@@ -17982,7 +17982,7 @@ const allData = {
         "k1407017077": {
             "name": "俞曼丽",
             "total": 4152.5,
-            "count": 302,
+            "count": 304,
             "self": 2867.0,
             "zero": 520.5,
             "west": 163.0,
@@ -17995,7 +17995,7 @@ const allData = {
         "12894127": {
             "name": "邢巍",
             "total": 9348.0,
-            "count": 256,
+            "count": 261,
             "self": 1644.0,
             "zero": 727.5,
             "west": 73.0,
@@ -18047,7 +18047,7 @@ const allData = {
         "12892859": {
             "name": "徐宏",
             "total": 7328.17,
-            "count": 351,
+            "count": 363,
             "self": 695.0,
             "zero": 456.0,
             "west": 112.0,
@@ -18060,7 +18060,7 @@ const allData = {
         "20241216001": {
             "name": "樊东乐",
             "total": 5578.61,
-            "count": 474,
+            "count": 476,
             "self": 2588.0,
             "zero": 585.0,
             "west": 243.0,
@@ -18073,7 +18073,7 @@ const allData = {
         "12892848": {
             "name": "居强",
             "total": 7002.68,
-            "count": 456,
+            "count": 467,
             "self": 1679.0,
             "zero": 239.5,
             "west": 1974.0,
@@ -18086,7 +18086,7 @@ const allData = {
         "k1504002097": {
             "name": "李钟",
             "total": 1409.3,
-            "count": 143,
+            "count": 144,
             "self": 455.0,
             "zero": 21.5,
             "west": 8.0,
@@ -18203,7 +18203,7 @@ const allData = {
         "x1402001007": {
             "name": "马鹏飞",
             "total": 2848.43,
-            "count": 180,
+            "count": 181,
             "self": 2380.0,
             "zero": 30.5,
             "west": 80.0,
@@ -18229,14 +18229,14 @@ const allData = {
         "k1307010033": {
             "name": "宣玉婷",
             "total": 3229.5,
-            "count": 227,
+            "count": 230,
             "self": 2725.0,
             "zero": 173.0,
             "west": 67.5,
             "b6": 0.0,
             "market": 264.0,
             "earliest": "2025-06-05 07:16:38",
-            "latest": "2025-11-05 13:40:03",
+            "latest": "2025-05-08 14:45:58",
             "favorite": "4号餐厅"
         },
         "k2312007013": {
@@ -18268,7 +18268,7 @@ const allData = {
         "029337": {
             "name": "赵文华",
             "total": 3162.72,
-            "count": 146,
+            "count": 157,
             "self": 300.0,
             "zero": 92.5,
             "west": 191.0,
@@ -18281,7 +18281,7 @@ const allData = {
         "20191022004": {
             "name": "周于超",
             "total": 2622.54,
-            "count": 281,
+            "count": 283,
             "self": 2549.0,
             "zero": 18.5,
             "west": 0.0,
@@ -18294,7 +18294,7 @@ const allData = {
         "20210222001": {
             "name": "杨照辉",
             "total": 2594.5,
-            "count": 207,
+            "count": 208,
             "self": 2210.0,
             "zero": 15.5,
             "west": 0.0,
@@ -18346,14 +18346,14 @@ const allData = {
         "k1010000031": {
             "name": "张存鹏",
             "total": 2601.8,
-            "count": 278,
+            "count": 279,
             "self": 800.0,
             "zero": 156.0,
             "west": 455.8,
             "b6": 1190.0,
             "market": 0.0,
             "earliest": "2025-08-18 07:53:19",
-            "latest": "2025-06-04 13:49:07",
+            "latest": "2025-10-09 14:06:36",
             "favorite": "B6餐厅"
         },
         "k1407016059": {
@@ -18372,7 +18372,7 @@ const allData = {
         "k1306007037": {
             "name": "王小燕",
             "total": 2531.7,
-            "count": 276,
+            "count": 278,
             "self": 932.0,
             "zero": 135.5,
             "west": 312.0,
@@ -18424,7 +18424,7 @@ const allData = {
         "k1311014025": {
             "name": "李鑫4764",
             "total": 2005.8,
-            "count": 197,
+            "count": 199,
             "self": 1126.0,
             "zero": 67.5,
             "west": 460.3,
@@ -18437,7 +18437,7 @@ const allData = {
         "011201": {
             "name": "王峰",
             "total": 3202.0,
-            "count": 223,
+            "count": 229,
             "self": 446.0,
             "zero": 0.0,
             "west": 1863.0,
@@ -18450,7 +18450,7 @@ const allData = {
         "20210318001": {
             "name": "刘棒",
             "total": 1978.5,
-            "count": 299,
+            "count": 300,
             "self": 1138.0,
             "zero": 352.5,
             "west": 5.0,
@@ -18463,7 +18463,7 @@ const allData = {
         "12892869": {
             "name": "周涛",
             "total": 9630.96,
-            "count": 283,
+            "count": 291,
             "self": 1160.0,
             "zero": 0.0,
             "west": 472.0,
@@ -18476,7 +18476,7 @@ const allData = {
         "30054226": {
             "name": "王璐",
             "total": 10437.55,
-            "count": 259,
+            "count": 267,
             "self": 1085.0,
             "zero": 23.0,
             "west": 934.8,
@@ -18489,7 +18489,7 @@ const allData = {
         "20160105002": {
             "name": "倪修明",
             "total": 904.5,
-            "count": 152,
+            "count": 154,
             "self": 743.0,
             "zero": 10.5,
             "west": 87.0,
@@ -18528,7 +18528,7 @@ const allData = {
         "20160105007": {
             "name": "姜亚芝",
             "total": 1315.2,
-            "count": 251,
+            "count": 258,
             "self": 1245.0,
             "zero": 0.0,
             "west": 36.2,
@@ -18554,7 +18554,7 @@ const allData = {
         "12894171": {
             "name": "翟伟君",
             "total": 4329.83,
-            "count": 347,
+            "count": 360,
             "self": 1669.0,
             "zero": 202.5,
             "west": 180.3,
@@ -18619,7 +18619,7 @@ const allData = {
         "12894114": {
             "name": "魏明",
             "total": 11121.64,
-            "count": 361,
+            "count": 366,
             "self": 637.0,
             "zero": 72.5,
             "west": 2009.2,
@@ -18645,7 +18645,7 @@ const allData = {
         "12892867": {
             "name": "张明杰",
             "total": 3331.38,
-            "count": 78,
+            "count": 84,
             "self": 440.0,
             "zero": 42.0,
             "west": 0.0,
@@ -18658,7 +18658,7 @@ const allData = {
         "20200421001": {
             "name": "梁娇娇",
             "total": 3772.5,
-            "count": 486,
+            "count": 491,
             "self": 1443.0,
             "zero": 462.5,
             "west": 140.0,
@@ -18749,7 +18749,7 @@ const allData = {
         "hujushang": {
             "name": "胡居尚",
             "total": 1128.5,
-            "count": 166,
+            "count": 167,
             "self": 847.0,
             "zero": 67.5,
             "west": 0.0,
@@ -19022,7 +19022,7 @@ const allData = {
         "k1103000018": {
             "name": "张轩",
             "total": 1448.5,
-            "count": 143,
+            "count": 145,
             "self": 740.0,
             "zero": 51.5,
             "west": 490.0,
@@ -19048,7 +19048,7 @@ const allData = {
         "12894107": {
             "name": "徐梦舟",
             "total": 10035.99,
-            "count": 73,
+            "count": 81,
             "self": 195.0,
             "zero": 0.0,
             "west": 146.0,
@@ -19061,7 +19061,7 @@ const allData = {
         "30054222": {
             "name": "刘爱玲",
             "total": 14226.56,
-            "count": 329,
+            "count": 333,
             "self": 561.0,
             "zero": 965.5,
             "west": 939.0,
@@ -19074,7 +19074,7 @@ const allData = {
         "108004": {
             "name": "邓艳丽",
             "total": 5749.47,
-            "count": 218,
+            "count": 225,
             "self": 363.0,
             "zero": 0.0,
             "west": 1779.0,
@@ -19113,7 +19113,7 @@ const allData = {
         "12892873": {
             "name": "郭晓芸",
             "total": 4727.57,
-            "count": 43,
+            "count": 60,
             "self": 30.0,
             "zero": 0.0,
             "west": 212.0,
@@ -19139,7 +19139,7 @@ const allData = {
         "12892840": {
             "name": "曾玲丽",
             "total": 3445.93,
-            "count": 255,
+            "count": 269,
             "self": 355.0,
             "zero": 15.5,
             "west": 2870.0,
@@ -19165,7 +19165,7 @@ const allData = {
         "12894108": {
             "name": "王小娟",
             "total": 8714.61,
-            "count": 326,
+            "count": 336,
             "self": 1893.0,
             "zero": 608.0,
             "west": 1050.0,
@@ -19178,7 +19178,7 @@ const allData = {
         "12892832": {
             "name": "徐露",
             "total": 5564.08,
-            "count": 87,
+            "count": 100,
             "self": 311.0,
             "zero": 0.0,
             "west": 93.5,
@@ -19230,7 +19230,7 @@ const allData = {
         "12894120": {
             "name": "宋鹏飞",
             "total": 4910.15,
-            "count": 211,
+            "count": 226,
             "self": 630.0,
             "zero": 165.5,
             "west": 204.0,
@@ -19269,7 +19269,7 @@ const allData = {
         "30054223": {
             "name": "汪东邻",
             "total": 12912.95,
-            "count": 500,
+            "count": 506,
             "self": 2394.0,
             "zero": 949.5,
             "west": 2559.0,
@@ -19282,7 +19282,7 @@ const allData = {
         "12894118": {
             "name": "郭园园",
             "total": 7584.62,
-            "count": 246,
+            "count": 257,
             "self": 563.0,
             "zero": 12.5,
             "west": 1996.0,
@@ -19295,7 +19295,7 @@ const allData = {
         "029333": {
             "name": "宋行",
             "total": 7208.81,
-            "count": 421,
+            "count": 431,
             "self": 1062.0,
             "zero": 139.0,
             "west": 850.4,
@@ -19334,7 +19334,7 @@ const allData = {
         "12892863": {
             "name": "肖爽",
             "total": 8046.04,
-            "count": 318,
+            "count": 328,
             "self": 796.0,
             "zero": 747.0,
             "west": 766.0,
@@ -19347,7 +19347,7 @@ const allData = {
         "12892870": {
             "name": "魏薇",
             "total": 7912.97,
-            "count": 108,
+            "count": 118,
             "self": 233.0,
             "zero": 42.0,
             "west": 210.7,
@@ -19360,7 +19360,7 @@ const allData = {
         "12892842": {
             "name": "刘萍",
             "total": 3466.86,
-            "count": 101,
+            "count": 115,
             "self": 30.0,
             "zero": 6.0,
             "west": 829.0,
@@ -19399,7 +19399,7 @@ const allData = {
         "12892847": {
             "name": "李慧芹",
             "total": 9419.9,
-            "count": 506,
+            "count": 514,
             "self": 1588.0,
             "zero": 488.0,
             "west": 645.0,
@@ -19438,7 +19438,7 @@ const allData = {
         "12892827": {
             "name": "李霞",
             "total": 5623.23,
-            "count": 252,
+            "count": 265,
             "self": 1470.0,
             "zero": 388.5,
             "west": 559.0,
@@ -19477,7 +19477,7 @@ const allData = {
         "20210826003": {
             "name": "彭菲菲",
             "total": 1772.5,
-            "count": 177,
+            "count": 178,
             "self": 263.0,
             "zero": 150.5,
             "west": 382.0,
@@ -19490,7 +19490,7 @@ const allData = {
         "20201013004": {
             "name": "范晓锐",
             "total": 2168.0,
-            "count": 237,
+            "count": 240,
             "self": 208.0,
             "zero": 438.0,
             "west": 101.0,
@@ -19503,7 +19503,7 @@ const allData = {
         "12892843": {
             "name": "蔡晶晶",
             "total": 6964.21,
-            "count": 459,
+            "count": 467,
             "self": 606.0,
             "zero": 495.5,
             "west": 1603.0,
@@ -19516,7 +19516,7 @@ const allData = {
         "30054224": {
             "name": "汪亚娟",
             "total": 5170.21,
-            "count": 237,
+            "count": 251,
             "self": 550.0,
             "zero": 203.5,
             "west": 1034.0,
@@ -19555,7 +19555,7 @@ const allData = {
         "12894172": {
             "name": "周晶",
             "total": 10175.84,
-            "count": 447,
+            "count": 455,
             "self": 887.0,
             "zero": 297.5,
             "west": 1093.8,
@@ -19633,20 +19633,20 @@ const allData = {
         "20210701004": {
             "name": "金明花",
             "total": 3844.5,
-            "count": 450,
+            "count": 451,
             "self": 2726.0,
             "zero": 361.5,
             "west": 15.0,
             "b6": 742.0,
             "market": 0.0,
             "earliest": "2025-06-05 07:16:29",
-            "latest": "2025-04-21 12:15:24",
+            "latest": "2025-03-11 14:05:41",
             "favorite": "4号餐厅"
         },
         "12892850": {
             "name": "华梅",
             "total": 6490.6,
-            "count": 445,
+            "count": 456,
             "self": 3091.0,
             "zero": 252.0,
             "west": 1067.0,
@@ -19659,7 +19659,7 @@ const allData = {
         "20210701001": {
             "name": "张苏苏",
             "total": 3818.5,
-            "count": 351,
+            "count": 352,
             "self": 836.0,
             "zero": 615.5,
             "west": 581.0,
@@ -19698,7 +19698,7 @@ const allData = {
         "20181212012": {
             "name": "王童静",
             "total": 3648.9,
-            "count": 335,
+            "count": 338,
             "self": 562.0,
             "zero": 399.5,
             "west": 2202.1,
@@ -19711,7 +19711,7 @@ const allData = {
         "k1208000016": {
             "name": "麻霞霞",
             "total": 2907.6,
-            "count": 209,
+            "count": 210,
             "self": 554.0,
             "zero": 650.5,
             "west": 135.0,
@@ -19724,7 +19724,7 @@ const allData = {
         "20200410004": {
             "name": "侯璐",
             "total": 4196.5,
-            "count": 397,
+            "count": 398,
             "self": 1586.0,
             "zero": 0.0,
             "west": 121.0,
@@ -19789,7 +19789,7 @@ const allData = {
         "20221026001": {
             "name": "童泽祯",
             "total": 5795.59,
-            "count": 453,
+            "count": 454,
             "self": 1114.0,
             "zero": 566.5,
             "west": 15.0,
@@ -19880,7 +19880,7 @@ const allData = {
         "20200407001": {
             "name": "石文星",
             "total": 3303.5,
-            "count": 245,
+            "count": 249,
             "self": 379.0,
             "zero": 371.5,
             "west": 54.0,
@@ -19971,7 +19971,7 @@ const allData = {
         "20171017001": {
             "name": "吴文静",
             "total": 928.0,
-            "count": 75,
+            "count": 78,
             "self": 550.0,
             "zero": 53.0,
             "west": 38.0,
@@ -19984,7 +19984,7 @@ const allData = {
         "023001": {
             "name": "王笑一",
             "total": 7367.16,
-            "count": 383,
+            "count": 399,
             "self": 581.0,
             "zero": 13.5,
             "west": 3641.0,
@@ -20036,7 +20036,7 @@ const allData = {
         "20200608001": {
             "name": "张红阳",
             "total": 2284.0,
-            "count": 262,
+            "count": 263,
             "self": 1072.0,
             "zero": 384.0,
             "west": 14.0,
@@ -20062,7 +20062,7 @@ const allData = {
         "20161124002": {
             "name": "甘毅",
             "total": 1548.5,
-            "count": 231,
+            "count": 232,
             "self": 1419.0,
             "zero": 24.5,
             "west": 10.0,
@@ -20075,7 +20075,7 @@ const allData = {
         "k1504002089": {
             "name": "谢文娜",
             "total": 1976.5,
-            "count": 206,
+            "count": 208,
             "self": 981.0,
             "zero": 45.5,
             "west": 278.0,
@@ -20101,7 +20101,7 @@ const allData = {
         "12892828": {
             "name": "孟莉",
             "total": 4793.41,
-            "count": 131,
+            "count": 145,
             "self": 235.0,
             "zero": 22.5,
             "west": 328.0,
@@ -20114,7 +20114,7 @@ const allData = {
         "k1304005027": {
             "name": "佘姗琪",
             "total": 202.0,
-            "count": 27,
+            "count": 29,
             "self": 200.0,
             "zero": 0.0,
             "west": 2.0,
@@ -20205,7 +20205,7 @@ const allData = {
         "30316725": {
             "name": "曹彭程",
             "total": 7609.79,
-            "count": 319,
+            "count": 333,
             "self": 2795.0,
             "zero": 283.0,
             "west": 328.0,
@@ -20257,7 +20257,7 @@ const allData = {
         "30054217": {
             "name": "陈轩",
             "total": 7587.85,
-            "count": 241,
+            "count": 253,
             "self": 87.0,
             "zero": 292.0,
             "west": 5083.3,
@@ -20374,7 +20374,7 @@ const allData = {
         "k1211000011": {
             "name": "王世芳",
             "total": 2424.0,
-            "count": 223,
+            "count": 224,
             "self": 943.0,
             "zero": 0.0,
             "west": 205.0,
@@ -20413,7 +20413,7 @@ const allData = {
         "30316731": {
             "name": "徐倩",
             "total": 4657.76,
-            "count": 286,
+            "count": 301,
             "self": 100.0,
             "zero": 344.5,
             "west": 364.0,
@@ -20478,14 +20478,14 @@ const allData = {
         "k1211000171": {
             "name": "沙芳芳",
             "total": 2903.7,
-            "count": 203,
+            "count": 205,
             "self": 2418.0,
             "zero": 433.0,
             "west": 52.7,
             "b6": 0.0,
             "market": 0.0,
             "earliest": "2025-06-05 07:17:17",
-            "latest": "2025-08-21 12:45:44",
+            "latest": "2025-07-01 15:09:01",
             "favorite": "4号餐厅"
         },
         "k1011000026": {
@@ -20504,7 +20504,7 @@ const allData = {
         "wanghui2": {
             "name": "王慧",
             "total": 8823.17,
-            "count": 343,
+            "count": 351,
             "self": 481.0,
             "zero": 508.0,
             "west": 249.0,
@@ -20517,20 +20517,20 @@ const allData = {
         "20240924002": {
             "name": "李铁成",
             "total": 3585.5,
-            "count": 271,
+            "count": 272,
             "self": 3370.0,
             "zero": 13.5,
             "west": 0.0,
             "b6": 202.0,
             "market": 0.0,
             "earliest": "2025-06-05 07:16:22",
-            "latest": "2025-06-26 12:19:11",
+            "latest": "2025-04-17 14:02:32",
             "favorite": "4号餐厅"
         },
         "20190528011": {
             "name": "金志鑫",
             "total": 2422.0,
-            "count": 307,
+            "count": 308,
             "self": 1134.0,
             "zero": 331.0,
             "west": 29.0,
@@ -20582,7 +20582,7 @@ const allData = {
         "ZDFH010": {
             "name": "经敏",
             "total": 1871.5,
-            "count": 193,
+            "count": 197,
             "self": 813.0,
             "zero": 126.5,
             "west": 20.0,
@@ -20595,7 +20595,7 @@ const allData = {
         "20200610002": {
             "name": "程琳",
             "total": 2302.0,
-            "count": 244,
+            "count": 245,
             "self": 853.0,
             "zero": 148.0,
             "west": 657.0,
@@ -20660,7 +20660,7 @@ const allData = {
         "20200515001": {
             "name": "李珂冉",
             "total": 1773.06,
-            "count": 157,
+            "count": 160,
             "self": 482.0,
             "zero": 71.0,
             "west": 573.6,
@@ -20725,7 +20725,7 @@ const allData = {
         "k1103000015": {
             "name": "金晶2824",
             "total": 100.0,
-            "count": 11,
+            "count": 14,
             "self": 35.0,
             "zero": 0.0,
             "west": 33.0,
@@ -20790,7 +20790,7 @@ const allData = {
         "k1411022058": {
             "name": "张灿",
             "total": 1589.89,
-            "count": 174,
+            "count": 175,
             "self": 74.0,
             "zero": 86.0,
             "west": 264.8,
@@ -20868,7 +20868,7 @@ const allData = {
         "guoruiying": {
             "name": "郭瑞英",
             "total": 9707.61,
-            "count": 209,
+            "count": 216,
             "self": 236.0,
             "zero": 25.0,
             "west": 266.0,
@@ -20920,7 +20920,7 @@ const allData = {
         "20191204002": {
             "name": "崔珊珊",
             "total": 2703.08,
-            "count": 195,
+            "count": 197,
             "self": 60.0,
             "zero": 602.5,
             "west": 438.5,
@@ -20972,13 +20972,13 @@ const allData = {
         "k1208000001": {
             "name": "谢敏",
             "total": 1299.5,
-            "count": 154,
+            "count": 156,
             "self": 90.0,
             "zero": 277.5,
             "west": 415.0,
             "b6": 517.0,
             "market": 0.0,
-            "earliest": "2025-04-15 10:25:29",
+            "earliest": "2025-04-15 10:23:42",
             "latest": "2025-07-07 19:06:57",
             "favorite": "B6餐厅"
         },
@@ -21063,7 +21063,7 @@ const allData = {
         "k1504004002": {
             "name": "郑孝林",
             "total": 1060.0,
-            "count": 92,
+            "count": 93,
             "self": 230.0,
             "zero": 91.0,
             "west": 0.0,
@@ -21089,20 +21089,20 @@ const allData = {
         "x1404006055": {
             "name": "张凯丽",
             "total": 943.0,
-            "count": 182,
+            "count": 183,
             "self": 910.0,
             "zero": 0.0,
             "west": 20.0,
             "b6": 13.0,
             "market": 0.0,
             "earliest": "2025-02-05 08:23:58",
-            "latest": "2025-10-11 12:08:16",
+            "latest": "2025-06-19 14:01:05",
             "favorite": "4号餐厅"
         },
         "k1606004006": {
             "name": "李媛",
             "total": 1423.5,
-            "count": 130,
+            "count": 132,
             "self": 825.0,
             "zero": 94.5,
             "west": 255.0,
@@ -21115,7 +21115,7 @@ const allData = {
         "104002": {
             "name": "徐斌",
             "total": 4902.69,
-            "count": 420,
+            "count": 432,
             "self": 1953.0,
             "zero": 8.5,
             "west": 459.1,
@@ -21141,7 +21141,7 @@ const allData = {
         "12894128": {
             "name": "江来",
             "total": 13192.88,
-            "count": 52,
+            "count": 56,
             "self": 0.0,
             "zero": 0.0,
             "west": 78.0,
@@ -21193,7 +21193,7 @@ const allData = {
         "k1402001002": {
             "name": "畅维",
             "total": 1111.5,
-            "count": 140,
+            "count": 142,
             "self": 830.0,
             "zero": 184.5,
             "west": 61.0,
@@ -21219,7 +21219,7 @@ const allData = {
         "20190611006": {
             "name": "庞雪珂",
             "total": 2056.8,
-            "count": 192,
+            "count": 193,
             "self": 499.0,
             "zero": 180.0,
             "west": 370.8,
@@ -21388,7 +21388,7 @@ const allData = {
         "20200514002": {
             "name": "伍波涛",
             "total": 4327.5,
-            "count": 288,
+            "count": 292,
             "self": 942.0,
             "zero": 261.5,
             "west": 841.0,
@@ -21427,7 +21427,7 @@ const allData = {
         "12892834": {
             "name": "门萍",
             "total": 4880.44,
-            "count": 39,
+            "count": 58,
             "self": 20.0,
             "zero": 0.0,
             "west": 135.0,
@@ -21453,7 +21453,7 @@ const allData = {
         "12892858": {
             "name": "董蓓",
             "total": 7274.44,
-            "count": 255,
+            "count": 269,
             "self": 1664.0,
             "zero": 221.5,
             "west": 312.0,
@@ -21518,7 +21518,7 @@ const allData = {
         "12894089": {
             "name": "张秀永",
             "total": 2360.14,
-            "count": 223,
+            "count": 238,
             "self": 1984.0,
             "zero": 70.0,
             "west": 145.0,
@@ -21531,7 +21531,7 @@ const allData = {
         "20190404003": {
             "name": "潘琰",
             "total": 1658.23,
-            "count": 122,
+            "count": 125,
             "self": 174.0,
             "zero": 442.0,
             "west": 157.8,
@@ -21557,14 +21557,14 @@ const allData = {
         "30054225": {
             "name": "王佳佳",
             "total": 539.0,
-            "count": 38,
+            "count": 62,
             "self": 430.0,
             "zero": 0.0,
             "west": 48.0,
             "b6": 27.0,
             "market": 34.0,
             "earliest": "2025-02-05 08:17:00",
-            "latest": "2025-01-02 12:26:05",
+            "latest": "2025-06-24 14:09:13",
             "favorite": "5号餐厅"
         },
         "h241206024": {
@@ -21856,7 +21856,7 @@ const allData = {
         "111008": {
             "name": "张全",
             "total": 5731.87,
-            "count": 372,
+            "count": 386,
             "self": 558.0,
             "zero": 0.0,
             "west": 3857.0,
@@ -21895,7 +21895,7 @@ const allData = {
         "20200513001": {
             "name": "徐荧",
             "total": 1505.55,
-            "count": 124,
+            "count": 125,
             "self": 217.0,
             "zero": 154.0,
             "west": 378.0,
@@ -21908,7 +21908,7 @@ const allData = {
         "k1608011004": {
             "name": "陈晨2020",
             "total": 3085.78,
-            "count": 301,
+            "count": 302,
             "self": 1447.0,
             "zero": 177.0,
             "west": 322.5,
@@ -21973,7 +21973,7 @@ const allData = {
         "20191202001": {
             "name": "林媚",
             "total": 958.9,
-            "count": 84,
+            "count": 85,
             "self": 215.0,
             "zero": 0.0,
             "west": 474.0,
@@ -22038,7 +22038,7 @@ const allData = {
         "30143580": {
             "name": "袁西尧",
             "total": 3824.7,
-            "count": 115,
+            "count": 134,
             "self": 145.0,
             "zero": 350.0,
             "west": 656.0,
@@ -22047,6 +22047,123 @@ const allData = {
             "earliest": "2025-08-06 08:25:31",
             "latest": "2025-07-23 16:49:51",
             "favorite": "西餐厅"
+        },
+        "30124681": {
+            "name": "张闯",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-16 14:43:51",
+            "latest": "2025-01-16 14:44:07",
+            "favorite": "云服务APP"
+        },
+        "30403857": {
+            "name": "贾瑞芃",
+            "total": 0.0,
+            "count": 9,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-04-01 11:33:46",
+            "latest": "2025-01-16 14:42:41",
+            "favorite": "云服务APP"
+        },
+        "12892855": {
+            "name": "张劭韡",
+            "total": 0.0,
+            "count": 21,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-08-07 11:59:28",
+            "latest": "2025-10-16 14:39:52",
+            "favorite": "云服务APP"
+        },
+        "30642474": {
+            "name": "王胤哲",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 12:16:25",
+            "latest": "2025-01-16 14:32:09",
+            "favorite": "云服务APP"
+        },
+        "029717": {
+            "name": "马鋆",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-16 14:31:10",
+            "latest": "2025-01-16 14:31:14",
+            "favorite": "云服务APP"
+        },
+        "30642476": {
+            "name": "吴其瑞",
+            "total": 0.0,
+            "count": 14,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 14:14:27",
+            "latest": "2025-01-16 14:30:19",
+            "favorite": "云服务APP"
+        },
+        "30642473": {
+            "name": "亓昕阳",
+            "total": 0.0,
+            "count": 1,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-16 14:29:32",
+            "latest": "2025-01-16 14:29:32",
+            "favorite": "云服务APP"
+        },
+        "30642472": {
+            "name": "陈晓宇",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-16 14:28:35",
+            "latest": "2025-01-16 14:28:39",
+            "favorite": "云服务APP"
+        },
+        "011807": {
+            "name": "张晓慧",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-16 14:05:25",
+            "latest": "2025-01-16 14:05:41",
+            "favorite": "云服务APP"
         },
         "029330": {
             "name": "黄国松",
@@ -22181,7 +22298,7 @@ const allData = {
         "k1402002077": {
             "name": "朱德洋",
             "total": 2008.6,
-            "count": 212,
+            "count": 213,
             "self": 1407.0,
             "zero": 0.0,
             "west": 484.6,
@@ -22285,7 +22402,7 @@ const allData = {
         "k1203000017": {
             "name": "吴倩",
             "total": 1638.5,
-            "count": 80,
+            "count": 82,
             "self": 152.0,
             "zero": 210.5,
             "west": 488.0,
@@ -22386,18 +22503,70 @@ const allData = {
             "latest": "2025-01-08 18:45:03",
             "favorite": "5号餐厅"
         },
+        "12379623": {
+            "name": "李丹",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-14 15:16:30",
+            "latest": "2025-01-14 15:16:35",
+            "favorite": "云服务APP"
+        },
         "029286": {
             "name": "苏媛",
             "total": 2.0,
-            "count": 1,
+            "count": 3,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 2.0,
             "market": 0.0,
             "earliest": "2025-06-27 12:06:34",
-            "latest": "2025-06-27 12:06:34",
-            "favorite": "B6餐厅"
+            "latest": "2025-01-14 15:15:27",
+            "favorite": "云服务APP"
+        },
+        "30408259": {
+            "name": "韩月辉",
+            "total": 0.0,
+            "count": 7,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-04 12:40:05",
+            "latest": "2025-01-14 15:13:04",
+            "favorite": "云服务APP"
+        },
+        "30403855": {
+            "name": "毋壮壮",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-07-01 14:33:07",
+            "latest": "2025-01-14 15:10:58",
+            "favorite": "云服务APP"
+        },
+        "30403854": {
+            "name": "王明曦",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-14 15:06:26",
+            "latest": "2025-01-14 15:06:40",
+            "favorite": "云服务APP"
         },
         "h241226023": {
             "name": "李乐怡",
@@ -22412,10 +22581,36 @@ const allData = {
             "latest": "2025-01-08 18:11:29",
             "favorite": "5号餐厅"
         },
+        "30403853": {
+            "name": "杨智彤",
+            "total": 0.0,
+            "count": 6,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-14 13:37:01",
+            "latest": "2025-01-14 13:37:29",
+            "favorite": "云服务APP"
+        },
+        "029336": {
+            "name": "张妍",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-14 13:35:24",
+            "latest": "2025-01-14 13:35:30",
+            "favorite": "云服务APP"
+        },
         "30054220": {
             "name": "胡钊龙",
             "total": 10316.44,
-            "count": 308,
+            "count": 318,
             "self": 680.0,
             "zero": 1048.5,
             "west": 1351.8,
@@ -22467,7 +22662,7 @@ const allData = {
         "405005": {
             "name": "徐李阳",
             "total": 463.0,
-            "count": 44,
+            "count": 57,
             "self": 178.0,
             "zero": 0.0,
             "west": 273.0,
@@ -22506,7 +22701,7 @@ const allData = {
         "20210826001": {
             "name": "李玥",
             "total": 1377.8,
-            "count": 109,
+            "count": 110,
             "self": 15.0,
             "zero": 0.0,
             "west": 484.8,
@@ -22662,7 +22857,7 @@ const allData = {
         "k2301003003": {
             "name": "刘敏",
             "total": 2583.1,
-            "count": 191,
+            "count": 192,
             "self": 1078.0,
             "zero": 0.0,
             "west": 477.0,
@@ -22922,7 +23117,7 @@ const allData = {
         "k1402002017": {
             "name": "陶惊玉",
             "total": 372.0,
-            "count": 15,
+            "count": 16,
             "self": 110.0,
             "zero": 0.0,
             "west": 221.0,
@@ -23117,7 +23312,7 @@ const allData = {
         "12894088": {
             "name": "王思杰",
             "total": 4849.6,
-            "count": 113,
+            "count": 125,
             "self": 30.0,
             "zero": 0.0,
             "west": 969.4,
@@ -23126,6 +23321,19 @@ const allData = {
             "earliest": "2025-09-23 10:41:44",
             "latest": "2025-07-04 19:50:05",
             "favorite": "超市"
+        },
+        "023009": {
+            "name": "李承桓",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-09 15:07:01",
+            "latest": "2025-01-09 15:07:06",
+            "favorite": "云服务APP"
         },
         "k2411014005": {
             "name": "汤子怡",
@@ -23139,6 +23347,19 @@ const allData = {
             "earliest": "2025-01-08 07:50:21",
             "latest": "2025-01-07 17:17:49",
             "favorite": "5号餐厅"
+        },
+        "30642470": {
+            "name": "赵帅",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-09 14:35:22",
+            "latest": "2025-01-09 14:35:26",
+            "favorite": "云服务APP"
         },
         "k2411014002": {
             "name": "张悦",
@@ -23191,6 +23412,19 @@ const allData = {
             "earliest": "2025-09-14 07:03:42",
             "latest": "2025-04-11 18:54:53",
             "favorite": "5号餐厅"
+        },
+        "025002": {
+            "name": "曾月阳",
+            "total": 0.0,
+            "count": 12,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-04-22 11:10:04",
+            "latest": "2025-08-05 15:18:08",
+            "favorite": "云服务APP"
         },
         "h241216024": {
             "name": "李航",
@@ -23260,7 +23494,7 @@ const allData = {
         "k1405011039": {
             "name": "王燕",
             "total": 512.5,
-            "count": 34,
+            "count": 35,
             "self": 35.0,
             "zero": 30.0,
             "west": 169.8,
@@ -23361,6 +23595,71 @@ const allData = {
             "latest": "2025-01-02 18:59:42",
             "favorite": "5号餐厅"
         },
+        "30053790": {
+            "name": "苗红星",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-07 15:00:15",
+            "latest": "2025-01-07 15:00:21",
+            "favorite": "云服务APP"
+        },
+        "30642478": {
+            "name": "郑俊妍",
+            "total": 0.0,
+            "count": 13,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-08-14 12:13:16",
+            "latest": "2025-05-13 15:19:26",
+            "favorite": "云服务APP"
+        },
+        "30094444": {
+            "name": "徐胤",
+            "total": 0.0,
+            "count": 10,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-09-30 14:00:22",
+            "latest": "2025-11-04 14:45:22",
+            "favorite": "云服务APP"
+        },
+        "30316719": {
+            "name": "史嘉琪",
+            "total": 0.0,
+            "count": 18,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 12:45:25",
+            "latest": "2025-01-07 14:05:54",
+            "favorite": "云服务APP"
+        },
+        "029331": {
+            "name": "孔娜",
+            "total": 0.0,
+            "count": 16,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-11 13:56:25",
+            "latest": "2025-01-02 14:23:24",
+            "favorite": "云服务APP"
+        },
         "h241121024": {
             "name": "徐逸菲",
             "total": 53.0,
@@ -23377,7 +23676,7 @@ const allData = {
         "102006": {
             "name": "于国君",
             "total": 368.93,
-            "count": 11,
+            "count": 13,
             "self": 80.0,
             "zero": 0.0,
             "west": 0.0,
@@ -23387,10 +23686,23 @@ const allData = {
             "latest": "2025-03-31 19:29:00",
             "favorite": "5号餐厅"
         },
+        "011813": {
+            "name": "韩维",
+            "total": 0.0,
+            "count": 17,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-01-07 12:31:48",
+            "latest": "2025-06-24 13:46:44",
+            "favorite": "云服务APP"
+        },
         "12892839": {
             "name": "王殊",
             "total": 5322.08,
-            "count": 46,
+            "count": 60,
             "self": 140.0,
             "zero": 118.0,
             "west": 47.0,
@@ -23533,7 +23845,7 @@ const allData = {
         "baozhenfu": {
             "name": "李玉红",
             "total": 98.0,
-            "count": 14,
+            "count": 15,
             "self": 90.0,
             "zero": 0.0,
             "west": 0.0,
@@ -23686,10 +23998,36 @@ const allData = {
             "latest": "2025-01-01 17:08:23",
             "favorite": "超市"
         },
+        "023007": {
+            "name": "张烁",
+            "total": 0.0,
+            "count": 5,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 15:10:53",
+            "latest": "2025-03-11 15:28:20",
+            "favorite": "云服务APP"
+        },
+        "029466": {
+            "name": "王亦秋",
+            "total": 0.0,
+            "count": 7,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 15:16:56",
+            "latest": "2025-01-02 15:19:47",
+            "favorite": "云服务APP"
+        },
         "029324": {
             "name": "田昌",
             "total": 4491.97,
-            "count": 338,
+            "count": 357,
             "self": 1453.0,
             "zero": 468.0,
             "west": 1069.3,
@@ -23806,7 +24144,7 @@ const allData = {
         "011034": {
             "name": "李红梅",
             "total": 1836.09,
-            "count": 175,
+            "count": 183,
             "self": 581.0,
             "zero": 32.5,
             "west": 496.0,
@@ -23832,7 +24170,7 @@ const allData = {
         "12892872": {
             "name": "余锦河",
             "total": 1582.6,
-            "count": 3,
+            "count": 8,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
@@ -23840,7 +24178,7 @@ const allData = {
             "market": 1582.6,
             "earliest": "2025-02-28 11:54:20",
             "latest": "2025-02-28 16:58:28",
-            "favorite": "超市"
+            "favorite": "云服务APP"
         },
         "x1909001006": {
             "name": "许洁",
@@ -23897,7 +24235,7 @@ const allData = {
         "K1409020037": {
             "name": "王成思",
             "total": 322.0,
-            "count": 13,
+            "count": 15,
             "self": 60.0,
             "zero": 87.0,
             "west": 175.0,
@@ -24027,7 +24365,7 @@ const allData = {
         "k1504002044": {
             "name": "王丹丹3944",
             "total": 1753.0,
-            "count": 225,
+            "count": 230,
             "self": 1498.0,
             "zero": 0.0,
             "west": 114.0,
@@ -24222,15 +24560,15 @@ const allData = {
         "029287": {
             "name": "戎阳枫",
             "total": 5.0,
-            "count": 1,
+            "count": 5,
             "self": 5.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 0.0,
             "earliest": "2025-02-28 08:17:59",
-            "latest": "2025-02-28 08:17:59",
-            "favorite": "4号餐厅"
+            "latest": "2025-06-26 13:52:12",
+            "favorite": "云服务APP"
         },
         "k2501001013": {
             "name": "顾玉洁",
@@ -24309,6 +24647,19 @@ const allData = {
             "earliest": "2025-04-02 08:32:43",
             "latest": "2025-02-06 17:30:48",
             "favorite": "5号餐厅"
+        },
+        "10562216": {
+            "name": "袁银霞",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-02-27 14:21:45",
+            "latest": "2025-02-27 14:21:51",
+            "favorite": "云服务APP"
         },
         "k1504002091": {
             "name": "袁滔",
@@ -24547,7 +24898,7 @@ const allData = {
         "111007": {
             "name": "徐青",
             "total": 4018.12,
-            "count": 96,
+            "count": 111,
             "self": 165.0,
             "zero": 12.5,
             "west": 35.0,
@@ -24570,10 +24921,23 @@ const allData = {
             "latest": "2025-02-19 18:40:47",
             "favorite": "4号餐厅"
         },
+        "029190": {
+            "name": "刘一凡",
+            "total": 0.0,
+            "count": 9,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 13:40:16",
+            "latest": "2025-02-20 14:38:51",
+            "favorite": "云服务APP"
+        },
         "12894176": {
             "name": "刘爱生",
             "total": 157.86,
-            "count": 9,
+            "count": 21,
             "self": 25.0,
             "zero": 14.5,
             "west": 0.0,
@@ -24581,20 +24945,59 @@ const allData = {
             "market": 88.36,
             "earliest": "2025-11-19 07:17:36",
             "latest": "2025-11-17 19:35:57",
-            "favorite": "5号餐厅"
+            "favorite": "云服务APP"
+        },
+        "011806": {
+            "name": "穆松鹤",
+            "total": 0.0,
+            "count": 11,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-11 12:09:36",
+            "latest": "2025-02-20 14:37:08",
+            "favorite": "云服务APP"
+        },
+        "102010": {
+            "name": "冯晶",
+            "total": 0.0,
+            "count": 11,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 13:41:02",
+            "latest": "2025-02-20 14:36:02",
+            "favorite": "云服务APP"
+        },
+        "020503": {
+            "name": "段俊祥",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-02-20 14:34:27",
+            "latest": "2025-02-20 14:34:32",
+            "favorite": "云服务APP"
         },
         "k1211000164": {
             "name": "虞竹云",
             "total": 6.0,
-            "count": 1,
+            "count": 2,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 6.0,
             "market": 0.0,
-            "earliest": "2025-04-25 17:13:48",
+            "earliest": "2025-02-20 13:53:20",
             "latest": "2025-04-25 17:13:48",
-            "favorite": "B6餐厅"
+            "favorite": "云服务APP"
         },
         "021002": {
             "name": "欧伟",
@@ -24612,15 +25015,15 @@ const allData = {
         "12894131": {
             "name": "王乃嘉",
             "total": 836.26,
-            "count": 9,
+            "count": 25,
             "self": 10.0,
             "zero": 21.0,
             "west": 56.0,
             "b6": 16.0,
             "market": 733.26,
             "earliest": "2025-08-15 08:21:57",
-            "latest": "2025-10-09 13:18:08",
-            "favorite": "超市"
+            "latest": "2025-06-19 14:43:49",
+            "favorite": "云服务APP"
         },
         "x1905009077": {
             "name": "龙龙",
@@ -24674,16 +25077,42 @@ const allData = {
             "latest": "2025-02-13 08:35:25",
             "favorite": "4号餐厅"
         },
+        "30642482": {
+            "name": "谭玥",
+            "total": 0.0,
+            "count": 5,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-11 12:45:40",
+            "latest": "2025-02-11 14:32:36",
+            "favorite": "云服务APP"
+        },
+        "024077": {
+            "name": "张月",
+            "total": 0.0,
+            "count": 19,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 14:06:38",
+            "latest": "2025-02-11 14:17:35",
+            "favorite": "云服务APP"
+        },
         "20240407001": {
             "name": "周文恬",
             "total": 235.0,
-            "count": 21,
+            "count": 22,
             "self": 106.0,
             "zero": 0.0,
             "west": 109.0,
             "b6": 20.0,
             "market": 0.0,
-            "earliest": "2025-07-15 11:21:41",
+            "earliest": "2025-07-15 10:50:57",
             "latest": "2025-04-25 17:19:41",
             "favorite": "西餐厅"
         },
@@ -24703,7 +25132,7 @@ const allData = {
         "12892824": {
             "name": "杜文勇",
             "total": 61.6,
-            "count": 4,
+            "count": 9,
             "self": 13.0,
             "zero": 0.0,
             "west": 0.0,
@@ -24711,7 +25140,20 @@ const allData = {
             "market": 48.6,
             "earliest": "2025-06-25 07:39:49",
             "latest": "2025-11-20 17:14:18",
-            "favorite": "超市"
+            "favorite": "云服务APP"
+        },
+        "011607": {
+            "name": "王秀春",
+            "total": 0.0,
+            "count": 1,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-02-06 14:08:22",
+            "latest": "2025-02-06 14:08:22",
+            "favorite": "云服务APP"
         },
         "20250106003": {
             "name": "马丁",
@@ -24768,7 +25210,7 @@ const allData = {
         "k2503003008": {
             "name": "文依婷",
             "total": 849.6,
-            "count": 116,
+            "count": 117,
             "self": 673.0,
             "zero": 0.0,
             "west": 76.0,
@@ -24937,7 +25379,7 @@ const allData = {
         "k2502001030": {
             "name": "陈露露",
             "total": 1249.8,
-            "count": 87,
+            "count": 88,
             "self": 897.0,
             "zero": 0.0,
             "west": 128.0,
@@ -25067,7 +25509,7 @@ const allData = {
         "x1704005028": {
             "name": "孙莉莉",
             "total": 2992.65,
-            "count": 295,
+            "count": 296,
             "self": 1093.0,
             "zero": 282.5,
             "west": 253.0,
@@ -25106,7 +25548,7 @@ const allData = {
         "k2503003005": {
             "name": "刘伟",
             "total": 1699.62,
-            "count": 143,
+            "count": 144,
             "self": 1066.0,
             "zero": 0.0,
             "west": 159.8,
@@ -25158,7 +25600,7 @@ const allData = {
         "k2503003011": {
             "name": "严飞",
             "total": 1798.3,
-            "count": 158,
+            "count": 160,
             "self": 1497.0,
             "zero": 35.5,
             "west": 182.8,
@@ -25171,7 +25613,7 @@ const allData = {
         "k2502001024": {
             "name": "马欣童",
             "total": 2924.2,
-            "count": 245,
+            "count": 246,
             "self": 2098.0,
             "zero": 197.0,
             "west": 264.0,
@@ -25431,7 +25873,7 @@ const allData = {
         "k2503003004": {
             "name": "何雪菡",
             "total": 949.3,
-            "count": 96,
+            "count": 97,
             "self": 726.0,
             "zero": 0.0,
             "west": 96.0,
@@ -25561,7 +26003,7 @@ const allData = {
         "x2502001002": {
             "name": "秦佳音",
             "total": 2921.5,
-            "count": 226,
+            "count": 227,
             "self": 2481.0,
             "zero": 16.5,
             "west": 0.0,
@@ -25587,7 +26029,7 @@ const allData = {
         "k2502001020": {
             "name": "张晶",
             "total": 2950.0,
-            "count": 222,
+            "count": 223,
             "self": 2392.0,
             "zero": 103.0,
             "west": 128.0,
@@ -25639,7 +26081,7 @@ const allData = {
         "20200421005": {
             "name": "龚海燕",
             "total": 6821.5,
-            "count": 461,
+            "count": 463,
             "self": 1858.0,
             "zero": 124.5,
             "west": 173.0,
@@ -25704,7 +26146,7 @@ const allData = {
         "K1509005054": {
             "name": "韩辰",
             "total": 2265.6,
-            "count": 270,
+            "count": 272,
             "self": 1225.0,
             "zero": 72.5,
             "west": 561.1,
@@ -25756,7 +26198,7 @@ const allData = {
         "12894125": {
             "name": "王晨飞",
             "total": 3338.31,
-            "count": 40,
+            "count": 48,
             "self": 81.0,
             "zero": 27.0,
             "west": 12.0,
@@ -25782,7 +26224,7 @@ const allData = {
         "k1504003004": {
             "name": "赵琴",
             "total": 1248.0,
-            "count": 111,
+            "count": 112,
             "self": 741.0,
             "zero": 87.0,
             "west": 146.0,
@@ -25909,6 +26351,19 @@ const allData = {
             "latest": "2025-03-23 18:24:19",
             "favorite": "5号餐厅"
         },
+        "021510": {
+            "name": "崔涵翔",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-03-27 15:17:08",
+            "latest": "2025-03-27 15:17:24",
+            "favorite": "云服务APP"
+        },
         "k2503003016": {
             "name": "刘雪",
             "total": 200.0,
@@ -25977,7 +26432,7 @@ const allData = {
         "020125": {
             "name": "张思雨",
             "total": 754.74,
-            "count": 41,
+            "count": 48,
             "self": 25.0,
             "zero": 0.0,
             "west": 145.0,
@@ -25986,6 +26441,19 @@ const allData = {
             "earliest": "2025-09-08 07:27:00",
             "latest": "2025-08-28 18:45:05",
             "favorite": "B6餐厅"
+        },
+        "13232043": {
+            "name": "仲志强",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-03-20 12:18:39",
+            "latest": "2025-03-20 12:18:53",
+            "favorite": "云服务APP"
         },
         "s240625029": {
             "name": "李艺飞",
@@ -25999,6 +26467,19 @@ const allData = {
             "earliest": "2025-06-28 12:02:39",
             "latest": "2025-04-18 19:35:15",
             "favorite": "B6餐厅"
+        },
+        "106003": {
+            "name": "姜莉华",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-04-29 13:42:09",
+            "latest": "2025-03-18 14:34:40",
+            "favorite": "云服务APP"
         },
         "02270": {
             "name": "刘振",
@@ -26090,6 +26571,19 @@ const allData = {
             "earliest": "2025-03-10 12:54:16",
             "latest": "2025-03-10 12:54:16",
             "favorite": "超市"
+        },
+        "023004": {
+            "name": "黄晓林",
+            "total": 0.0,
+            "count": 5,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-03-06 14:37:04",
+            "latest": "2025-03-06 14:37:25",
+            "favorite": "云服务APP"
         },
         "x1705009020": {
             "name": "徐娅雯",
@@ -26588,7 +27082,7 @@ const allData = {
         "20210702001": {
             "name": "翁蕾蕾",
             "total": 2771.38,
-            "count": 327,
+            "count": 328,
             "self": 887.0,
             "zero": 571.0,
             "west": 110.5,
@@ -26601,7 +27095,7 @@ const allData = {
         "k1304005012": {
             "name": "陈莹0220",
             "total": 2769.0,
-            "count": 316,
+            "count": 317,
             "self": 1950.0,
             "zero": 300.0,
             "west": 43.0,
@@ -26676,6 +27170,32 @@ const allData = {
             "latest": "2025-08-19 19:34:23",
             "favorite": "5号餐厅"
         },
+        "024062": {
+            "name": "李志民",
+            "total": 0.0,
+            "count": 11,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-06 14:36:18",
+            "latest": "2025-08-28 15:31:51",
+            "favorite": "云服务APP"
+        },
+        "029289": {
+            "name": "修乐天",
+            "total": 0.0,
+            "count": 12,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-06 14:37:46",
+            "latest": "2025-08-28 15:33:23",
+            "favorite": "云服务APP"
+        },
         "x2504004006": {
             "name": "袁帅",
             "total": 500.0,
@@ -26688,6 +27208,19 @@ const allData = {
             "earliest": "2025-04-15 08:28:06",
             "latest": "2025-04-02 17:19:21",
             "favorite": "4号餐厅"
+        },
+        "25011": {
+            "name": "张楠",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-04-29 13:43:07",
+            "latest": "2025-06-26 14:22:15",
+            "favorite": "云服务APP"
         },
         "k2504004011": {
             "name": "韩叶顺",
@@ -26757,7 +27290,7 @@ const allData = {
         "x1905007002": {
             "name": "胡海静",
             "total": 1571.0,
-            "count": 115,
+            "count": 119,
             "self": 1170.0,
             "zero": 35.0,
             "west": 366.0,
@@ -26796,15 +27329,15 @@ const allData = {
         "025009": {
             "name": "闫谨",
             "total": 0.0,
-            "count": 1,
+            "count": 3,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 0.0,
             "earliest": "2025-04-24 12:11:20",
-            "latest": "2025-04-24 12:11:20",
-            "favorite": "西餐厅2"
+            "latest": "2025-04-24 12:19:24",
+            "favorite": "云服务APP"
         },
         "x2503003003": {
             "name": "潘源",
@@ -26922,6 +27455,19 @@ const allData = {
             "earliest": "2025-10-30 08:02:17",
             "latest": "2025-07-23 18:07:57",
             "favorite": "5号餐厅"
+        },
+        "k1407018007": {
+            "name": "郑宏坤",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-25 13:57:27",
+            "latest": "2025-04-10 15:00:44",
+            "favorite": "云服务APP"
         },
         "20231206001": {
             "name": "李彪",
@@ -27316,7 +27862,7 @@ const allData = {
         "k2505005013": {
             "name": "童航宇",
             "total": 2497.0,
-            "count": 235,
+            "count": 236,
             "self": 2293.0,
             "zero": 162.0,
             "west": 0.0,
@@ -27690,6 +28236,19 @@ const allData = {
             "latest": "2025-07-28 18:13:26",
             "favorite": "5号餐厅"
         },
+        "405003": {
+            "name": "安业腾",
+            "total": 0.0,
+            "count": 14,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-11-25 12:26:13",
+            "latest": "2025-05-29 14:34:08",
+            "favorite": "云服务APP"
+        },
         "k2505006017": {
             "name": "卞思恬",
             "total": 1383.8,
@@ -27859,6 +28418,19 @@ const allData = {
             "latest": "2025-09-05 18:17:25",
             "favorite": "西餐厅"
         },
+        "30089285": {
+            "name": "王昌奎",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-05-27 13:46:42",
+            "latest": "2025-05-27 13:46:46",
+            "favorite": "云服务APP"
+        },
         "26295": {
             "name": "曹云",
             "total": 9.0,
@@ -27875,7 +28447,7 @@ const allData = {
         "x1712022001": {
             "name": "刘月",
             "total": 1293.5,
-            "count": 84,
+            "count": 86,
             "self": 912.0,
             "zero": 0.0,
             "west": 198.5,
@@ -27992,15 +28564,28 @@ const allData = {
         "LS2492": {
             "name": "刘冲",
             "total": 99.8,
-            "count": 8,
+            "count": 15,
             "self": 5.0,
             "zero": 0.0,
             "west": 49.0,
             "b6": 20.0,
             "market": 25.8,
             "earliest": "2025-05-16 08:32:55",
-            "latest": "2025-05-15 13:37:58",
-            "favorite": "超市"
+            "latest": "2025-06-24 14:10:51",
+            "favorite": "云服务APP"
+        },
+        "011805": {
+            "name": "张才俊",
+            "total": 0.0,
+            "count": 8,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-05-15 14:06:40",
+            "latest": "2025-05-15 14:25:04",
+            "favorite": "云服务APP"
         },
         "20190325003": {
             "name": "客服五部临时卡3",
@@ -28014,6 +28599,19 @@ const allData = {
             "earliest": "2025-05-13 11:32:50",
             "latest": "2025-05-12 12:12:40",
             "favorite": "5号餐厅"
+        },
+        "102003": {
+            "name": "赵鲲鹏",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-05-15 08:38:35",
+            "latest": "2025-05-15 08:39:42",
+            "favorite": "云服务APP"
         },
         "20231124001": {
             "name": "王荣",
@@ -28031,7 +28629,7 @@ const allData = {
         "30316728": {
             "name": "潘赢楠",
             "total": 223.3,
-            "count": 11,
+            "count": 24,
             "self": 43.0,
             "zero": 0.0,
             "west": 64.6,
@@ -28039,7 +28637,7 @@ const allData = {
             "market": 93.7,
             "earliest": "2025-05-14 08:30:29",
             "latest": "2025-05-12 18:33:43",
-            "favorite": "5号餐厅"
+            "favorite": "云服务APP"
         },
         "20230420001": {
             "name": "郑博贤",
@@ -28080,6 +28678,45 @@ const allData = {
             "latest": "2025-08-19 19:06:31",
             "favorite": "5号餐厅"
         },
+        "30096157": {
+            "name": "杨华",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-05-13 12:40:11",
+            "latest": "2025-05-13 12:40:16",
+            "favorite": "云服务APP"
+        },
+        "30316714": {
+            "name": "吴彤",
+            "total": 0.0,
+            "count": 18,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-04 11:45:56",
+            "latest": "2025-12-04 13:54:37",
+            "favorite": "云服务APP"
+        },
+        "30316730": {
+            "name": "史秀杰",
+            "total": 0.0,
+            "count": 14,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-05-13 11:59:28",
+            "latest": "2025-12-09 12:33:16",
+            "favorite": "云服务APP"
+        },
         "20231124003": {
             "name": "王春强",
             "total": 300.0,
@@ -28118,6 +28755,19 @@ const allData = {
             "earliest": "2025-05-07 11:11:45",
             "latest": "2025-11-28 13:54:45",
             "favorite": "5号餐厅"
+        },
+        "021506": {
+            "name": "王雨",
+            "total": 0.0,
+            "count": 13,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-10 11:43:19",
+            "latest": "2025-10-14 14:10:28",
+            "favorite": "云服务APP"
         },
         "20200619001": {
             "name": "王文宝",
@@ -29513,7 +30163,7 @@ const allData = {
         "k2506007014": {
             "name": "何思敏",
             "total": 2611.95,
-            "count": 244,
+            "count": 245,
             "self": 1800.0,
             "zero": 69.0,
             "west": 371.5,
@@ -32308,7 +32958,7 @@ const allData = {
         "104006": {
             "name": "马鑫",
             "total": 405.76,
-            "count": 8,
+            "count": 13,
             "self": 35.0,
             "zero": 0.0,
             "west": 20.0,
@@ -32316,7 +32966,7 @@ const allData = {
             "market": 316.76,
             "earliest": "2025-07-25 08:21:37",
             "latest": "2025-06-25 18:55:53",
-            "favorite": "超市"
+            "favorite": "云服务APP"
         },
         "s250615004": {
             "name": "董玉琪",
@@ -32344,31 +32994,109 @@ const allData = {
             "latest": "2025-06-26 17:52:46",
             "favorite": "5号餐厅"
         },
+        "30132123": {
+            "name": "陈博洋",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-26 15:32:15",
+            "latest": "2025-06-26 15:32:21",
+            "favorite": "云服务APP"
+        },
         "30642479": {
             "name": "朱显浩",
             "total": 9.3,
-            "count": 2,
+            "count": 5,
             "self": 0.0,
             "zero": 0.0,
             "west": 9.3,
             "b6": 0.0,
             "market": 0.0,
-            "earliest": "2025-06-26 14:40:16",
+            "earliest": "2025-06-26 14:35:46",
             "latest": "2025-06-26 14:40:31",
-            "favorite": "西餐厅2"
+            "favorite": "云服务APP"
+        },
+        "029703": {
+            "name": "韩思雨",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-26 14:32:51",
+            "latest": "2025-06-26 14:32:57",
+            "favorite": "云服务APP"
+        },
+        "029704": {
+            "name": "王东泽",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-26 14:31:53",
+            "latest": "2025-06-26 14:31:59",
+            "favorite": "云服务APP"
         },
         "029326": {
             "name": "张楠",
             "total": 720.03,
-            "count": 5,
+            "count": 37,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 720.03,
             "earliest": "2025-08-29 12:22:31",
-            "latest": "2025-08-27 13:07:06",
-            "favorite": "超市"
+            "latest": "2025-06-26 14:03:59",
+            "favorite": "云服务APP"
+        },
+        "30316721": {
+            "name": "王晓玉",
+            "total": 0.0,
+            "count": 7,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 12:27:35",
+            "latest": "2025-06-26 13:54:42",
+            "favorite": "云服务APP"
+        },
+        "30316724": {
+            "name": "丁文昊",
+            "total": 0.0,
+            "count": 8,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 12:30:09",
+            "latest": "2025-06-26 13:54:06",
+            "favorite": "云服务APP"
+        },
+        "022505": {
+            "name": "王颖",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-26 13:35:59",
+            "latest": "2025-06-26 13:36:04",
+            "favorite": "云服务APP"
         },
         "029335": {
             "name": "张亚茹",
@@ -32399,7 +33127,7 @@ const allData = {
         "k2506007028": {
             "name": "顾欣雨",
             "total": 550.0,
-            "count": 47,
+            "count": 48,
             "self": 350.0,
             "zero": 0.0,
             "west": 159.0,
@@ -32487,10 +33215,23 @@ const allData = {
             "latest": "2025-06-23 18:42:07",
             "favorite": "5号餐厅"
         },
+        "30134231": {
+            "name": "崔灿",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 15:25:31",
+            "latest": "2025-06-24 15:25:41",
+            "favorite": "云服务APP"
+        },
         "30090135": {
             "name": "王开让",
             "total": 839.63,
-            "count": 63,
+            "count": 68,
             "self": 193.0,
             "zero": 0.0,
             "west": 30.0,
@@ -32499,6 +33240,71 @@ const allData = {
             "earliest": "2025-09-10 07:12:12",
             "latest": "2025-08-29 18:52:36",
             "favorite": "B6餐厅"
+        },
+        "029588": {
+            "name": "侯奕辰",
+            "total": 0.0,
+            "count": 7,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 12:14:51",
+            "latest": "2025-06-24 14:33:50",
+            "favorite": "云服务APP"
+        },
+        "011706": {
+            "name": "刘鲲鹏",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 14:27:29",
+            "latest": "2025-06-24 14:27:35",
+            "favorite": "云服务APP"
+        },
+        "011610": {
+            "name": "王庆贤",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 14:13:41",
+            "latest": "2025-06-24 14:13:51",
+            "favorite": "云服务APP"
+        },
+        "020462": {
+            "name": "李子乾",
+            "total": 0.0,
+            "count": 8,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 14:03:07",
+            "latest": "2025-06-24 14:04:04",
+            "favorite": "云服务APP"
+        },
+        "020042": {
+            "name": "李玮",
+            "total": 0.0,
+            "count": 20,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-24 13:51:17",
+            "latest": "2025-06-24 13:53:00",
+            "favorite": "云服务APP"
         },
         "s250610025": {
             "name": "石清璇",
@@ -32568,7 +33374,7 @@ const allData = {
         "025004": {
             "name": "陈丽",
             "total": 93.0,
-            "count": 10,
+            "count": 12,
             "self": 93.0,
             "zero": 0.0,
             "west": 0.0,
@@ -32591,10 +33397,88 @@ const allData = {
             "latest": "2025-06-18 18:59:09",
             "favorite": "2号餐厅"
         },
+        "12892844": {
+            "name": "邓志东",
+            "total": 0.0,
+            "count": 12,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 15:32:55",
+            "latest": "2025-06-17 15:33:55",
+            "favorite": "云服务APP"
+        },
+        "011803": {
+            "name": "唐博麟",
+            "total": 0.0,
+            "count": 6,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-10-17 08:32:38",
+            "latest": "2025-06-17 15:20:40",
+            "favorite": "云服务APP"
+        },
+        "011708": {
+            "name": "宫立华",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 14:39:37",
+            "latest": "2025-06-17 14:39:48",
+            "favorite": "云服务APP"
+        },
+        "12892854": {
+            "name": "田诺",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 14:36:48",
+            "latest": "2025-06-17 14:37:12",
+            "favorite": "云服务APP"
+        },
+        "405002": {
+            "name": "陈龙",
+            "total": 0.0,
+            "count": 10,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-06-17 14:16:20",
+            "latest": "2025-12-09 14:27:13",
+            "favorite": "云服务APP"
+        },
+        "30316726": {
+            "name": "张阿倩",
+            "total": 0.0,
+            "count": 8,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-02 12:29:26",
+            "latest": "2025-06-17 13:51:08",
+            "favorite": "云服务APP"
+        },
         "12892857": {
             "name": "曲艺",
             "total": 23.6,
-            "count": 3,
+            "count": 21,
             "self": 20.0,
             "zero": 0.0,
             "west": 0.0,
@@ -32602,7 +33486,7 @@ const allData = {
             "market": 3.6,
             "earliest": "2025-06-13 08:37:32",
             "latest": "2025-06-13 14:33:49",
-            "favorite": "超市"
+            "favorite": "云服务APP"
         },
         "s250615025": {
             "name": "李鹏飞",
@@ -34154,7 +35038,7 @@ const allData = {
         "k2507008039": {
             "name": "钟嘉敏",
             "total": 1412.0,
-            "count": 126,
+            "count": 127,
             "self": 1034.0,
             "zero": 220.0,
             "west": 35.0,
@@ -36114,6 +36998,32 @@ const allData = {
             "latest": "2025-07-13 18:39:52",
             "favorite": "5号餐厅"
         },
+        "029325": {
+            "name": "高烽杰",
+            "total": 0.0,
+            "count": 4,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-07-10 13:37:41",
+            "latest": "2025-07-10 13:38:18",
+            "favorite": "云服务APP"
+        },
+        "011306": {
+            "name": "李芳",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-07-10 13:35:39",
+            "latest": "2025-07-10 13:35:50",
+            "favorite": "云服务APP"
+        },
         "s250705012": {
             "name": "梁思雨",
             "total": 46.0,
@@ -36130,28 +37040,28 @@ const allData = {
         "020466": {
             "name": "范博韬",
             "total": 1.8,
-            "count": 1,
+            "count": 8,
             "self": 0.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 0.0,
             "market": 1.8,
-            "earliest": "2025-07-01 15:09:44",
+            "earliest": "2025-07-01 14:56:54",
             "latest": "2025-07-01 15:09:44",
-            "favorite": "超市"
+            "favorite": "云服务APP"
         },
         "30408260": {
             "name": "吴洪飞",
             "total": 24.5,
-            "count": 2,
+            "count": 11,
             "self": 0.0,
             "zero": 9.5,
             "west": 0.0,
             "b6": 15.0,
             "market": 0.0,
             "earliest": "2025-11-05 11:42:05",
-            "latest": "2025-11-06 11:57:20",
-            "favorite": "4号餐厅自选"
+            "latest": "2025-07-01 14:21:56",
+            "favorite": "云服务APP"
         },
         "k2508010006": {
             "name": "蒋佳程",
@@ -36403,7 +37313,7 @@ const allData = {
         "029967": {
             "name": "王睿霖",
             "total": 199.43,
-            "count": 22,
+            "count": 26,
             "self": 75.0,
             "zero": 0.0,
             "west": 0.0,
@@ -36754,14 +37664,14 @@ const allData = {
         "20250811001": {
             "name": "王婷",
             "total": 1317.5,
-            "count": 152,
+            "count": 153,
             "self": 793.0,
             "zero": 142.0,
             "west": 315.5,
             "b6": 67.0,
             "market": 0.0,
             "earliest": "2025-09-29 08:25:51",
-            "latest": "2025-08-20 12:41:36",
+            "latest": "2025-09-11 14:31:18",
             "favorite": "5号餐厅"
         },
         "K1010000030": {
@@ -36832,7 +37742,7 @@ const allData = {
         "hanzhen": {
             "name": "钟文琴",
             "total": 263.0,
-            "count": 46,
+            "count": 49,
             "self": 263.0,
             "zero": 0.0,
             "west": 0.0,
@@ -37183,14 +38093,14 @@ const allData = {
         "k2508010005": {
             "name": "胡文倩",
             "total": 39.0,
-            "count": 3,
+            "count": 4,
             "self": 20.0,
             "zero": 0.0,
             "west": 0.0,
             "b6": 19.0,
             "market": 0.0,
             "earliest": "2025-10-06 08:33:17",
-            "latest": "2025-09-29 11:28:59",
+            "latest": "2025-09-18 13:49:44",
             "favorite": "5号餐厅"
         },
         "k2509011009": {
@@ -37283,6 +38193,19 @@ const allData = {
             "earliest": "2025-11-21 07:38:46",
             "latest": "2025-11-18 17:17:50",
             "favorite": "5号餐厅"
+        },
+        "024076": {
+            "name": "朱青",
+            "total": 0.0,
+            "count": 16,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-09-18 14:02:56",
+            "latest": "2025-09-18 14:04:07",
+            "favorite": "云服务APP"
         },
         "20240312001": {
             "name": "刘晶晶",
@@ -38389,6 +39312,19 @@ const allData = {
             "latest": "2025-12-09 17:39:26",
             "favorite": "5号餐厅"
         },
+        "011103": {
+            "name": "王倩",
+            "total": 0.0,
+            "count": 2,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-11 10:49:44",
+            "latest": "2025-12-11 10:49:48",
+            "favorite": "云服务APP"
+        },
         "k2512013024": {
             "name": "姚欣辰",
             "total": 98.0,
@@ -38415,6 +39351,19 @@ const allData = {
             "latest": "2025-12-10 11:57:00",
             "favorite": "5号餐厅"
         },
+        "024079": {
+            "name": "张波",
+            "total": 0.0,
+            "count": 1,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-09 11:17:06",
+            "latest": "2025-12-09 11:17:06",
+            "favorite": "云服务APP"
+        },
         "k2512013007": {
             "name": "王新媛",
             "total": 30.0,
@@ -38427,6 +39376,19 @@ const allData = {
             "earliest": "2025-12-03 11:49:58",
             "latest": "2025-12-03 11:53:38",
             "favorite": "5号餐厅"
+        },
+        "020485": {
+            "name": "马蕊娜",
+            "total": 0.0,
+            "count": 3,
+            "self": 0.0,
+            "zero": 0.0,
+            "west": 0.0,
+            "b6": 0.0,
+            "market": 0.0,
+            "earliest": "2025-12-02 12:37:26",
+            "latest": "2025-12-02 12:37:36",
+            "favorite": "云服务APP"
         },
         "20251201001": {
             "name": "赵田甜",
@@ -38443,7 +39405,7 @@ const allData = {
         }
     },
     "global": {
-        "total_p": 2957,
+        "total_p": 3031,
         "self_c": 337300,
         "b6_c": 58240,
         "west_c": 35041
